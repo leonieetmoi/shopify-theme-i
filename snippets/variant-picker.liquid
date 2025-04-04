@@ -98,6 +98,7 @@ Supported variables
               {%- assign param_name = form_id | append: '-option' | append: option.position -%}
 
           <div data-option-selector class="popover-listbox">
+            {%- assign color_name = option_value.name | prepend: 'color_options.' | t -%}
             {%- for option_value in option.values -%}
               {%- if hide_sold_out_variants == false or option_value.available or option_value.selected -%}
                 {%- assign color_name = option_value.name | prepend: 'color_options.' | t -%}
