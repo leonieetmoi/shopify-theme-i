@@ -16,12 +16,12 @@
       "pagination": "Pagination",
       "go_to_page": "Aller à la page {{ index }}",
       "go_to_item": "Aller à l'élément {{ index }}",
-      "item_nth_of_count": "Elément {{ index }} de {{ count }}",
+      "item_nth_of_count": "Élément {{ index }} de {{ count }}",
       "drag": "Tirer",
       "close": "Fermer",
       "next": "Suivant",
       "previous": "Précédent",
-      "play_video": "Lancer la video",
+      "play_video": "Lancer la vidéo",
       "read_more": "En savoir plus"
     },
     "label": {
@@ -56,24 +56,6 @@
     },
     "form": {
       "max_characters": "{{ max_chars }} caractères au maximum"
-    },
-    "on_boarding": {
-      "blog_post_category": "Catégorie",
-      "blog_post_title": "Article",
-      "blog_post_excerpt": "Ecrivez quelque chose à propos de votre article de blog.",
-      "product_vendor": "Marque",
-      "product_title": "Produit",
-      "product_description": "Ecrivez quelque choes à propos de votre produit.",
-      "collection_title": "Collection"
-    }
-  },
-  "header": {
-    "general": {
-      "account": "Compte",
-      "login": "Connexion",
-      "menu": "Menu",
-      "search": "Recherche",
-      "cart": "Panier"
     }
   },
   "product": {
@@ -102,7 +84,6 @@
         "other": "{{ count }} couleurs"
       }
     },
-    
     "color_options": {
       "Black": "Noir",
       "Pink": "Rose",
@@ -111,16 +92,15 @@
       "Blue": "Bleu",
       "Brown": "Marron"
     },
-
     "gallery": {
       "close": "Fermer la galerie",
       "zoom": "Zoomer sur l'image",
-      "error": "L'image ne peut pas etre chargée"
+      "error": "L'image ne peut pas être chargée"
     },
     "price": {
       "regular_price": "Prix normal",
       "sale_price": "Prix de vente",
-      "from_price_html": "A partir de {{ price_min }}"
+      "from_price_html": "À partir de {{ price_min }}"
     },
     "quantity": {
       "label": "Quantité",
