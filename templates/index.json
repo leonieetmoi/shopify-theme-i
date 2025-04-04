@@ -1,48 +1,57 @@
- {
-    "sections": {
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slide-1": {
-            "type": "image",
-            "settings": {
-              "content_max_width": 780,
-              "mobile_text_position": "place-self-center text-center",
-              "desktop_text_position": "sm:place-self-center sm:text-center",
-              "subheading": "PULSOR Agency",
-              "title": "PULSOR Agency",
-              "heading_tag": "h0",
-              "button_text": "",
-              "button_link": "",
-              "text_color": "#ffffff",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
-              "overlay_color": "#000000",
-              "overlay_opacity": 30,
-              "background": "",
-              "background_gradient": ""
-            }
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Photo_accueil_HD.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "PULSOR Agency",
+            "title": "PULSOR Agency",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
-        },
-        "block_order": [
-          "slide-1"
-        ],
-        "settings": {
-          "full_width": true,
-          "allow_transparent_header": true,
-          "show_initial_transition": false,
-          "image_size": "auto",
-          "controls_type": "numbers",
-          "transition_type": "fade_with_text",
-          "autoplay": true,
-          "cycle_speed": 6,
-          "background": "#f2f2f2",
-          "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
         }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
-    },
-    "order": [
-      "slideshow"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "slideshow"
+  ]
+}
