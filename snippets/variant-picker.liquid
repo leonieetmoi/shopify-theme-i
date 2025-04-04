@@ -104,7 +104,7 @@ Supported variables
                       {%- if option_value.selected -%}
                         <input class="sr-only" type="radio" id="{{ param_name }}-{{ option_value.id }}" form="{{ form_id }}" name="{{ param_name }}" data-option-position="{{ option.position }}" value="{{ option_value.id }}" checked>
                       {%- endif -%}
-                      {%- assign color_name = option_value.name | prepend: 'product.color_options.' | t -%}
+                        {%- assign color_name = 'product.color_options.' | append: option_value.name | t -%}
                       
                       <a href="{{ option_value.variant.url | default: option_value.product_url }}" class="popover-listbox__option {% unless option_value.available %}is-disabled{% endunless %}">
                         {{- color_name -}}
