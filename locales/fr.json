@@ -77,14 +77,6 @@
     }
   },
   "product": {
-    "color_options": {
-      "Black": "Noir",
-      "Pink": "Rose",
-      "Red": "Rouge",
-      "Gray": "Gris",
-      "Blue": "Bleu",
-      "Brown": "Marron"
-    },
     "general": {
       "description": "Description",
       "view_product": "Voir produit",
@@ -109,6 +101,15 @@
         "one": "{{ count }} couleur",
         "other": "{{ count }} couleurs"
       }
+    },
+    
+    "color_options": {
+      "Black": "Noir",
+      "Pink": "Rose",
+      "Red": "Rouge",
+      "Gray": "Gris",
+      "Blue": "Bleu",
+      "Brown": "Marron"
     },
 
     "gallery": {
