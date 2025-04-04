@@ -104,15 +104,15 @@ Supported variables
                       {%- if option_value.selected -%}
                         <input class="sr-only" type="radio" id="{{ param_name }}-{{ option_value.id }}" form="{{ form_id }}" name="{{ param_name }}" data-option-position="{{ option.position }}" value="{{ option_value.id }}" checked>
                       {%- endif -%}
-
+                      {%- assign color_name = option_value.name | prepend: 'product.color_options.' | t -%}
                       <a href="{{ option_value.variant.url | default: option_value.product_url }}" class="popover-listbox__option {% unless option_value.available %}is-disabled{% endunless %}">
-                        {{- option_value.name -}}
+                        {{- option_name -}}
                       </a>
                     {%- else -%}
                       <label class="popover-listbox__option {% unless option_value.available %}is-disabled{% endunless %}" for="{{ param_name }}-{{ option_value.id }}">
                         <input class="sr-only" form="{{ form_id }}" type="radio" id="{{ param_name }}-{{ option_value.id }}" name="{{ param_name }}" {% if option_value.product_url != blank %}data-product-url="{{ option_value.product_url | escape }}"{% endif %} data-option-position="{{ option.position }}" value="{{ option_value.id }}" {% if option_value.selected %}checked{% endif %}>
 
-                        {{- option_value.name -}}
+                        {{- option_name -}}
                       </label>
                     {%- endif -%}
                   {%- endif -%}
