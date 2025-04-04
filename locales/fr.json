@@ -77,6 +77,14 @@
     }
   },
   "product": {
+    "color_options": {
+      "Black": "Noir",
+      "Pink": "Rose",
+      "Red": "Rouge",
+      "Gray": "Gris",
+      "Blue": "Bleu",
+      "Brown": "Marron"
+    },
     "general": {
       "description": "Description",
       "view_product": "Voir produit",
