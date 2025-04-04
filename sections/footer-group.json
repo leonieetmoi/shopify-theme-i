@@ -91,7 +91,15 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "mentions-l-gales",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_gA9Rzk": {
+          "type": "links",
+          "settings": {
+            "menu": "service-client",
             "show_menu_title": true,
             "menu_title": ""
           }
@@ -116,6 +124,7 @@
       },
       "block_order": [
         "links",
+        "links_gA9Rzk",
         "text",
         "newsletter"
       ],
