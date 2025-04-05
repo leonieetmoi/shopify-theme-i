@@ -39,6 +39,12 @@
             "show_empty": false
           }
         },
+        "text_qRCgeJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.</p><p>💖 <strong>Confort absolu</strong> : Tissu extensible, gaine invisible.</p><p>🌸 <strong>Maintien parfait</strong> : Soutien poitrine intégré </p>"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -69,7 +75,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
@@ -84,13 +90,18 @@
         "badges",
         "price",
         "rating",
+        "text_qRCgeJ",
         "payment_terms",
         "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; /* Taille du texte plus petite */ padding: 12px 18px; /* Réduire l'espace intérieur */ margin: 2px; /* Réduire l'espacement entre les boutons */ border-radius: 8px; /* Bordures plus petites */}",
+        ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 4px;}",
+        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}"
+      ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
