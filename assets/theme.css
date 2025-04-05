@@ -8313,46 +8313,49 @@
      display: -webkit-box;
      overflow: hidden;
 }
-
-/* Boutons de couleur : ronds et légèrement plus grands */
-.variant-picker__option-values .color-swatch,
-.variant-picker__option-values .color-swatch .block-swatch__color {
-  width: 45px;
-  height: 45px;
+/* Boutons de couleur : ronds, plus petits et rapprochés */
+.variant-picker__option-values.color .color-swatch {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  margin: 5px;
-  border: 2px solid #ccc;
-  transition: all 0.2s ease-in-out;
-}
-
-.variant-picker__option-values .color-swatch:hover {
-  border-color: #000;
-  transform: scale(1.1);
-}
-
-.variant-picker__option-values .color-swatch.is-selected {
-  border-color: #000;
-}
-
-/* Boutons de taille : carrés et légèrement plus petits */
-.variant-picker__option-values .block-swatch {
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
   margin: 3px;
   border: 1px solid #ccc;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.variant-picker__option-values .block-swatch:hover {
+.variant-picker__option-values.color .color-swatch.is-selected {
   border-color: #000;
+}
+
+.variant-picker__option-values.color .color-swatch:hover {
   transform: scale(1.05);
+  border-color: #666;
 }
 
-.variant-picker__option-values .block-swatch.is-selected {
-  background-color: #000;
+/* Boutons de taille : carrés, plus petits et arrondis */
+.variant-picker__option-values.size .block-swatch {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 3px;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.variant-picker__option-values.size .block-swatch:hover {
+  border-color: #666;
+  background-color: #f0f0f0;
+}
+
+.variant-picker__option-values.size .block-swatch.is-selected {
+  background-color: #333;
   color: #fff;
-  border-color: #000;
+  border-color: #333;
 }
