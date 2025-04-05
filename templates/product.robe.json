@@ -80,9 +80,9 @@
             "icon": "picto-gift",
             "icon_width": 24,
             "title": "OFFRE SPÉCIALE !",
-            "content": "<p>1 achetée, -20% sur la 2ème<br/>2 achetées, -50% sur la 3ème<br/><em>*Remise automatique</em></p>",
-            "background": "#fdf7f5",
-            "text_color": "#b89d9b"
+            "content": "<p><strong>1 achetée, -20% sur la 2ème<br/>2 achetées, -50% sur la 3ème<br/></strong><em>*Remise automatique</em></p>",
+            "background": "#efdfde",
+            "text_color": "#1a1a1a"
           }
         },
         "buy_buttons": {
@@ -94,6 +94,30 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "collapsible_text_D8wqjn": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_tp6AQk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Composition et entretien",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_34rjF6": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison & retours",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
           }
         }
       },
@@ -109,7 +133,10 @@
         "variant_picker",
         "quantity_selector",
         "offer_LWakkq",
-        "buy_buttons"
+        "buy_buttons",
+        "collapsible_text_D8wqjn",
+        "collapsible_text_tp6AQk",
+        "collapsible_text_34rjF6"
       ],
       "custom_css": [
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; /* Taille du texte plus petite */ padding: 12px 18px; /* Réduire l'espace intérieur */ margin: 2px; /* Réduire l'espacement entre les boutons */ border-radius: 8px; /* Bordures plus petites */}",
