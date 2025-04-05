@@ -8313,26 +8313,3 @@
      display: -webkit-box;
      overflow: hidden;
 }
-
-/* Réduire la taille des boutons de variante de taille */
-.variant-picker__option-values button, 
-.variant-picker__option-values label {
-  font-size: 12px;  /* Taille du texte plus petite */
-  padding: 12px 18px; /* Réduire l'espace intérieur */
-  margin: 2px;      /* Réduire l'espacement entre les boutons */
-  border-radius: 8px; /* Bordures plus petites */
-}
-
-/* Aligner les boutons de taille sur une seule ligne */
-.variant-picker__option-values {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 4px; /* Espace entre les boutons */
-}
-
-.variant-picker__option-values label, 
-.variant-picker__option-values button {
-  min-width: auto; /* Réduire la largeur minimale */
-  height: auto; /* Ajuster la hauteur */
-  line-height: 1; /* Réduire l'espacement vertical */
-}
