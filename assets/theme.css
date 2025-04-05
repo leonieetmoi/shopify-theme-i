@@ -8314,12 +8314,16 @@
      overflow: hidden;
 }
 
-.offer-special-box {
-  font-size: 0.875rem; /* Réduire la taille du texte */
-  padding: 10px; /* Réduire le padding interne */
-  margin: 5px 0; /* Réduire l'espace autour de la box */
-  line-height: 1.2; /* Réduire l'espacement entre les lignes */
-  border-width: 1px; /* Réduire l'épaisseur de la bordure */
+.offer.bg-custom.text-custom {
+  padding: 5px 10px; /* Réduit l'espace interne */
+  line-height: 1.2; /* Réduit l'espacement entre les lignes */
+  font-size: 0.875rem; /* Taille de texte légèrement réduite */
+  border-radius: 5px; /* Angle arrondi plus petit */
 }
+
+.offer.bg-custom.text-custom p {
+  margin: 2px 0; /* Réduit l'espace entre les paragraphes */
+}
+
 
 
