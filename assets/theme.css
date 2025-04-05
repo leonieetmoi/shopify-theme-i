@@ -8313,3 +8313,20 @@
      display: -webkit-box;
      overflow: hidden;
 }
+
+
+.variant-picker__option-values button {
+    margin: 2px; /* Réduit l'écart entre les boutons */
+    padding: 4px 6px; /* Réduit la taille intérieure des boutons */
+}
+
+.variant-picker__option-values.color button {
+    margin: 1px; /* Réduit encore plus l'écart pour les couleurs */
+    width: 28px; /* Taille des ronds */
+    height: 28px; /* Taille des ronds */
+}
+
+.variant-picker__option-values.size button {
+    margin: 2px; /* Espacement réduit entre les tailles */
+    padding: 3px 6px; /* Taille intérieure réduite pour les tailles */
+}
