@@ -8313,6 +8313,7 @@
      display: -webkit-box;
      overflow: hidden;
 }
+
 /* Boutons de couleur : ronds, plus petits et rapprochés */
 .variant-picker__option-values.color .color-swatch {
   width: 30px;
@@ -8335,11 +8336,11 @@
   border-color: #666;
 }
 
-/* Boutons de taille : carrés, plus petits et arrondis */
+/* Boutons de taille : carrés, légèrement arrondis, plus petits */
 .variant-picker__option-values.size .block-swatch {
   width: 35px;
   height: 35px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 3px;
   border: 1px solid #ccc;
   transition: all 0.2s ease;
@@ -8349,13 +8350,13 @@
   font-size: 12px;
 }
 
-.variant-picker__option-values.size .block-swatch:hover {
-  border-color: #666;
-  background-color: #f0f0f0;
-}
-
 .variant-picker__option-values.size .block-swatch.is-selected {
   background-color: #333;
   color: #fff;
   border-color: #333;
+}
+
+.variant-picker__option-values.size .block-swatch:hover {
+  border-color: #666;
+  background-color: #f0f0f0;
 }
