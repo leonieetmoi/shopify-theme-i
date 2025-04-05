@@ -8314,3 +8314,35 @@
      overflow: hidden;
 }
 
+
+/* Boutons de taille : carrés, plus petits, légèrement arrondis */
+.variant-picker__option-values.size label,
+.variant-picker__option-values.size button,
+.variant-picker__option-values.size .block-swatch {
+  width: 32px;  /* Taille réduite */
+  height: 32px;  /* Taille réduite */
+  border-radius: 4px;  /* Carré avec bords légèrement arrondis */
+  margin: 2px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+/* État sélectionné pour les tailles */
+.variant-picker__option-values.size label.is-selected,
+.variant-picker__option-values.size button.is-selected,
+.variant-picker__option-values.size .block-swatch.is-selected {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+/* Effet au survol */
+.variant-picker__option-values.size label:hover,
+.variant-picker__option-values.size button:hover,
+.variant-picker__option-values.size .block-swatch:hover {
+  border-color: #666;
+}
