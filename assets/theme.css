@@ -8318,7 +8318,7 @@
 .variant-picker__option-values button, 
 .variant-picker__option-values label {
   font-size: 12px;  /* Taille du texte plus petite */
-  padding: 4px 8px; /* Réduire l'espace intérieur */
+  padding: 12px 18px; /* Réduire l'espace intérieur */
   margin: 2px;      /* Réduire l'espacement entre les boutons */
   border-radius: 8px; /* Bordures plus petites */
 }
