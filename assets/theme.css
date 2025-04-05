@@ -8314,35 +8314,25 @@
      overflow: hidden;
 }
 
-
-/* Boutons de taille : carrés, plus petits, légèrement arrondis */
-.variant-picker__option-values.size label,
-.variant-picker__option-values.size button,
-.variant-picker__option-values.size .block-swatch {
-  width: 32px;  /* Taille réduite */
-  height: 32px;  /* Taille réduite */
-  border-radius: 4px;  /* Carré avec bords légèrement arrondis */
-  margin: 2px;
-  border: 1px solid #ccc;
-  font-size: 12px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
+/* Réduire la taille des boutons de variante de taille */
+.variant-picker__option-values button, 
+.variant-picker__option-values label {
+  font-size: 12px;  /* Taille du texte plus petite */
+  padding: 4px 8px; /* Réduire l'espace intérieur */
+  margin: 2px;      /* Réduire l'espacement entre les boutons */
+  border-radius: 8px; /* Bordures plus petites */
 }
 
-/* État sélectionné pour les tailles */
-.variant-picker__option-values.size label.is-selected,
-.variant-picker__option-values.size button.is-selected,
-.variant-picker__option-values.size .block-swatch.is-selected {
-  background-color: #333;
-  color: #fff;
-  border-color: #333;
+/* Aligner les boutons de taille sur une seule ligne */
+.variant-picker__option-values {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px; /* Espace entre les boutons */
 }
 
-/* Effet au survol */
-.variant-picker__option-values.size label:hover,
-.variant-picker__option-values.size button:hover,
-.variant-picker__option-values.size .block-swatch:hover {
-  border-color: #666;
+.variant-picker__option-values label, 
+.variant-picker__option-values button {
+  min-width: auto; /* Réduire la largeur minimale */
+  height: auto; /* Ajuster la hauteur */
+  line-height: 1; /* Réduire l'espacement vertical */
 }
