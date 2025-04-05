@@ -8337,8 +8337,8 @@
 
 /* Boutons de taille : carrés, plus petits, légèrement arrondis */
 .variant-picker__option-values.size .block-swatch {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 4px;
   margin: 2px;
   border: 1px solid #ccc;
