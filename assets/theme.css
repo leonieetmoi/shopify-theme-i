@@ -8314,9 +8314,8 @@
      overflow: hidden;
 }
 
-
 /* Boutons de couleur : ronds et légèrement plus grands */
-.variant-picker__option-values.color button {
+.variant-picker__option-values .color-swatch {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -8325,17 +8324,17 @@
   transition: all 0.2s ease-in-out;
 }
 
-.variant-picker__option-values.color button:hover {
+.variant-picker__option-values .color-swatch:hover {
   border-color: #000;
   transform: scale(1.1);
 }
 
-.variant-picker__option-values.color button.selected {
+.variant-picker__option-values .color-swatch.is-selected {
   border-color: #000;
 }
 
 /* Boutons de taille : carrés et légèrement plus petits */
-.variant-picker__option-values.size button {
+.variant-picker__option-values .block-swatch {
   width: 35px;
   height: 35px;
   border-radius: 8px;
@@ -8346,12 +8345,12 @@
   transition: all 0.2s ease-in-out;
 }
 
-.variant-picker__option-values.size button:hover {
+.variant-picker__option-values .block-swatch:hover {
   border-color: #000;
   transform: scale(1.05);
 }
 
-.variant-picker__option-values.size button.selected {
+.variant-picker__option-values .block-swatch.is-selected {
   background-color: #000;
   color: #fff;
   border-color: #000;
