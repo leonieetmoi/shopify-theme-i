@@ -116,7 +116,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Livraison & retours",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 50€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul>",
             "page": ""
           }
         }
