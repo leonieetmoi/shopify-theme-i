@@ -122,6 +122,7 @@
         },
         "collapsible_text_GEUUCJ": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Guide des tailes",
             "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
