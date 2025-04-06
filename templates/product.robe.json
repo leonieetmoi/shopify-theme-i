@@ -119,6 +119,14 @@
             "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 50€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul><p><strong>Retour :</strong></p><ul><li><strong>Satisfait ou remboursé :</strong> Vous avez 30 jours pour nous retourner votre article s’il ne vous convient pas.</li><li>Pour que votre retour soit accepté, l'article doit être intact, non porté et non lavé, dans son état d'origine.</li></ul>",
             "page": ""
           }
+        },
+        "collapsible_text_GEUUCJ": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Guide des tailes",
+            "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -136,7 +144,8 @@
         "buy_buttons",
         "collapsible_text_D8wqjn",
         "collapsible_text_tp6AQk",
-        "collapsible_text_34rjF6"
+        "collapsible_text_34rjF6",
+        "collapsible_text_GEUUCJ"
       ],
       "custom_css": [
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; /* Taille du texte plus petite */ padding: 12px 18px; /* Réduire l'espace intérieur */ margin: 2px; /* Réduire l'espacement entre les boutons */ border-radius: 8px; /* Bordures plus petites */}",
