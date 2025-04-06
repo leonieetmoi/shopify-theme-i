@@ -108,7 +108,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Composition et entretien",
-            "content": "<p><strong>Extérieur :</strong> 92% Modal / 8% Spandex<br/><strong>Doublure :</strong> 62% Nylon / 38% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine, température maximale 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "content": "<p><strong>Extérieur :</strong> 92% Modal / 8% Spandex<br/><strong>Doublure :</strong> 62% Nylon / 38% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
             "page": ""
           }
         },
