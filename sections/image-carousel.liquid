@@ -50,7 +50,7 @@
 {% endschema %}
 
 <div class="size-chart-carousel">
-    <h2 style="font-size: {{ section.settings.text_size }}px;">{{ section.settings.carousel_title }}</h2>
+    <h2 style="text-align: center; font-size: {{ section.settings.text_size }}px;">{{ section.settings.carousel_title }}</h2>
     <div class="carousel-container">
         <div class="carousel-items">
             {% for block in section.blocks %}
@@ -71,7 +71,7 @@
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .carousel-items {
@@ -88,6 +88,7 @@
     height: 300px;
     width: auto;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .carousel-container::-webkit-scrollbar {

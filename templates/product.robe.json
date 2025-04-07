@@ -173,8 +173,45 @@
     },
     "image_carousel_jyNn6K": {
       "type": "image-carousel",
+      "blocks": {
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/noir_2.jpg",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_npg6Az": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/bleu_4.jpg",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_niptK6": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/Photo_accueil_HD.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_GhGmGE": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/Photo_accueil_HD.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_aJ4cfT",
+        "image_block_npg6Az",
+        "image_block_niptK6",
+        "image_block_GhGmGE"
+      ],
       "settings": {
-        "carousel_title": "Nos modèles en images"
+        "carousel_title": "Nos modèles en images",
+        "text_size": 20
       }
     },
     "media_grid_GCkTep": {
