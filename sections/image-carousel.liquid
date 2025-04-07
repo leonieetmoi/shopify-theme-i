@@ -26,7 +26,7 @@
         <div class="carousel-items">
             {% for image in product.images %}
             <div class="carousel-item">
-                <img src="{{ image.src | img_url: 'master' }}" alt="{{ product.title }} image" />
+                <img src="{{ image.src | image_url }}" alt="{{ product.title }} image" width="300" height="auto" />
             </div>
             {% endfor %}
         </div>
