@@ -50,7 +50,7 @@
 {% endschema %}
 
 <div class="size-chart-carousel">
-    <h2 class="carousel-title">{{ section.settings.carousel_title }}</h2>
+    <h2 class="heading">{{ section.settings.carousel_title }}</h2>
     <div class="carousel-container">
         <div class="carousel-items">
             {% for block in section.blocks %}
@@ -64,6 +64,12 @@
 
 <style>
 .size-chart-carousel {
+    margin: 20px 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: {{ section.settings.text_size }}px;
     margin: 20px 0;
 }
 
@@ -94,14 +100,3 @@
     display: none;
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.carousel-container').forEach(carousel => {
-        carousel.addEventListener('wheel', (event) => {
-            event.preventDefault();
-            carousel.scrollLeft += event.deltaY;
-        });
-    });
-});
-</script>
