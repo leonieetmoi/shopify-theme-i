@@ -171,6 +171,12 @@
         "input_text_color": ""
       }
     },
+    "image_carousel_jyNn6K": {
+      "type": "image-carousel",
+      "settings": {
+        "carousel_title": "Nos modèles en images"
+      }
+    },
     "media_grid_GCkTep": {
       "type": "media-grid",
       "blocks": {
@@ -300,6 +306,7 @@
   },
   "order": [
     "main",
+    "image_carousel_jyNn6K",
     "media_grid_GCkTep",
     "related-products"
   ]

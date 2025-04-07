@@ -9,6 +9,35 @@
       "id": "carousel_title",
       "label": "Titre du carrousel",
       "default": "Nos modèles en images"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du texte",
+      "default": 20,
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_block",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "carousel_image",
+          "label": "Sélectionnez l'image"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Texte alternatif",
+          "default": "Image du produit"
+        }
+      ]
     }
   ],
   "presets": [
@@ -21,12 +50,12 @@
 {% endschema %}
 
 <div class="size-chart-carousel">
-    <h2>{{ section.settings.carousel_title }}</h2>
+    <h2 style="font-size: {{ section.settings.text_size }}px;">{{ section.settings.carousel_title }}</h2>
     <div class="carousel-container">
         <div class="carousel-items">
-            {% for image in product.images %}
+            {% for block in section.blocks %}
             <div class="carousel-item">
-                <img src="{{ image | image_url: 'master' }}" alt="{{ product.title }} image" width="300" height="auto" />
+                <img src="{{ block.settings.carousel_image | image_url }}" alt="{{ block.settings.alt_text }}" width="300" height="auto" />
             </div>
             {% endfor %}
         </div>
