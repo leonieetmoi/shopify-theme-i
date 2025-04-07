@@ -26,7 +26,7 @@
         <div class="carousel-items">
             {% for image in product.images %}
             <div class="carousel-item">
-                <img src="{{ image.src | image_url }}" alt="{{ product.title }} image" width="300" height="auto" />
+                <img src="{{ image | image_url: 'master' }}" alt="{{ product.title }} image" width="300" height="auto" />
             </div>
             {% endfor %}
         </div>
@@ -67,10 +67,12 @@
 </style>
 
 <script>
-document.querySelectorAll('.carousel-container').forEach(carousel => {
-    carousel.addEventListener('wheel', (event) => {
-        event.preventDefault();
-        carousel.scrollLeft += event.deltaY;
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.carousel-container').forEach(carousel => {
+        carousel.addEventListener('wheel', (event) => {
+            event.preventDefault();
+            carousel.scrollLeft += event.deltaY;
+        });
     });
 });
 </script>
