@@ -1,6 +1,63 @@
+{% comment %} Size Chart Carousel with Horizontal Scrolling for Léonie & Moi {% endcomment %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Image Carousel",
+  "settings": []
+}
 {% endschema %}
+
+<div class="size-chart-carousel">
+    <h2>Nos modèles en images</h2>
+    <div class="carousel-container">
+        <div class="carousel-items">
+            {% for image in product.images %}
+            <div class="carousel-item">
+                <img src="{{ image.src }}" alt="{{ product.title }} image" />
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+.size-chart-carousel {
+    margin: 20px 0;
+}
+
+.carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-items {
+    display: flex;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+}
+</style>
+
+<script>
+document.querySelectorAll('.carousel-container').forEach(carousel => {
+    carousel.addEventListener('wheel', (event) => {
+        event.preventDefault();
+        carousel.scrollLeft += event.deltaY;
+    });
+});
+</script>
