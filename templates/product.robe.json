@@ -195,6 +195,12 @@
             "alt_text": "Image du produit"
           }
         },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "alt_text": "Image du produit"
+          }
+        },
         "image_block_GhGmGE": {
           "type": "image_block",
           "settings": {
@@ -207,6 +213,7 @@
         "image_block_aJ4cfT",
         "image_block_npg6Az",
         "image_block_niptK6",
+        "image_block_6jDwWU",
         "image_block_GhGmGE"
       ],
       "settings": {

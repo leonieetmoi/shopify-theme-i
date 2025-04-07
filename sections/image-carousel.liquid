@@ -54,7 +54,7 @@
     <div class="carousel-container">
         <div class="carousel-items">
             {% for block in section.blocks %}
-            <div class="carousel-item">
+            <div class="carousel-item" style="margin-right: 20px;">
                 <img src="{{ block.settings.carousel_image | image_url }}" alt="{{ block.settings.alt_text }}" width="300" height="auto" />
             </div>
             {% endfor %}
@@ -71,7 +71,6 @@
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
-    gap: 20px;
 }
 
 .carousel-items {
