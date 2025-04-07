@@ -216,9 +216,12 @@
         "image_block_6jDwWU",
         "image_block_GhGmGE"
       ],
+      "custom_css": [
+        "h2 {font-size: 24px; font-weight: bold; margin-top: -25px;}"
+      ],
       "settings": {
         "carousel_title": "Vous êtes magnifique !",
-        "text_size": 20
+        "text_size": 16
       }
     },
     "related-products": {
