@@ -177,34 +177,35 @@
         "image_block_aJ4cfT": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/noir_2.jpg",
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
             "alt_text": "Image du produit"
           }
         },
         "image_block_npg6Az": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/bleu_4.jpg",
+            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
             "alt_text": "Image du produit"
           }
         },
         "image_block_niptK6": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/Photo_accueil_HD.png",
+            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
             "alt_text": "Image du produit"
           }
         },
         "image_block_6jDwWU": {
           "type": "image_block",
           "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
             "alt_text": "Image du produit"
           }
         },
         "image_block_GhGmGE": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/Photo_accueil_HD.png",
+            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
             "alt_text": "Image du produit"
           }
         }
