@@ -195,10 +195,10 @@
             "alt_text": "Image du produit"
           }
         },
-        "image_block_6jDwWU": {
+        "image_block_gQYF7C": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
             "alt_text": "Image du produit"
           }
         },
@@ -208,17 +208,33 @@
             "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
             "alt_text": "Image du produit"
           }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "alt_text": "Image du produit"
+          }
         }
       },
       "block_order": [
         "image_block_aJ4cfT",
         "image_block_npg6Az",
         "image_block_niptK6",
-        "image_block_6jDwWU",
-        "image_block_GhGmGE"
+        "image_block_gQYF7C",
+        "image_block_GhGmGE",
+        "image_block_qGQn43",
+        "image_block_6jDwWU"
       ],
       "custom_css": [
-        "h2 {font-size: 24px; font-weight: bold; margin-top: -25px; margin-bottom: 15px}"
+        "h2 {font-size: 24px; font-weight: bold; margin-top: -25px; margin-bottom: 15px;}"
       ],
       "settings": {
         "carousel_title": "Vous êtes magnifique !",
