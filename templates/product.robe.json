@@ -285,7 +285,9 @@
     },
     "duo_image_rRXrz3": {
       "type": "duo-image",
-      "custom_css": [],
+      "custom_css": [
+        ".duo-image-block:nth-child(3) {margin-top: -4px;}"
+      ],
       "settings": {
         "image_1": "shopify://shop_images/gaine_integree_gif.gif",
         "image_2": "shopify://shop_images/compo_robe_fondcouleur.png"
