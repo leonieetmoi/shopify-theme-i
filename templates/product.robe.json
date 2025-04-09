@@ -155,7 +155,7 @@
       ],
       "settings": {
         "full_width": true,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "contained",
@@ -247,37 +247,40 @@
         "item_mrffkn": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/gaine_integree_gif.gif",
             "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "item_CLBh7Q": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "icon_width": 24,
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
-        "item_mrffkn",
-        "item_CLBh7Q"
+        "item_mrffkn"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
+        "image_position": "start",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "custom_html_PjQmwb": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div style=\"width: 100%; display: flex; justify-content: center; margin: 40px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Soutien-gorge.gif?v=1744160960\" alt=\"Brassière galbante, body gainant, robe sculptante\" style=\"width: 100%; max-width: 100%; height: auto; display: block;\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "related-products": {
@@ -307,6 +310,7 @@
     "main",
     "image_carousel_jyNn6K",
     "images_with_text_scrolling_kyTtaD",
+    "custom_html_PjQmwb",
     "related-products"
   ]
 }
