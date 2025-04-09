@@ -241,38 +241,9 @@
         "text_size": 16
       }
     },
-    "images_with_text_scrolling_kyTtaD": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_mrffkn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/gaine_integree_gif.gif",
-            "icon": "none",
-            "icon_width": 24,
-            "title": "",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_mrffkn"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "custom_html_PjQmwb": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -319,7 +290,6 @@
   "order": [
     "main",
     "image_carousel_jyNn6K",
-    "images_with_text_scrolling_kyTtaD",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
     "related-products"
