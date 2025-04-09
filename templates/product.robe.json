@@ -283,6 +283,13 @@
         "text_color": ""
       }
     },
+    "duo_image_rRXrz3": {
+      "type": "duo-image",
+      "settings": {
+        "image_1": "shopify://shop_images/gaine_integree_gif.gif",
+        "image_2": "shopify://shop_images/compo_robe_transparent.png"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -311,6 +318,7 @@
     "image_carousel_jyNn6K",
     "images_with_text_scrolling_kyTtaD",
     "custom_html_PjQmwb",
+    "duo_image_rRXrz3",
     "related-products"
   ]
 }
