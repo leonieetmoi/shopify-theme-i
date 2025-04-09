@@ -286,6 +286,40 @@
         "text_color": ""
       }
     },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "images_with_text_scrolling_HHRxJa": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -319,7 +353,7 @@
         "stack_on_mobile": false,
         "show_counter": false,
         "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "image_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -365,6 +399,7 @@
     "image_carousel_jyNn6K",
     "custom_html_PjQmwb",
     "rich_text_LraNBt",
+    "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
     "duo_image_rRXrz3",
     "related-products"
