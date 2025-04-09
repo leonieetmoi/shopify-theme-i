@@ -1,6 +1,54 @@
+<div class="duo-image">
+  <div class="duo-image-block">
+    <img src="{{ section.settings.image_1 | image_url }}" alt="Image 1">
+  </div>
+  <div class="duo-image-block">
+    <img src="{{ section.settings.image_2 | image_url }}" alt="Image 2">
+  </div>
+</div>
+
+<style>
+.duo-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.duo-image-block {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.duo-image-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+</style>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Duo Image",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image de gauche"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image de droite"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Duo d'images",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
