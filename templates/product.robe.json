@@ -100,7 +100,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Description",
-            "content": "<p>Découvrez la robe sculptante de chez Léonie & Moi, conçue pour sublimer vos courbes tout en garantissant un confort absolu. Grâce à sa gaine intégrée, légère et respirante, cette robe affine le ventre, marque la taille et rehausse les fesses pour une silhouette harmonieuse. Véritable seconde peau, elle sublime vos courbes tout en restant parfaitement confortable, au point de se faire oublier. Son soutien-gorge intégré amovible permet un maintien optimal de la poitrine, tout en s’adaptant à vos envies.</p><p>Son design ajusté épouse votre corps sans le compresser, offrant une allure élégante en toute occasion : soirée, bureau ou sortie décontractée. La robe est dotée d’une ouverture discrète pour faciliter les passages aux toilettes, sans avoir besoin de tout retirer.</p><ul><li><strong>Silhouette redessinée :</strong> Effet ventre plat garanti.</li><li><strong>Maintien optimal :</strong> Soutien intégré pour la poitrine et les fesses.</li><li><strong>Confort quotidien :</strong> Coupe gainante, respirante et agréable à porter.</li><li><strong>Matière extensible :</strong> Adaptée à toutes les morphologies.</li><li><strong>Finition lisse :</strong> Invisible sous les vêtements.</li></ul>",
+            "content": "<p>Découvrez la robe sculptante de chez Léonie & Moi, conçue pour sublimer vos courbes tout en garantissant un confort absolu. Grâce à sa gaine intégrée, légère et respirante, cette robe affine le ventre, marque la taille et rehausse les fesses pour une silhouette harmonieuse. Véritable seconde peau, elle épouse vos formes tout en restant parfaitement confortable, au point de se faire oublier. Son soutien-gorge intégré amovible permet un maintien optimal de la poitrine, tout en s’adaptant à vos envies.</p><p>Son design ajusté épouse votre corps sans le compresser, offrant une allure élégante en toute occasion : soirée, bureau ou sortie décontractée. La robe est dotée d’une ouverture discrète pour faciliter les passages aux toilettes, sans avoir besoin de tout retirer.</p><ul><li><strong>Silhouette redessinée :</strong> Effet ventre plat garanti.</li><li><strong>Maintien optimal :</strong> Soutien intégré pour la poitrine et les fesses.</li><li><strong>Confort quotidien :</strong> Coupe gainante, respirante et agréable à porter.</li><li><strong>Matière extensible :</strong> Adaptée à toutes les morphologies.</li><li><strong>Finition lisse :</strong> Invisible sous les vêtements.</li></ul>",
             "page": ""
           }
         },
@@ -174,10 +174,17 @@
     "image_carousel_jyNn6K": {
       "type": "image-carousel",
       "blocks": {
-        "image_block_aJ4cfT": {
+        "image_block_gQYF7C": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
             "alt_text": "Image du produit"
           }
         },
@@ -188,6 +195,13 @@
             "alt_text": "Image du produit"
           }
         },
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
         "image_block_niptK6": {
           "type": "image_block",
           "settings": {
@@ -195,24 +209,10 @@
             "alt_text": "Image du produit"
           }
         },
-        "image_block_gQYF7C": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
         "image_block_GhGmGE": {
           "type": "image_block",
           "settings": {
             "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_qGQn43": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
             "alt_text": "Image du produit"
           }
         },
@@ -225,12 +225,12 @@
         }
       },
       "block_order": [
-        "image_block_aJ4cfT",
-        "image_block_npg6Az",
-        "image_block_niptK6",
         "image_block_gQYF7C",
-        "image_block_GhGmGE",
         "image_block_qGQn43",
+        "image_block_npg6Az",
+        "image_block_aJ4cfT",
+        "image_block_niptK6",
+        "image_block_GhGmGE",
         "image_block_6jDwWU"
       ],
       "custom_css": [
@@ -252,6 +252,79 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "rich_text_LraNBt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfKLh8": {
+          "type": "heading",
+          "settings": {
+            "text": "L'exigence du confort",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CbQGCR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant vos plus beaux atouts en valeur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfKLh8",
+        "richtext_CbQGCR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_HHRxJa": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AwVDrh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric_1.png",
+            "icon": "none",
+            "icon_width": 60,
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
+          }
+        },
+        "item_RmH8He": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AwVDrh",
+        "item_RmH8He"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "duo_image_rRXrz3": {
@@ -291,6 +364,8 @@
     "main",
     "image_carousel_jyNn6K",
     "custom_html_PjQmwb",
+    "rich_text_LraNBt",
+    "images_with_text_scrolling_HHRxJa",
     "duo_image_rRXrz3",
     "related-products"
   ]
