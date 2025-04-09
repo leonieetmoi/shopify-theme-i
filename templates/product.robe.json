@@ -348,6 +348,7 @@
         "item_AwVDrh",
         "item_RmH8He"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
