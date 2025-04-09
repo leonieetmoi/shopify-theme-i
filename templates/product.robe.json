@@ -367,7 +367,7 @@
         "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/gaine_integree_gif.gif",
+        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
         "image_2": "shopify://shop_images/compo_robe_fondcouleur.png"
       }
     },
