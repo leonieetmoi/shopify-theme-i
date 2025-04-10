@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "title": "Livraison offerte",
+            "content": "<p>Livraison offerte dès 50€ d'achat !</p>"
           }
         },
         "customer-support": {
@@ -36,21 +36,22 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "title": "Service client disponible 7j/7",
+            "content": "<p>Nous garantissons une réponse sous 24 à 48 heures</p>"
           }
         },
         "discount": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-return",
+            "custom_icon": "shopify://shop_images/rembourser.png",
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "title": "Garantie satisfait ou remboursé",
+            "content": "<p>Ne prenez aucun risque avec notre retour 60 jours</p>"
           }
         },
         "payment": {
@@ -62,8 +63,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Paiement 100% sécurisé",
+            "content": "<p>Payez en toute sécurité avec vos carte bancaires et PayPal, pour un maximum de sécurité.</p>"
           }
         }
       },
