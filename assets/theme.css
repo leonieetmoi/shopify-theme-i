@@ -8330,4 +8330,7 @@
   display: none;
 }
 
+.shopify-section--main-page h1.h1.text-center {
+  display: none !important;
+}
 
