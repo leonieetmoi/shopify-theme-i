@@ -58,6 +58,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
+            "custom_icon": "shopify://shop_images/paiement-securise.png",
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
