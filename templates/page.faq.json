@@ -1,1 +1,123 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "faq_6bd48w": {
+      "type": "faq",
+      "blocks": {
+        "item_7JYKCP": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir correctement ma taille ?",
+            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
+          }
+        },
+        "item_B6qFzK": {
+          "type": "item",
+          "settings": {
+            "title": "Comment entretenir mon article ?",
+            "content": "<p>Les instructions d’entretien sont précisées sur l’étiquette du produit ainsi que dans l’onglet \"Composition & Entretien\" sur la page du produit.</p><p>En règle générale, un lavage à froid (30°C), sans javel, suivi d’un séchage à l’air libre est recommandé pour préserver l’élasticité et la douceur des matières.</p>"
+          }
+        },
+        "item_wQ8xbx": {
+          "type": "item",
+          "settings": {
+            "title": "En combien de temps ma commande est-elle livrée ?",
+            "content": "<p>Une fois votre commande validée, il faut compter environ 8 jours ouvrés pour la livraison en France Métropolitaine et en Europe.<br/><br/>Nous offrons la livraison dès 50 € d’achat. Ces délais peuvent légèrement varier selon votre localisation ou lors de périodes de forte activité (fêtes, soldes…).</p>"
+          }
+        },
+        "item_b3Kehk": {
+          "type": "item",
+          "settings": {
+            "title": "Quand ma commande sera-t-elle expédiée ?",
+            "content": "<p>Toutes nos commandes sont préparées avec soin dans un délai de 1 à 3 jours ouvrés après validation de votre paiement.<br/>Vous recevrez un e-mail de confirmation dès que votre colis sera prêt à être expédié, accompagné d’un numéro de suivi.</p>"
+          }
+        },
+        "item_3zDXji": {
+          "type": "item",
+          "settings": {
+            "title": "Livrez-vous à l’international ?",
+            "content": "<p>Oui, nous livrons dans le monde entier.<br/><br/>Pour les pays européens, comptez en moyenne 8 jours ouvrés.<br/><br/>Pour le reste du monde, le délai peut varier entre 8 et 12 jours ouvrés, selon les destinations et les services postaux locaux.</p>"
+          }
+        },
+        "item_wXLdGj": {
+          "type": "item",
+          "settings": {
+            "title": "Comment puis-je suivre ma commande ?",
+            "content": "<p>Dès que votre commande est expédiée, vous recevez un e-mail avec un <strong>numéro de suivi</strong> vous permettant de suivre l’acheminement de votre colis à tout moment.<br/><br/>Vous pouvez également consulter notre page <em>Suivre ma commande</em><br/><br/>Et si vous avez un doute ou un souci, n’hésitez pas à nous contacter à <a>contact@leonieetmoi.fr</a>.</p>"
+          }
+        },
+        "item_6kpCBL": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il une livraison offerte ?",
+            "content": "<p>Oui, la livraison est offerte dès 50 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
+          }
+        },
+        "item_ykNNJ9": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle est votre politique de retour ?",
+            "content": "<p>Chez Léonie & Moi, votre satisfaction est notre priorité.<br/><br/>Si un article ne vous convient pas ou si vous changez d’avis, vous disposez de 30 jours après la réception de votre commande pour effectuer un retour et demander un remboursement.</p><p>Pour que le retour soit accepté, l’article doit :<br/>• Être en parfait état (non porté, non lavé, non abîmé)<br/>• Avoir toutes ses étiquettes d’origine<br/>• Être renvoyé dans son emballage d’origine<br/>• Ne présenter aucune trace d’usure</p><p>Une fois le retour reçu et contrôlé par notre équipe, nous procédons au remboursement sous 3 à 5 jours ouvrés.</p>"
+          }
+        },
+        "item_fgXRag": {
+          "type": "item",
+          "settings": {
+            "title": "Comment effectuer un retour",
+            "content": "<p>C’est très simple : il vous suffit de nous envoyer un e-mail à <a>support@leonieetmoi.fr</a> en indiquant votre numéro de commande et le motif du retour.<br/><br/>Nous vous guiderons pas à pas.<br/><br/>Et comme toujours, si vous avez des questions, nous sommes là pour vous accompagner à <a>contact@leonieetmoi.fr</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_7JYKCP",
+        "item_B6qFzK",
+        "item_wQ8xbx",
+        "item_b3Kehk",
+        "item_3zDXji",
+        "item_wXLdGj",
+        "item_6kpCBL",
+        "item_ykNNJ9",
+        "item_fgXRag"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Si vous ne trouvez pas ce que vous cherchez, n’hésitez pas à nous contacter à l’adresse <a>contact@leonieetmoi.fr</a> ou via notre page de contact.<br/><br/>Nous serons ravis de vous aider !</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_6bd48w"
+  ]
+}

@@ -184,148 +184,6 @@
         "text_color": ""
       }
     },
-    "rich_text_LraNBt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wfKLh8": {
-          "type": "heading",
-          "settings": {
-            "text": "L'exigence du confort",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_CbQGCR": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wfKLh8",
-        "richtext_CbQGCR"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "media_with_text_4mzmKA": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_nmVYHm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f0f0f0",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_nmVYHm"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "media_with_text_kEbpaL": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_bg4E9b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/robe_5_en_1.png",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée. Chaque détail de la robe a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f0f0f0",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_bg4E9b"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "images_with_text_scrolling_HHRxJa": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_AwVDrh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/fabric_1.png",
-            "icon": "none",
-            "icon_width": 60,
-            "title": "",
-            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
-          }
-        },
-        "item_RmH8He": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/fabric2.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_AwVDrh",
-        "item_RmH8He"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "image_carousel_jyNn6K": {
       "type": "image-carousel",
       "blocks": {
@@ -396,6 +254,207 @@
         "text_size": 16
       }
     },
+    "rich_text_LraNBt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfKLh8": {
+          "type": "heading",
+          "settings": {
+            "text": "L'exigence du confort",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CbQGCR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfKLh8",
+        "richtext_CbQGCR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_kEbpaL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bg4E9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/robe_5_en_1.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée. Chaque détail de la robe a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bg4E9b"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "testimonials_JmBGn8": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_K8dRtU": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_GFTrPT": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_pntTCb": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_K8dRtU",
+        "testimonial_GFTrPT",
+        "testimonial_pntTCb"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_HHRxJa": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AwVDrh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric_1.png",
+            "icon": "none",
+            "icon_width": 60,
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
+          }
+        },
+        "item_RmH8He": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AwVDrh",
+        "item_RmH8He"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "duo_image_rRXrz3": {
       "type": "duo-image",
       "custom_css": [
@@ -432,11 +491,12 @@
   "order": [
     "main",
     "custom_html_PjQmwb",
-    "rich_text_LraNBt",
-    "media_with_text_4mzmKA",
-    "media_with_text_kEbpaL",
-    "images_with_text_scrolling_HHRxJa",
     "image_carousel_jyNn6K",
+    "rich_text_LraNBt",
+    "media_with_text_kEbpaL",
+    "media_with_text_4mzmKA",
+    "testimonials_JmBGn8",
+    "images_with_text_scrolling_HHRxJa",
     "duo_image_rRXrz3",
     "related-products"
   ]
