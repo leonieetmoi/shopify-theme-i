@@ -434,15 +434,15 @@
         "item_XEEB3C": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment choisir correctement ma taille ?",
+            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
           }
         },
         "item_kMbG8P": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Quel est le délai de livraison pour ma commande ?",
+            "content": "<p>Une fois votre commande validée, il faut compter environ 8 jours ouvrés pour la livraison en France Métropolitaine et en Europe.<br/><br/>Nous offrons la livraison dès 50 € d’achat. </p>"
           }
         },
         "item_jxDfpF": {
@@ -458,6 +458,7 @@
         "item_kMbG8P",
         "item_jxDfpF"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "subheading": "",
