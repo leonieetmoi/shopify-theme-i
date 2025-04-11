@@ -364,65 +364,6 @@
         "spacing": "small"
       }
     },
-    "testimonials_JmBGn8": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_K8dRtU": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_GFTrPT": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_pntTCb": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_K8dRtU",
-        "testimonial_GFTrPT",
-        "testimonial_pntTCb"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
-      }
-    },
     "images_with_text_scrolling_HHRxJa": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -496,7 +437,6 @@
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
     "media_with_text_4mzmKA",
-    "testimonials_JmBGn8",
     "images_with_text_scrolling_HHRxJa",
     "related-products"
   ]
