@@ -1,0 +1,56 @@
+<div class="compact-faq">
+  <details>
+    <summary>Comment choisir ma taille ?</summary>
+    <p>Chaque produit possède un guide des tailles détaillé sur sa page. N’hésitez pas à le consulter avant de commander.</p>
+  </details>
+
+  <details>
+    <summary>Quels sont les moyens de paiement acceptés ?</summary>
+    <p>Nous acceptons toutes les cartes bancaires (Visa, Mastercard...) ainsi que PayPal, pour garantir un paiement 100% sécurisé.</p>
+  </details>
+
+  <details>
+    <summary>En combien de temps ma commande est-elle livrée ?</summary>
+    <p>La livraison est offerte dès 50€. Comptez environ 8 jours ouvrés pour la réception en France et en Europe.</p>
+  </details>
+
+  <details>
+    <summary>Comment suivre ma commande ?</summary>
+    <p>Une fois expédiée, vous recevrez un e-mail avec un lien de suivi. Vous pouvez également la suivre depuis notre page dédiée.</p>
+  </details>
+</div>
+
+<style>
+.compact-faq {
+  font-family: inherit;
+  font-size: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.compact-faq details {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.compact-faq summary {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.compact-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.compact-faq summary::after {
+  content: "+";
+  float: right;
+  font-weight: bold;
+}
+
+.compact-faq details[open] summary::after {
+  content: "–";
+}
+</style>
