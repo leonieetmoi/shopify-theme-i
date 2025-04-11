@@ -184,6 +184,16 @@
         "text_color": ""
       }
     },
+    "duo_image_rRXrz3": {
+      "type": "duo-image",
+      "custom_css": [
+        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
+        "image_2": "shopify://shop_images/compo_robe_V2.png"
+      }
+    },
     "image_carousel_jyNn6K": {
       "type": "image-carousel",
       "blocks": {
@@ -455,16 +465,6 @@
         "heading_gradient": ""
       }
     },
-    "duo_image_rRXrz3": {
-      "type": "duo-image",
-      "custom_css": [
-        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
-        "image_2": "shopify://shop_images/compo_robe_V2.png"
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -491,13 +491,13 @@
   "order": [
     "main",
     "custom_html_PjQmwb",
+    "duo_image_rRXrz3",
     "image_carousel_jyNn6K",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
     "media_with_text_4mzmKA",
     "testimonials_JmBGn8",
     "images_with_text_scrolling_HHRxJa",
-    "duo_image_rRXrz3",
     "related-products"
   ]
 }
