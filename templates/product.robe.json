@@ -448,8 +448,8 @@
         "item_jxDfpF": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "La livraison est-elle offerte ?",
+            "content": "<p>Oui, la livraison est offerte dès 50 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
           }
         }
       },
