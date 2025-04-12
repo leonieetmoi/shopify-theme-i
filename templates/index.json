@@ -75,10 +75,26 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "image_with_text_overlay_MeCy9h": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Offre_special.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured_collection_qfYaL6"
+    "featured_collection_qfYaL6",
+    "image_with_text_overlay_MeCy9h"
   ]
 }
