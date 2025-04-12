@@ -159,12 +159,25 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "custom_html_VEKBHT": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n    #View on {\n        text-align: center; /* Centrer les logos horizontalement */\n    }\n\n    #logos-magazines {\n        display: flex; /* Utiliser un affichage en ligne (flexbox) */\n        flex-wrap: nowrap; /* Empêcher le retour à la ligne des logos */\n        justify-content: flex-start; /* Aligner les logos à gauche */\n        align-items: center; /* Centrer les éléments verticalement */\n        overflow-x: auto; /* Activer la barre de défilement horizontale si nécessaire */\n    }\n\n    #logos-magazines img {\n        height: auto; /* Conserver les proportions originales */\n        margin:0 30px; /* Espacement entre les logos */\n    }\n\n    @media screen and (min-width: 641px) {\n        /* Styles pour les ordinateurs (écran large) */\n        #logos-magazines img {\n            max-width: 200px; /* Taille maximale de chaque logo à 150px pour les ordinateurs */\n        }\n    }\n\n    @media screen and (max-width: 640px) {\n        /* Styles pour les téléphones (écran étroit) */\n        #logos-magazines img {\n            max-width: 150px; /* Taille maximale de chaque logo à 100px pour les téléphones */\n        }\n    }\n</style>\n\n<div id=\"ils-parlent-de-nous\">\n    <div id=\"logos-magazines\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0775/6549/3586/files/elle.png?v=1694512440\" alt=\"Logo elle\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0775/6549/3586/files/glamour.png?v=1694512440\" alt=\"Logo glamour\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0775/6549/3586/files/grazia.png?v=1694512440\" alt=\"Logo grazia\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0775/6549/3586/files/marie-claire_2a3b2884-e4cc-4f6b-9698-729d71371bbe.png?v=1694513143\" alt=\"Logo marie claire\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0577/9157/8210/files/in6071i2db-instyle-logo-instyle-logo-evolution-history-and-meaning.png?v=1705240471\" alt=\"Logo InStyle\">\n    </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "featured_collection_qfYaL6",
     "image_with_text_overlay_MeCy9h",
-    "collection_list_E6jLAJ"
+    "collection_list_E6jLAJ",
+    "custom_html_VEKBHT"
   ]
 }
