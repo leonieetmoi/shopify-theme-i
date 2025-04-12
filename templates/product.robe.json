@@ -431,6 +431,13 @@
     "faq_WCrMPc": {
       "type": "faq",
       "blocks": {
+        "item_jmewF6": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les avantages des robes Léonie & Moi ?",
+            "content": "<p>Nos robes sont dotées d’une gaine sculptante intégrée totalement invisible, conçue pour affiner le ventre, galber la poitrine et rehausser les fesses en toute discrétion. Confortables et douces comme une seconde peau, elles épousent parfaitement vos courbes sans vous comprimer. Et pour un maximum de praticité, elles possèdent une ouverture discrète à l’entrejambe, vous permettant d’aller aux toilettes facilement, sans avoir à vous déshabiller.</p>"
+          }
+        },
         "item_XEEB3C": {
           "type": "item",
           "settings": {
@@ -454,6 +461,7 @@
         }
       },
       "block_order": [
+        "item_jmewF6",
         "item_XEEB3C",
         "item_kMbG8P",
         "item_jxDfpF"
