@@ -60,8 +60,8 @@
           "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
             "hide_sold_out_variants": false,
-            "stack_blocks": false,
-            "selector_style": "dropdown",
+            "stack_blocks": true,
+            "selector_style": "block",
             "swatch_selector_style": "swatch",
             "variant_image_options": "{{ block.repeater.label.value }}",
             "size_chart_page": "guide-des-tailles-1"
