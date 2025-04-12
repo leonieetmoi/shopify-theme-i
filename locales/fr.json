@@ -448,5 +448,10 @@
       "search": "",
       "cart": ""
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
