@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Accueil_pc_hd.png",
-            "mobile_image": "shopify://shop_images/accuil_mobile.png",
+            "image": "shopify://shop_images/Accueil_pc_hd_02212e1e-8b1a-4083-ae45-51cc02fcff2a.png",
+            "mobile_image": "shopify://shop_images/accueil_mobile_v2_94c2dbf8-5ebe-4479-8df1-da2d287792f3.png",
             "content_max_width": 760,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -50,9 +50,35 @@
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
+    },
+    "featured_collection_qfYaL6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "nos-best-sellers",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Nos Best Sellers",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "featured_collection_qfYaL6"
   ]
 }
