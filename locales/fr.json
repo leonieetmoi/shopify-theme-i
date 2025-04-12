@@ -56,6 +56,15 @@
     },
     "form": {
       "max_characters": "{{ max_chars }} caractères au maximum"
+    },
+    "on_boarding": {
+      "blog_post_category": "",
+      "blog_post_title": "",
+      "blog_post_excerpt": "",
+      "product_vendor": "",
+      "product_title": "",
+      "product_description": "",
+      "collection_title": ""
     }
   },
   "product": {
@@ -77,7 +86,7 @@
       "view_in_space": "Afficher dans votre espace",
       "taxes_included": "Taxes inclues",
       "taxes_excluded": "Taxes exclues",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés<\/a> au paiement",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> au paiement",
       "size_chart": "Guide des tailles",
       "available_colors_count": {
         "one": "{{ count }} couleur",
@@ -308,7 +317,8 @@
       "empty": "Votre panier est vide",
       "item_count": {
         "one": "{{ count }} article",
-        "other": "{{ count }} articles"
+        "other": "{{ count }} articles",
+        "zero": ""
       },
       "continue_shopping": "Explorer nos produits",
       "weight": "Poids",
@@ -407,7 +417,7 @@
   "password": {
     "general": {
       "follow_us": "Nous suivre",
-      "powered_by": "Cette boutique est propulsée par",
+      "powered_by": "",
       "store_owner": "Gérant de la boutique ?",
       "login": "Se connecter"
     },
@@ -429,7 +439,14 @@
         "other": "Il a reçu {{ count }} avis."
       }
     }
+  },
+  "header": {
+    "general": {
+      "account": "",
+      "login": "",
+      "menu": "",
+      "search": "",
+      "cart": ""
+    }
   }
-
-  
 }
