@@ -119,7 +119,7 @@
           "type": "newsletter",
           "settings": {
             "image_width": 150,
-            "heading_size": "h3",
+            "heading_size": "h4",
             "title": "Inscrivez-vous pour profiter d'offres exclusives !",
             "content": ""
           }
