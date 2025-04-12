@@ -417,7 +417,7 @@
   "password": {
     "general": {
       "follow_us": "Nous suivre",
-      "powered_by": "",
+      "powered_by": " ",
       "store_owner": "Gérant de la boutique ?",
       "login": "Se connecter"
     },
