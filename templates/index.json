@@ -90,11 +90,81 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "collection_list_E6jLAJ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_LenPQR": {
+          "type": "collection",
+          "settings": {
+            "collection": "robes",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_YwqaPB": {
+          "type": "collection",
+          "settings": {
+            "collection": "body-sculptwear",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_XUXDth": {
+          "type": "collection",
+          "settings": {
+            "collection": "sport",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_LenPQR",
+        "collection_YwqaPB",
+        "collection_XUXDth"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "2",
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "featured_collection_qfYaL6",
-    "image_with_text_overlay_MeCy9h"
+    "image_with_text_overlay_MeCy9h",
+    "collection_list_E6jLAJ"
   ]
 }
