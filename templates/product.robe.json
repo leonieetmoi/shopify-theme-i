@@ -62,7 +62,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": false,
             "selector_style": "dropdown",
-            "swatch_selector_style": "swatch",
+            "swatch_selector_style": "none",
             "variant_image_options": "{{ block.repeater.label.value }}",
             "size_chart_page": "guide-des-tailles-1"
           }
