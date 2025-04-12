@@ -27,10 +27,10 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 5,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#e9c4c3",
         "background_gradient": "",
@@ -58,7 +58,7 @@
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": false,
-        "background_opacity": 100,
+        "background_opacity": 0,
         "background_blur_radius": 0
       }
     }

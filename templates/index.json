@@ -15,12 +15,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Photo_accueil_HD.png",
-            "content_max_width": 780,
+            "image": "shopify://shop_images/accueil_pc.png",
+            "content_max_width": 760,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "PULSOR Agency",
-            "title": "PULSOR Agency",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -28,7 +28,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
