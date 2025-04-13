@@ -107,12 +107,12 @@
             "menu_title": ""
           }
         },
-        "text": {
-          "type": "text",
+        "links_X9pKtx": {
+          "type": "links",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "menu": "propos",
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "newsletter": {
@@ -128,7 +128,7 @@
       "block_order": [
         "links",
         "links_gA9Rzk",
-        "text",
+        "links_X9pKtx",
         "newsletter"
       ],
       "settings": {
