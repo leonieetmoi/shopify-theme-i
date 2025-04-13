@@ -14,15 +14,31 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message": {
+        "message_xFCW7K": {
+          "type": "message",
+          "settings": {
+            "text": "Offre spéciale sur nos robes !",
+            "url": "shopify://collections/robes"
+          }
+        },
+        "message_FypwN4": {
           "type": "message",
           "settings": {
             "text": "Announce something here",
             "url": ""
           }
+        },
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison offerte des 50€ d'achat",
+            "url": ""
+          }
         }
       },
       "block_order": [
+        "message_xFCW7K",
+        "message_FypwN4",
         "message"
       ],
       "settings": {
