@@ -1,0 +1,506 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "text_qRCgeJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.<br/>💖 <strong>Confort absolu</strong> : Tissu extensible, gaine invisible.<br/>🌸 <strong>Maintien parfait</strong> : Soutien poitrine intégré </p>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "{{ block.repeater.label.value }}",
+            "size_chart_page": "guide-des-tailles-1"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "offer_LWakkq": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-gift",
+            "icon_width": 24,
+            "title": "OFFRE SPÉCIALE !",
+            "content": "<p><strong>1 achetée, -20% sur la 2ème<br/>2 achetées, -50% sur la 3ème<br/></strong><em>*Remise automatique</em></p>",
+            "background": "#efdfde",
+            "text_color": "#1a1a1a"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "collapsible_text_D8wqjn": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Découvrez la robe sculptante de chez Léonie & Moi, conçue pour sublimer vos courbes tout en garantissant un confort absolu. Grâce à sa gaine intégrée, légère et respirante, cette robe affine le ventre, marque la taille et rehausse les fesses pour une silhouette harmonieuse. Véritable seconde peau, elle épouse vos formes tout en restant parfaitement confortable, au point de se faire oublier. Son soutien-gorge intégré amovible permet un maintien optimal de la poitrine, tout en s’adaptant à vos envies.</p><p>Son design ajusté épouse votre corps sans le compresser, offrant une allure élégante en toute occasion : soirée, bureau ou sortie décontractée. La robe est dotée d’une ouverture discrète pour faciliter les passages aux toilettes, sans avoir besoin de tout retirer.</p><ul><li><strong>Silhouette redessinée :</strong> Effet ventre plat garanti.</li><li><strong>Maintien optimal :</strong> Soutien intégré pour la poitrine et les fesses.</li><li><strong>Confort quotidien :</strong> Coupe gainante, respirante et agréable à porter.</li><li><strong>Matière extensible :</strong> Adaptée à toutes les morphologies.</li><li><strong>Finition lisse :</strong> Invisible sous les vêtements.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_tp6AQk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Composition et entretien",
+            "content": "<p><strong>Extérieur :</strong> 92% Modal / 8% Spandex<br/><strong>Doublure :</strong> 62% Nylon / 38% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_34rjF6": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison & retours",
+            "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 50€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul><p><strong>Retour :</strong></p><ul><li><strong>Satisfait ou remboursé :</strong> Vous avez 30 jours pour nous retourner votre article s’il ne vous convient pas.</li><li>Pour que votre retour soit accepté, l'article doit être intact, non porté et non lavé, dans son état d'origine.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_GEUUCJ": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Guide des tailes",
+            "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "text_qRCgeJ",
+        "payment_terms",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "offer_LWakkq",
+        "buy_buttons",
+        "collapsible_text_D8wqjn",
+        "collapsible_text_tp6AQk",
+        "collapsible_text_34rjF6",
+        "collapsible_text_GEUUCJ"
+      ],
+      "custom_css": [
+        ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 12px 18px; margin: 2px; border-radius: 8px;}",
+        ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 4px;}",
+        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_PjQmwb": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div style=\"width: 100%; display: flex; justify-content: center; margin: 40px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Soutien-gorge.gif?v=1744160960\" alt=\"Brassière galbante, body gainant, robe sculptante\" style=\"width: 100%; max-width: 100%; height: auto; display: block;\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "duo_image_rRXrz3": {
+      "type": "duo-image",
+      "custom_css": [
+        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
+        "image_2": "shopify://shop_images/compo_robe_V2.png"
+      }
+    },
+    "image_carousel_jyNn6K": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_gQYF7C": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_npg6Az": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_niptK6": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_GhGmGE": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_gQYF7C",
+        "image_block_qGQn43",
+        "image_block_npg6Az",
+        "image_block_aJ4cfT",
+        "image_block_niptK6",
+        "image_block_GhGmGE",
+        "image_block_6jDwWU"
+      ],
+      "custom_css": [
+        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "carousel_title": "Vous êtes magnifique !",
+        "text_size": 16
+      }
+    },
+    "rich_text_LraNBt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfKLh8": {
+          "type": "heading",
+          "settings": {
+            "text": "L'exigence du confort",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CbQGCR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfKLh8",
+        "richtext_CbQGCR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_kEbpaL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bg4E9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/robe_5_en_1.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée. Chaque détail de la robe a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bg4E9b"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "images_with_text_scrolling_HHRxJa": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AwVDrh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric_1.png",
+            "icon": "none",
+            "icon_width": 60,
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
+          }
+        },
+        "item_RmH8He": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AwVDrh",
+        "item_RmH8He"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "faq_WCrMPc": {
+      "type": "faq",
+      "blocks": {
+        "item_jmewF6": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les avantages des robes Léonie & Moi ?",
+            "content": "<p>Nos robes sont dotées d’une gaine sculptante intégrée totalement invisible, conçue pour affiner le ventre, galber la poitrine et rehausser les fesses en toute discrétion. Confortables et douces comme une seconde peau, elles épousent parfaitement vos courbes sans vous comprimer. Et pour un maximum de praticité, elles possèdent une ouverture discrète à l’entrejambe, vous permettant d’aller aux toilettes facilement, sans avoir à vous déshabiller.</p>"
+          }
+        },
+        "item_XEEB3C": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir correctement ma taille ?",
+            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
+          }
+        },
+        "item_kMbG8P": {
+          "type": "item",
+          "settings": {
+            "title": "Quel est le délai de livraison pour ma commande ?",
+            "content": "<p>Une fois votre commande validée, il faut compter environ 8 jours ouvrés pour la livraison en France Métropolitaine et en Europe.<br/><br/>Nous offrons la livraison dès 50 € d’achat. </p>"
+          }
+        },
+        "item_jxDfpF": {
+          "type": "item",
+          "settings": {
+            "title": "La livraison est-elle offerte ?",
+            "content": "<p>Oui, la livraison est offerte dès 50 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jmewF6",
+        "item_XEEB3C",
+        "item_kMbG8P",
+        "item_jxDfpF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_PjQmwb",
+    "duo_image_rRXrz3",
+    "image_carousel_jyNn6K",
+    "rich_text_LraNBt",
+    "media_with_text_kEbpaL",
+    "media_with_text_4mzmKA",
+    "images_with_text_scrolling_HHRxJa",
+    "related-products",
+    "faq_WCrMPc"
+  ]
+}
