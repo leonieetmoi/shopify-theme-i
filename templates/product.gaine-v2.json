@@ -110,7 +110,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Composition et entretien",
-            "content": "<p><strong>Composition : </strong>85% Nylon, 15% Élasthanne<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "content": "<p><strong>Composition : </strong>70% Nylon, 30% Élasthanne<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
             "page": ""
           }
         },
@@ -294,7 +294,7 @@
         "image_bg4E9b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gaine_montage_2.png",
+            "image": "shopify://shop_images/gaine_montage_transparent.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
