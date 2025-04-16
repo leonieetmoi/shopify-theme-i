@@ -186,16 +186,6 @@
         "text_color": ""
       }
     },
-    "duo_image_rRXrz3": {
-      "type": "duo-image",
-      "custom_css": [
-        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
-        "image_2": "shopify://shop_images/compo_robe_V2.png"
-      }
-    },
     "image_carousel_jyNn6K": {
       "type": "image-carousel",
       "blocks": {
@@ -281,7 +271,7 @@
         "richtext_CbQGCR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
+            "content": "<p>Chez Léonie & Moi, chaque article est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos gaines sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
           }
         }
       },
@@ -304,15 +294,15 @@
         "image_bg4E9b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/robe_5_en_1.png",
+            "image": "shopify://shop_images/gaine_montage_2.png",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée. Chaque détail de la robe a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
+            "content": "<p>Chaque détail de nos gaines a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -340,7 +330,7 @@
           "settings": {
             "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
             "media_width": 60,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -495,7 +485,6 @@
   "order": [
     "main",
     "custom_html_PjQmwb",
-    "duo_image_rRXrz3",
     "image_carousel_jyNn6K",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
