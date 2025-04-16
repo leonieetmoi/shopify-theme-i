@@ -75,6 +75,7 @@
         },
         "offer_LWakkq": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -101,7 +102,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Description",
-            "content": "<p>Découvrez la robe sculptante de chez Léonie & Moi, conçue pour sublimer vos courbes tout en garantissant un confort absolu. Grâce à sa gaine intégrée, légère et respirante, cette robe affine le ventre, marque la taille et rehausse les fesses pour une silhouette harmonieuse. Véritable seconde peau, elle épouse vos formes tout en restant parfaitement confortable, au point de se faire oublier. Son soutien-gorge intégré amovible permet un maintien optimal de la poitrine, tout en s’adaptant à vos envies.</p><p>Son design ajusté épouse votre corps sans le compresser, offrant une allure élégante en toute occasion : soirée, bureau ou sortie décontractée. La robe est dotée d’une ouverture discrète pour faciliter les passages aux toilettes, sans avoir besoin de tout retirer.</p><ul><li><strong>Silhouette redessinée :</strong> Effet ventre plat garanti.</li><li><strong>Maintien optimal :</strong> Soutien intégré pour la poitrine et les fesses.</li><li><strong>Confort quotidien :</strong> Coupe gainante, respirante et agréable à porter.</li><li><strong>Matière extensible :</strong> Adaptée à toutes les morphologies.</li><li><strong>Finition lisse :</strong> Invisible sous les vêtements.</li></ul>",
+            "content": "<p>Découvrez notre gaine sculptante invisible, pensée pour sublimer votre silhouette sans compromis sur le confort. Grâce à sa matière gainante et extensible, elle affine le ventre, dessine la taille et galbe les fesses, tout en restant parfaitement discrète sous vos vêtements.</p><p>Conçue pour être portée toute la journée, elle agit comme une seconde peau : douce, légère et respirante. Les bretelles fines et ajustables garantissent un bon maintien.<br/></p><ul><li><strong>Silhouette redessinée</strong> : Ventre plat et courbes mises en valeur.</li><li><strong>Effet push-up naturel</strong> : Galbe les fesses sans les comprimer.</li><li><strong>Invisible sous les vêtements</strong> : Coutures plates et finition lisse.</li><li><strong>Confort optimal</strong> : Aucune sensation d’étouffement.</li><li><strong>Utilisation pratique</strong> : Ouverture à l'entrejambe et bretelles réglables.</li></ul>",
             "page": ""
           }
         },
@@ -109,7 +110,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Composition et entretien",
-            "content": "<p><strong>Extérieur :</strong> 92% Modal / 8% Spandex<br/><strong>Doublure :</strong> 62% Nylon / 38% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "content": "<p><strong>Composition : </strong>85% Nylon, 15% Élasthanne<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
             "page": ""
           }
         },
