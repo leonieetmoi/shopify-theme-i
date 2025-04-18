@@ -336,7 +336,7 @@ Supported variables
           {%- endif -%}
 
         {%- when 'video_section' -%}
-          {% section 'product-video' %}
+          {% render 'product-video' %}
 
         {%- when 'image' -%}
           {%- if block.settings.image != blank -%}
