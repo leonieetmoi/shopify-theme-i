@@ -293,7 +293,7 @@
         "image_bg4E9b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gaine_montage_transparent.png",
+            "image": "shopify://shop_images/photo_produit_1.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -301,7 +301,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<p>Chaque détail de nos gaines a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
+            "content": "<p>Chaque détail de cette jupe a été pensé pour vous garantir un confort maximal et une liberté de mouvement au quotidien, du denim ultra stretch au short intégré discret, en passant par des finitions qui subliment votre silhouette.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
