@@ -42,7 +42,7 @@
         "text_qRCgeJ": {
           "type": "text",
           "settings": {
-            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées, effet immédiat.<br/>💖 <strong>Confort seconde peau</strong> : Tissu extensible, doux et respirant.<br/>🌟 <strong>Ajustement parfait </strong>: Bretelles réglables et maintien optimal</p>"
+            "text": "<p>✨ <strong>Short intégré</strong> : Liberté de mouvement totale<br/>💖 <strong>Denim ultra stretch</strong> : Confort maximal<br/>🌟 <strong>Coupe haute </strong>: Affine la taille</p>"
           }
         },
         "payment_terms": {
@@ -75,7 +75,6 @@
         },
         "offer_LWakkq": {
           "type": "offer",
-          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -102,7 +101,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Description",
-            "content": "<p>Découvrez notre gaine sculptante invisible, pensée pour sublimer votre silhouette sans compromis sur le confort. Grâce à sa matière gainante et extensible, elle affine le ventre, dessine la taille et galbe les fesses, tout en restant parfaitement discrète sous vos vêtements.</p><p>Conçue pour être portée toute la journée, elle agit comme une seconde peau : douce, légère et respirante. Les bretelles fines et ajustables garantissent un bon maintien.<br/></p><ul><li><strong>Silhouette redessinée</strong> : Ventre plat et courbes mises en valeur.</li><li><strong>Effet push-up naturel</strong> : Galbe les fesses sans les comprimer.</li><li><strong>Invisible sous les vêtements</strong> : Coutures plates et finition lisse.</li><li><strong>Confort optimal</strong> : Aucune sensation d’étouffement.</li><li><strong>Utilisation pratique</strong> : Ouverture à l'entrejambe et bretelles réglables.</li></ul>",
+            "content": "<p>Découvrez la jupe-short de chez Léonie & Moi : une pièce incontournable pensée pour allier style et confort au quotidien. Derrière son look denim tendance se cache un short intégré, totalement invisible, qui vous assure une liberté de mouvement totale, fini les gênes liées aux vêtements trop courts ou aux regards indiscrets.</p><p>Avec sa coupe taille haute, cette jupe sculpte délicatement la silhouette tout en sublimant vos formes. Son denim stretch, souple et ultra doux, épouse parfaitement vos courbes et se porte avec confort tout au long de la journée.</p><p>Que ce soit pour une balade, une sortie entre copines ou un look casual au bureau, cette jupe vous accompagne en toute sérénité.<br/><br/><strong>Silhouette redessinée</strong> : La taille est marquée, les hanches mises en valeur.<br/><strong>Liberté de mouvement</strong> : Parfait pour marcher, s’asseoir ou danser.<br/><strong>Look denim moderne : </strong>S’accorde avec tous les styles, du plus chic au plus décontracté.</p>",
             "page": ""
           }
         },
@@ -110,7 +109,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Composition et entretien",
-            "content": "<p><strong>Composition :</strong> 68% Nylon, 32% Élasthanne<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "content": "<p><strong>Composition :</strong> 70% Coton, 28.5% Polyester, 1.5% Élasthanne<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
             "page": ""
           }
         },
