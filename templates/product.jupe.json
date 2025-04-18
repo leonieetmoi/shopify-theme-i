@@ -308,8 +308,8 @@
       ],
       "settings": {
         "videos_position": "above_title",
-        "use_metafield": false,
-        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
+        "use_metafield": true,
+        "heading": "<h2>TEST 123</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 18,
