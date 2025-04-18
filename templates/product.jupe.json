@@ -303,6 +303,15 @@
             "title": "",
             "stars_count": 0
           }
+        },
+        "slide_xWQpTY": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/skort_4.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
         }
       },
       "block_order": [
@@ -310,7 +319,8 @@
         "slide_eRmjP6",
         "slide_xXWhyR",
         "slide_ePwRmB",
-        "slide_R9JF6i"
+        "slide_R9JF6i",
+        "slide_xWQpTY"
       ],
       "settings": {
         "slider_view": 5,
