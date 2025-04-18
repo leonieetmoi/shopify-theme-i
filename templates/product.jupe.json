@@ -97,10 +97,6 @@
             "payment_button_text_color": ""
           }
         },
-        "video_section_tM8Br7": {
-          "type": "video_section",
-          "settings": {}
-        },
         "collapsible_text_D8wqjn": {
           "type": "collapsible_text",
           "settings": {
@@ -148,7 +144,6 @@
         "quantity_selector",
         "offer_LWakkq",
         "buy_buttons",
-        "video_section_tM8Br7",
         "collapsible_text_D8wqjn",
         "collapsible_text_tp6AQk",
         "collapsible_text_34rjF6",
