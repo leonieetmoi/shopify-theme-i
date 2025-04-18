@@ -122,6 +122,20 @@
             "overlay_opacity": 30
           }
         },
+        "collection_pHwHmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "jupes",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_XUXDth": {
           "type": "collection",
           "settings": {
@@ -140,16 +154,17 @@
       "block_order": [
         "collection_LenPQR",
         "collection_YwqaPB",
+        "collection_pHwHmf",
         "collection_XUXDth"
       ],
       "settings": {
         "full_width": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_mobile": "2",
         "collections_per_row": 4,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Collection list",
+        "title": "Nos collections",
         "content": "",
         "link_url": "",
         "link_text": "View all",
