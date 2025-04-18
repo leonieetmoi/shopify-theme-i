@@ -353,7 +353,7 @@
         "video_xQDCpN"
       ],
       "settings": {
-        "heading": "<h2>Recommended by the best of the best</h2>",
+        "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 44,
@@ -361,7 +361,7 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "sub_heading": "<p>Approved by a team of health, wellness, and sports nutrition professionals.</p>",
+        "sub_heading": "",
         "sub_heading_custom": false,
         "sub_heading_font": "josefin_sans_n4",
         "sub_heading_size": 20,
@@ -371,7 +371,7 @@
         "sub_heading_align_mobile": "center",
         "sub_heading_mt": 20,
         "slider_view": 7,
-        "slider_view_mobile": 2,
+        "slider_view_mobile": 3,
         "slider_gap": 16,
         "slider_gap_mobile": 16,
         "slider_mt": 70,
