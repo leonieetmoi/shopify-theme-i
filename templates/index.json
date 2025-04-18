@@ -186,6 +186,31 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_collection_TQC7nF": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "La selection de la semaine 🩷",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -193,6 +218,7 @@
     "featured_collection_qfYaL6",
     "image_with_text_overlay_MeCy9h",
     "collection_list_E6jLAJ",
-    "custom_html_VEKBHT"
+    "custom_html_VEKBHT",
+    "featured_collection_TQC7nF"
   ]
 }
