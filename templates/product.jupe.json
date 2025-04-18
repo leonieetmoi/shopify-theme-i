@@ -172,89 +172,6 @@
         "input_text_color": ""
       }
     },
-    "custom_html_PjQmwb": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<div style=\"width: 100%; display: flex; justify-content: center; margin: 40px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Soutien-gorge.gif?v=1744160960\" alt=\"Brassière galbante, body gainant, robe sculptante\" style=\"width: 100%; max-width: 100%; height: auto; display: block;\">\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_carousel_jyNn6K": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_block_gQYF7C": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_qGQn43": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_npg6Az": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_aJ4cfT": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_niptK6": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_GhGmGE": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_6jDwWU": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
-            "alt_text": "Image du produit"
-          }
-        }
-      },
-      "block_order": [
-        "image_block_gQYF7C",
-        "image_block_qGQn43",
-        "image_block_npg6Az",
-        "image_block_aJ4cfT",
-        "image_block_niptK6",
-        "image_block_GhGmGE",
-        "image_block_6jDwWU"
-      ],
-      "custom_css": [
-        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
-      ],
-      "settings": {
-        "carousel_title": "Vous êtes magnifique !",
-        "text_size": 16
-      }
-    },
     "video_bubble_EYPzWA": {
       "type": "video-bubble",
       "blocks": {
@@ -270,6 +187,7 @@
         "video_Y6HC4C": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/skort_2.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -417,6 +335,89 @@
         "padding_horizontal_mobile": 0,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "custom_html_PjQmwb": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div style=\"width: 100%; display: flex; justify-content: center; margin: 40px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Soutien-gorge.gif?v=1744160960\" alt=\"Brassière galbante, body gainant, robe sculptante\" style=\"width: 100%; max-width: 100%; height: auto; display: block;\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_carousel_jyNn6K": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_gQYF7C": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_npg6Az": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_niptK6": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_GhGmGE": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_gQYF7C",
+        "image_block_qGQn43",
+        "image_block_npg6Az",
+        "image_block_aJ4cfT",
+        "image_block_niptK6",
+        "image_block_GhGmGE",
+        "image_block_6jDwWU"
+      ],
+      "custom_css": [
+        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "carousel_title": "Vous êtes magnifique !",
+        "text_size": 16
       }
     },
     "rich_text_LraNBt": {
@@ -647,9 +648,9 @@
   },
   "order": [
     "main",
+    "video_bubble_EYPzWA",
     "custom_html_PjQmwb",
     "image_carousel_jyNn6K",
-    "video_bubble_EYPzWA",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
     "media_with_text_4mzmKA",
