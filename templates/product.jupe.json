@@ -261,41 +261,46 @@
         "slide_U84enC": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "video": "shopify://files/videos/Skort_1_1.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
           }
         },
         "slide_eRmjP6": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "video": "shopify://files/videos/skort_2.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
           }
         },
         "slide_xXWhyR": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "video": "shopify://files/videos/skort_5.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
           }
         },
         "slide_ePwRmB": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "video": "shopify://files/videos/skort_3.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
           }
         },
         "slide_R9JF6i": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "video": "shopify://files/videos/skort_6.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
           }
         }
       },
