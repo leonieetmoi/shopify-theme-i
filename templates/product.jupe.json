@@ -307,7 +307,7 @@
         "video_qHBmy4"
       ],
       "settings": {
-        "videos_position": "above_buy",
+        "videos_position": "above_title",
         "use_metafield": false,
         "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
         "heading_custom": false,
