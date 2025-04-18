@@ -261,6 +261,7 @@
         "video_yxArri": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/Skort_1_1.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "autoplay": true,
@@ -273,6 +274,7 @@
         "video_cMmgBP": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/skort_2.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "autoplay": true,
@@ -280,6 +282,18 @@
             "info": "@socialhandle",
             "url": "",
             "info_color": "#ffb71b"
+          }
+        },
+        "video_4TifGX": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "autoplay": true,
+            "loop": true,
+            "info": "@section.store",
+            "url": "",
+            "info_color": "#C2D6FF"
           }
         },
         "video_8RnNCW": {
@@ -346,6 +360,7 @@
       "block_order": [
         "video_yxArri",
         "video_cMmgBP",
+        "video_4TifGX",
         "video_8RnNCW",
         "video_epDahd",
         "video_Ufzcy6",
@@ -423,8 +438,8 @@
         "pagination_size": 16,
         "pagination_size_mobile": 16,
         "pagination_height": 100,
-        "pagination_show_desktop": true,
-        "pagination_show_mobile": true,
+        "pagination_show_desktop": false,
+        "pagination_show_mobile": false,
         "card_bg_color": "#2f222b",
         "card_border_color": "#000000",
         "video_border_color": "#000000",
