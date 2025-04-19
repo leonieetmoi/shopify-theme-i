@@ -81,7 +81,7 @@
             "icon": "picto-gift",
             "icon_width": 24,
             "title": "OFFRE SPÉCIALE !",
-            "content": "<p><strong>1 article acheté, -20% sur le 2ème<br/>2 articles achetés, -50% sur la 3ème<br/>3 articles achetés, le 4ème est offert !<br/></strong><em>*Remise automatique sur l'article le moins chère</em></p>",
+            "content": "<p><strong>1 article acheté : -20% sur le 2ème<br/>2 articles achetés : -50% sur le 3ème<br/>3 articles achetés : le 4ème est offert !<br/></strong><em>*Remise automatique sur l'article le moins chère</em></p>",
             "background": "#efdfde",
             "text_color": "#1a1a1a"
           }
