@@ -262,7 +262,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\" style=\"margin: 0;\">Vous êtes magnifique !</h2>",
+        "html": "<h2 class=\"h2\" style=\"margin:-18px 0; text-align: center;\">Vous l'avez adoptée !</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
