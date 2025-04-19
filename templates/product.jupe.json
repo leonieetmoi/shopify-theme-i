@@ -81,7 +81,7 @@
             "icon": "picto-gift",
             "icon_width": 24,
             "title": "OFFRE SPÉCIALE !",
-            "content": "<p><strong>1 achetée, -20% sur la 2ème<br/>2 achetées, -50% sur la 3ème<br/></strong><em>*Remise automatique</em></p>",
+            "content": "<p><strong>1 article acheté, -20% sur le 2ème<br/>2 articles achetés, -50% sur la 3ème<br/>3 articles achetés, le 4ème est offert !<br/></strong><em>*Remise automatique sur l'article le moins chère</em></p>",
             "background": "#efdfde",
             "text_color": "#1a1a1a"
           }
@@ -408,7 +408,7 @@
         "arrow_bg_hover_color": "#ffffff",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
-        "background_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
