@@ -65,7 +65,7 @@
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "variant_image_options": "{{ block.repeater.label.value }}",
-            "size_chart_page": "guide-des-tailles-gaine-3"
+            "size_chart_page": "jupe-mila"
           }
         },
         "quantity_selector": {
