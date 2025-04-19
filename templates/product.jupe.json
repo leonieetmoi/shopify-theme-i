@@ -256,6 +256,18 @@
         "text_size": 16
       }
     },
+    "custom_html_XDHVxq": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\" style=\"margin: 0;\">Vous êtes magnifique !</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_slider_rwGEL8": {
       "type": "video-slider",
       "blocks": {
@@ -641,6 +653,7 @@
     "main",
     "custom_html_PjQmwb",
     "image_carousel_jyNn6K",
+    "custom_html_XDHVxq",
     "video_slider_rwGEL8",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
