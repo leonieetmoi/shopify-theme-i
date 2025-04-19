@@ -17,21 +17,21 @@
         "message_xFCW7K": {
           "type": "message",
           "settings": {
-            "text": "Offre spéciale sur nos robes !",
+            "text": "1 articles acheté : le 2ème à -20%",
             "url": "shopify://collections/robes"
           }
         },
         "message_FypwN4": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Livraison offerte dès 50€",
             "url": ""
           }
         },
-        "message": {
+        "message_LraPHk": {
           "type": "message",
           "settings": {
-            "text": "Livraison offerte des 50€ d'achat",
+            "text": "3 articles achetés : le 4ème offert !",
             "url": ""
           }
         }
@@ -39,14 +39,14 @@
       "block_order": [
         "message_xFCW7K",
         "message_FypwN4",
-        "message"
+        "message_LraPHk"
       ],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 5,
         "text_size": "text-xs",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#e9c4c3",
         "background_gradient": "",
