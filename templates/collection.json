@@ -31,6 +31,10 @@
     },
     "main": {
       "type": "main-collection",
+      "custom_css": [
+        ".product-card__title a {display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}",
+        ".product-card__title {width: 100%; display: block; overflow: hidden;}"
+      ],
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
