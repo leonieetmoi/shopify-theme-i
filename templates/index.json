@@ -53,6 +53,10 @@
     },
     "featured_collection_qfYaL6": {
       "type": "featured-collection",
+      "custom_css": [
+        ".product-card__title a {display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}",
+        ".product-card__title {width: 100%; display: block; overflow: hidden;}"
+      ],
       "settings": {
         "collection": "nos-best-sellers",
         "products": [],
@@ -189,6 +193,10 @@
     },
     "featured_collection_TQC7nF": {
       "type": "featured-collection",
+      "custom_css": [
+        ".product-card__title a {display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}",
+        ".product-card__title {width: 100%; display: block; overflow: hidden;}"
+      ],
       "settings": {
         "collection": "",
         "products": [],
