@@ -436,7 +436,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"loox-reviews\" data-product-id=\"9861225578835\"></div>",
+        "liquid": "https://loox.io/widget/SHOPIFY_SHOP_DOMAIN?product=9861225578835",
         "background": "",
         "background_gradient": "",
         "text_color": ""
