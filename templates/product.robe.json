@@ -429,13 +429,13 @@
         "product_card_text_color": ""
       }
     },
-    "custom_html_xHj3Gq": {
-      "type": "custom-html",
+    "custom_liquid_gAgezc": {
+      "type": "custom-liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div class=\"loox-rating\" data-product-id=\"robe-leonie-longue-sculptante-a-bretelles-fines\n\"></div>",
+        "liquid": "{% if product.tags contains 'robe' %}\n  <div class=\"loox-more-reviews\" data-loox-filter=\"robe\"></div>\n{% elsif product.tags contains 'jupe' %}\n  <div class=\"loox-more-reviews\" data-loox-filter=\"jupe\"></div>\n{% endif %}",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -567,7 +567,7 @@
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
     "related-products",
-    "custom_html_xHj3Gq",
+    "custom_liquid_gAgezc",
     "faq_WCrMPc",
     "17451549156acfce67",
     "1745252602d823cf98"
