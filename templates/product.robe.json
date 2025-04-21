@@ -431,11 +431,12 @@
     },
     "custom_liquid_gAgezc": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<!-- Script Loox si non injecté automatiquement -->\n<script src=\"https://widgets.loox.io/widget/latest/loox.min.js\" async></script>\n\n<!-- Widget d'avis forcé -->\n<div style=\"padding: 2rem 0; border-top: 1px solid #eee; margin-top: 3rem;\">\n  <h4 class=\"h4\" style=\"margin-bottom: 1rem;\">Avis de nos clientes sur nos robes sculptantes</h4>\n  <div class=\"loox-reviews\" data-product-id=\"9861225578835\"></div>\n</div>",
+        "liquid": "<div class=\"loox-reviews\" data-product-id=\"9861225578835\"></div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -507,7 +508,6 @@
       "blocks": {
         "loox_reviews_loox_dynamic_section_7NadAL": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
           "settings": {
             "only_photos": false,
             "aggregated": true,
