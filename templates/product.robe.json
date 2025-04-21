@@ -429,6 +429,18 @@
         "product_card_text_color": ""
       }
     },
+    "custom_html_xHj3Gq": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"loox-rating\" data-product-id=\"robe-leonie-longue-sculptante-a-bretelles-fines\n\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq_WCrMPc": {
       "type": "faq",
       "blocks": {
@@ -497,6 +509,33 @@
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
+            "aggregated": true,
+            "limit": 13,
+            "hide_thumbnails": false,
+            "maxwidth": 1920,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_7NadAL"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1745252602d823cf98": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_rxPbLb": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
@@ -506,7 +545,7 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_dynamic_section_7NadAL"
+        "loox_reviews_loox_dynamic_section_rxPbLb"
       ],
       "settings": {
         "full_width": true,
@@ -528,7 +567,9 @@
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
     "related-products",
+    "custom_html_xHj3Gq",
     "faq_WCrMPc",
-    "17451549156acfce67"
+    "17451549156acfce67",
+    "1745252602d823cf98"
   ]
 }
