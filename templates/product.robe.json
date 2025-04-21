@@ -435,7 +435,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"loox-more-reviews\" data-product-id=\"{{ product.robe-louise-courte-sculptante-a-col-carre }}\"></div>",
+        "liquid": "<div class=\"loox-more-reviews\" data-product-id=\"{{ product.id }}\"></div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
