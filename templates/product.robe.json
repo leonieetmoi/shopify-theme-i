@@ -435,7 +435,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"loox-reviews\" data-product-id=\"9861225578835\"></div>",
+        "liquid": "<!-- Script Loox si non injecté automatiquement -->\n<script src=\"https://widgets.loox.io/widget/latest/loox.min.js\" async></script>\n\n<!-- Widget d'avis forcé -->\n<div style=\"padding: 2rem 0; border-top: 1px solid #eee; margin-top: 3rem;\">\n  <h4 class=\"h4\" style=\"margin-bottom: 1rem;\">Avis de nos clientes sur nos robes sculptantes</h4>\n  <div class=\"loox-reviews\" data-product-id=\"9861225578835\"></div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -507,6 +507,7 @@
       "blocks": {
         "loox_reviews_loox_dynamic_section_7NadAL": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "only_photos": false,
             "aggregated": true,
@@ -519,33 +520,6 @@
       },
       "block_order": [
         "loox_reviews_loox_dynamic_section_7NadAL"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1745252602d823cf98": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_rxPbLb": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_rxPbLb"
       ],
       "settings": {
         "full_width": true,
@@ -569,7 +543,6 @@
     "related-products",
     "custom_liquid_gAgezc",
     "faq_WCrMPc",
-    "17451549156acfce67",
-    "1745252602d823cf98"
+    "17451549156acfce67"
   ]
 }
