@@ -441,18 +441,6 @@
         "text_color": ""
       }
     },
-    "custom_html_X7T4e7": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<div class=\"loox-reviews\" data-product-id=\"9861225578835\"></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "faq_WCrMPc": {
       "type": "faq",
       "blocks": {
@@ -580,7 +568,6 @@
     "images_with_text_scrolling_HHRxJa",
     "related-products",
     "custom_liquid_gAgezc",
-    "custom_html_X7T4e7",
     "faq_WCrMPc",
     "17451549156acfce67",
     "1745252602d823cf98"
