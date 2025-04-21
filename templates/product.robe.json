@@ -435,7 +435,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "{% if product.tags contains 'robe' %}\n  <div class=\"loox-more-reviews\" data-loox-tag=\"robe\"></div>\n{% elsif product.tags contains 'jupe' %}\n  <div class=\"loox-more-reviews\" data-loox-tag=\"jupe\"></div>\n{% endif %}",
+        "liquid": "<div class=\"loox-more-reviews\" data-product-id=\"{{ product.robe-louise-courte-sculptante-a-col-carre }}\"></div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
