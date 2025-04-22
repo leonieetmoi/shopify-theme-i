@@ -305,7 +305,9 @@
         "image_XCHnTa",
         "image_JPkGPA"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width: 767px) {.feature-scroll-mobile {display: flex !important; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; gap: 16px; /* ou une variable si définie */ } .feature-scroll-mobile .box {min-width: 70%; flex: 0 0 auto; scroll-snap-align: start; }}"
+      ],
       "settings": {
         "feature_row": 4,
         "feature_row_mobile": 4,
@@ -467,8 +469,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Livraison offerte",
+            "content": "<p>Livraison offerte dès 50 € d'achat</p>"
           }
         },
         "item_mTKQzP": {
