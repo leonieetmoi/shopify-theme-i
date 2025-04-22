@@ -305,6 +305,7 @@
         "image_XCHnTa",
         "image_JPkGPA"
       ],
+      "custom_css": [],
       "settings": {
         "feature_row": 4,
         "feature_row_mobile": 4,
@@ -503,7 +504,7 @@
         "item_zp3YAy"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h6",
