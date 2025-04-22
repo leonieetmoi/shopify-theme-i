@@ -510,8 +510,8 @@
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
-            "aggregated": true,
-            "limit": 13,
+            "aggregated": false,
+            "limit": 6,
             "hide_thumbnails": false,
             "maxwidth": 1920,
             "is_sample": true
