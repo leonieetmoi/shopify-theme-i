@@ -301,13 +301,24 @@
             "image_block_bg": "#ffcb81",
             "image_svg_color": ""
           }
+        },
+        "item_W34Wei": {
+          "type": "item",
+          "settings": {
+            "icon": "time",
+            "heading": "<p>Feature text</p>",
+            "text": "<p>Explain benefits over features.</p>",
+            "image_block_bg": "",
+            "image_svg_color": ""
+          }
         }
       },
       "block_order": [
         "item_FWhpew",
         "item_KqfYFc",
         "item_GFckh4",
-        "item_xkpB68"
+        "item_xkpB68",
+        "item_W34Wei"
       ],
       "disabled": true,
       "settings": {
@@ -449,7 +460,7 @@
         "stack_on_mobile": true,
         "title": "",
         "heading_tag": "h6",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "icon_spacing": "medium",
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
