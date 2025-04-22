@@ -441,7 +441,9 @@
         "item_x4x8L7",
         "item_DPbY7y"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".text-with-icons {margin-bottom: -2rem !important;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
