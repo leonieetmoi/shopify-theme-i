@@ -259,6 +259,201 @@
         "text_color": ""
       }
     },
+    "ss_feature_1_DFicDX": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_KdpiVx": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Free Shipping",
+            "feature_text": "<p>Order today, receive tomorrow</p>",
+            "feature_url": "https://section.store/",
+            "hide_image": false
+          }
+        },
+        "image_VtmgER": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Price-match guarantee",
+            "feature_text": "<p>Safe money when ordering with us</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_XCHnTa": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Hassle-free exchange",
+            "feature_text": "<p>Receive a slip for exchanges</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_JPkGPA": {
+          "type": "image",
+          "settings": {
+            "feature_title": "5.0 Google Reviews",
+            "feature_text": "<p>Customer satisfaction #1 priority</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_KdpiVx",
+        "image_VtmgER",
+        "image_XCHnTa",
+        "image_JPkGPA"
+      ],
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 4,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_horizontal": 0,
+        "feature_padding_vertical": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": false,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 130,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 12,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 42,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#FFFFFF",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "feature_7_xiMgph": {
+      "type": "feature-7",
+      "blocks": {
+        "item_FWhpew": {
+          "type": "item",
+          "settings": {
+            "icon": "plant",
+            "heading": "<h3>Vegan</h3>",
+            "text": "<p>Our entire Chella menu is completely vegan</p>",
+            "image_block_bg": "#a6dfa9",
+            "image_svg_color": ""
+          }
+        },
+        "item_KqfYFc": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-ecology",
+            "heading": "<h3>All-Natural</h3>",
+            "text": "<p>All of our ingredients are 100% natural</p>",
+            "image_block_bg": "#b7d4da",
+            "image_svg_color": ""
+          }
+        },
+        "item_GFckh4": {
+          "type": "item",
+          "settings": {
+            "icon": "pin",
+            "heading": "<h3>Made in Canada</h3>",
+            "text": "<p>All items on our Chella menu are made in Canada</p>",
+            "image_block_bg": "#e7adba",
+            "image_svg_color": ""
+          }
+        },
+        "item_xkpB68": {
+          "type": "item",
+          "settings": {
+            "icon": "people",
+            "heading": "<h3>Handcrafted</h3>",
+            "text": "<p>Each product on the Chella menu is unique and handcrafted</p>",
+            "image_block_bg": "#ffcb81",
+            "image_svg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FWhpew",
+        "item_KqfYFc",
+        "item_GFckh4",
+        "item_xkpB68"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 10,
+        "heading_size_mobile": 10,
+        "heading_height": 80,
+        "heading_align": "center",
+        "items_row": 4,
+        "items_row_mobile": 2,
+        "items_gap": 8,
+        "items_gap_mobile": 8,
+        "items_style": "stack",
+        "items_mt": 0,
+        "items_padding_vertical": 0,
+        "items_padding_horizontal": 0,
+        "items_radius": 0,
+        "image_block_width": 20,
+        "image_block_width_mobile": 20,
+        "image_block_radius": 112,
+        "image_width": 60,
+        "image_width_mobile": 60,
+        "item_heading_custom": false,
+        "Item_heading_font": "josefin_sans_n4",
+        "item_heading_size": 22,
+        "item_heading_size_mobile": 18,
+        "item_heading_height": 130,
+        "item_heading_align": "center",
+        "item_heading_mt": 24,
+        "item_text_custom": false,
+        "Item_text_font": "josefin_sans_n4",
+        "item_text_size": 14,
+        "item_text_size_mobile": 14,
+        "item_text_height": 130,
+        "item_text_align": "center",
+        "item_text_mt": 12,
+        "heading_color": "#000000",
+        "items_bg_color": "#FFFFFF",
+        "item_heading_color": "#603526",
+        "item_text_color": "#603526",
+        "pagination_color": "#603526",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
     "text_with_icons_MYiEWG": {
       "type": "text-with-icons",
       "blocks": {
@@ -328,6 +523,8 @@
     "custom_html_VEKBHT",
     "featured_collection_TQC7nF",
     "17451549171126e761",
+    "ss_feature_1_DFicDX",
+    "feature_7_xiMgph",
     "text_with_icons_MYiEWG"
   ]
 }
