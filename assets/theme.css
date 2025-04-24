@@ -8334,3 +8334,15 @@
   display: none !important;
 }
 
+.product-meta-inline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.product-meta-inline .loox-rating {
+  margin: 0;
+}
+
+
