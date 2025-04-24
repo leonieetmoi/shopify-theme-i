@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Accueil_pc_hd_02212e1e-8b1a-4083-ae45-51cc02fcff2a.png",
+            "image": "shopify://shop_images/accueil_pc_V3.png",
             "mobile_image": "shopify://shop_images/accueil_mobile_v2_94c2dbf8-5ebe-4479-8df1-da2d287792f3.png",
             "content_max_width": 760,
             "mobile_text_position": "place-self-center text-center",
@@ -358,11 +358,11 @@
         "item_text_align": "center",
         "item_text_mt": 12,
         "heading_color": "#000000",
-        "items_bg_color": "#FFFFFF",
+        "items_bg_color": "#ffffff",
         "item_heading_color": "#603526",
         "item_text_color": "#603526",
         "pagination_color": "#603526",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
