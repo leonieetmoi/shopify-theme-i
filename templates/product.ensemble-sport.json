@@ -58,7 +58,7 @@
         "text_qRCgeJ": {
           "type": "text",
           "settings": {
-            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.<br/>💖 <strong>Confort absolu</strong> : Tissu extensible, gaine invisible.<br/>🌸 <strong>Maintien parfait</strong> : Soutien poitrine intégré </p>"
+            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.<br/>💖 <strong>Confort absolu</strong> : Matière ultra stretch et respirante<br/>🌸 <strong>Maintien parfait</strong> lors de chaque séance</p>"
           }
         },
         "payment_terms": {
@@ -117,7 +117,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Description",
-            "content": "<p>Découvrez la robe sculptante de chez Léonie & Moi, conçue pour sublimer vos courbes tout en garantissant un confort absolu. Grâce à sa gaine intégrée, légère et respirante, cette robe affine le ventre, marque la taille et rehausse les fesses pour une silhouette harmonieuse. Véritable seconde peau, elle épouse vos formes tout en restant parfaitement confortable, au point de se faire oublier. Son soutien-gorge intégré amovible permet un maintien optimal de la poitrine, tout en s’adaptant à vos envies.</p><p>Son design ajusté épouse votre corps sans le compresser, offrant une allure élégante en toute occasion : soirée, bureau ou sortie décontractée. La robe est dotée d’une ouverture discrète pour faciliter les passages aux toilettes, sans avoir besoin de tout retirer.</p><ul><li><strong>Silhouette redessinée :</strong> Effet ventre plat garanti.</li><li><strong>Maintien optimal :</strong> Soutien intégré pour la poitrine et les fesses.</li><li><strong>Confort quotidien :</strong> Coupe gainante, respirante et agréable à porter.</li><li><strong>Matière extensible :</strong> Adaptée à toutes les morphologies.</li><li><strong>Finition lisse :</strong> Invisible sous les vêtements.</li></ul>",
+            "content": "<p>Découvrez nos ensembles de sport gainants  Léonie & Moi, pensés pour sublimer vos formes tout en vous offrant une liberté de mouvement totale. Chaque pièce a été conçue avec une attention particulière au confort, au maintien et à l’esthétique, pour vous permettre de vous sentir belle et soutenue à la salle comme à la maison.</p><p>Le tissu ultra stretch accompagne vos mouvements sans jamais comprimer pour un effet de liberté total. La brassière offre un excellent maintien de la poitrine, même durant les efforts les plus intenses.</p><p>Chaque ensemble combine technicité et douceur, pour un effet seconde peau ultra flatteur. Les matières sélectionnées sont respirantes, légères, et agréables à porter du matin au soir.</p><p>Que ce soit pour une séance de sport, une journée détente ou une sortie casual chic, ces ensembles sont vos alliés pour allier style, maintien et confort en toute occasion.</p>",
             "page": ""
           }
         },
@@ -125,7 +125,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Composition et entretien",
-            "content": "<p><strong>Extérieur :</strong> 92% Modal / 8% Spandex<br/><strong>Doublure :</strong> 62% Nylon / 38% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "content": "<p>78% Nylon / 22% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
             "page": ""
           }
         },
@@ -478,6 +478,7 @@
       "block_order": [
         "loox_reviews_loox_dynamic_section_7NadAL"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
