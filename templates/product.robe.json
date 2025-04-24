@@ -37,9 +37,9 @@
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 14,
-            "pattern": "+1000 femmes ravis",
+            "pattern": "+1230 femmes ravis",
             "hideText": false,
-            "alignment": "",
+            "alignment": "left",
             "layout": "",
             "textColor": "",
             "starColor": "",
@@ -50,6 +50,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": false
           }
@@ -168,7 +169,8 @@
       "custom_css": [
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 12px 18px; margin: 2px; border-radius: 8px;}",
         ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 4px;}",
-        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}"
+        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
+        ".loox-rating {margin-top: -1.5rem !important;}"
       ],
       "settings": {
         "full_width": true,
