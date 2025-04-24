@@ -33,6 +33,21 @@
             "show_taxes_notice": false
           }
         },
+        "loox_reviews_loox_rating_tApzjW": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -136,6 +151,7 @@
         "title",
         "badges",
         "price",
+        "loox_reviews_loox_rating_tApzjW",
         "rating",
         "text_qRCgeJ",
         "payment_terms",
@@ -152,7 +168,8 @@
       "custom_css": [
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 12px 18px; margin: 2px; border-radius: 8px;}",
         ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 4px;}",
-        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}"
+        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
+        ".loox-rating {margin-top: -1.5rem !important;}"
       ],
       "settings": {
         "full_width": true,
