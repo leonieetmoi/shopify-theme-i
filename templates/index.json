@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/accueil_pc_V3.png",
-            "mobile_image": "shopify://shop_images/accueil_mobile_v2_94c2dbf8-5ebe-4479-8df1-da2d287792f3.png",
+            "mobile_image": "shopify://shop_images/accueil_mobile_v3.png",
             "content_max_width": 760,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
