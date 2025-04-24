@@ -17,7 +17,7 @@
         "message_xFCW7K": {
           "type": "message",
           "settings": {
-            "text": "1 articles acheté : le 2ème à -20%",
+            "text": "1 articles acheté : le 2ème à -30%",
             "url": "shopify://collections/robes"
           }
         },
@@ -31,7 +31,7 @@
         "message_LraPHk": {
           "type": "message",
           "settings": {
-            "text": "3 articles achetés : le 4ème offert !",
+            "text": "2 articles achetés : le 3ème offert !",
             "url": ""
           }
         }
