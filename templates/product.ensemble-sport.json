@@ -205,6 +205,7 @@
     },
     "duo_image_rRXrz3": {
       "type": "duo-image",
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
       ],
@@ -275,6 +276,7 @@
         "image_block_GhGmGE",
         "image_block_6jDwWU"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
       ],
@@ -298,7 +300,7 @@
         "richtext_CbQGCR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
+            "content": "<p>Chez Léonie & Moi, chaque ensemble de sport est conçu pour sublimer toutes les silhouettes, avec style, confort et maintien. N’ayez plus peur de vos complexes : nos coupes sculptantes les embellissent tout en mettant en valeur vos formes naturelles.</p>"
           }
         }
       },
@@ -321,7 +323,7 @@
         "image_bg4E9b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/robe_5_en_1.png",
+            "image": "shopify://shop_images/ensemble_sport.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -329,7 +331,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée. Chaque détail de la robe a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
+            "content": "<p>Notre tissu premium, reconnu pour sa légèreté et son extensibilité, épouse votre corps avec une sensation de confort inégalée. Chaque détail de nos ensembles a été pensé pour vous offrir maintien et liberté de mouvement, tout au long de vos séances et de votre journée.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
