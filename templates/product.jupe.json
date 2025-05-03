@@ -166,8 +166,8 @@
         "collapsible_text_GEUUCJ"
       ],
       "custom_css": [
-        ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 12px 18px; margin: 2px; border-radius: 8px;}",
-        ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 4px;}",
+        ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 14px 14px; border-radius: 8px;}",
+        ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 3px;}",
         ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
         ".loox-rating {margin-top: -1.5rem !important;}"
       ],
