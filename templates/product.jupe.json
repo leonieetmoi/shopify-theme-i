@@ -73,6 +73,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
             "hide_sold_out_variants": false,
@@ -90,6 +91,7 @@
         },
         "offer_LWakkq": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
