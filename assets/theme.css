@@ -8336,3 +8336,29 @@
 
 
 
+/* Appliquer uniquement aux boutons de taille */
+.variant-picker__option[data-option-index="1"] .variant-picker__option-values button,
+.variant-picker__option[data-option-index="1"] .variant-picker__option-values label {
+  font-size: 12px;
+  padding: 12px 18px;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+.variant-picker__option[data-option-index="1"] .variant-picker__option-values {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+.variant-picker__option[data-option-index="1"] .variant-picker__option-values label,
+.variant-picker__option[data-option-index="1"] .variant-picker__option-values button {
+  min-width: auto;
+  height: auto;
+  line-height: 0.5;
+}
+
+/* Réduire l'espace des avis */
+.loox-rating {
+  margin-top: -1.5rem !important;
+}
