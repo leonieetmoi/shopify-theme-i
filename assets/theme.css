@@ -8342,7 +8342,7 @@
   font-size: 12px;
   padding: 12px 18px;
   margin: 2px;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .variant-picker__option[data-option-index="1"] .variant-picker__option-values {
