@@ -73,7 +73,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
             "hide_sold_out_variants": false,
@@ -171,7 +170,8 @@
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 14px 14px; border-radius: 8px;}",
         ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 3px;}",
         ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
-        ".loox-rating {margin-top: -1.5rem !important;}"
+        ".loox-rating {margin-top: -1.5rem !important;}",
+        ".variant-picker__option:has(legend:contains(\"Taille\")) {display: none;}"
       ],
       "settings": {
         "full_width": true,
