@@ -21,25 +21,28 @@
             "url": "shopify://collections/voir-tout"
           }
         },
-        "message_FypwN4": {
-          "type": "message",
-          "settings": {
-            "text": "Livraison offerte dès 40€",
-            "url": ""
-          }
-        },
         "message_LraPHk": {
           "type": "message",
           "settings": {
             "text": "2 articles achetés : le 3ème offert !",
             "url": ""
           }
+        },
+        "message_FypwN4": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison offerte dès 40€",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message_xFCW7K",
-        "message_FypwN4",
-        "message_LraPHk"
+        "message_LraPHk",
+        "message_FypwN4"
+      ],
+      "custom_css": [
+        ".announcement-bar * {pointer-events: none;}"
       ],
       "settings": {
         "enable_sticky": true,
