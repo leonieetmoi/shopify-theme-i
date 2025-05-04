@@ -171,7 +171,7 @@
         ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 3px;}",
         ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
         ".loox-rating {margin-top: -1.5rem !important;}",
-        ".variant-picker__option:has(legend:contains(\"Taille\")) {display: none;}"
+        ".variant-picker__option:nth-of-type(2) {display: none;}"
       ],
       "settings": {
         "full_width": true,
@@ -639,8 +639,8 @@
         "item_jmewF6": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les avantages des robes Léonie & Moi ?",
-            "content": "<p>Nos robes sont dotées d’une gaine sculptante intégrée totalement invisible, conçue pour affiner le ventre, galber la poitrine et rehausser les fesses en toute discrétion. Confortables et douces comme une seconde peau, elles épousent parfaitement vos courbes sans vous comprimer. Et pour un maximum de praticité, elles possèdent une ouverture discrète à l’entrejambe, vous permettant d’aller aux toilettes facilement, sans avoir à vous déshabiller.</p>"
+            "title": "Quels sont les avantages des jupes Léonie & Moi ?",
+            "content": "<p>Nos jupes sont conçues pour sublimer votre silhouette tout en offrant un confort absolu. Dotées d’un short intégré totalement invisible, elles vous permettent de bouger librement sans craindre que votre jupe remonte ou que l’on voie votre culotte. Leur tissu ultra stretch épouse vos formes sans comprimer et assure un maintien optimal tout au long de la journée. Grâce à leur coupe taille haute, elles affinent la taille et galbent les hanches pour une silhouette élégante. Et avec leur matière légère et respirante, elles sont parfaites pour rester à l’aise même pendant les journées les plus chaudes.</p>"
           }
         },
         "item_XEEB3C": {
