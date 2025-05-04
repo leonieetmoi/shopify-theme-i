@@ -18,7 +18,7 @@
           "type": "message",
           "settings": {
             "text": "1 article acheté : le 2ème à -30%",
-            "url": "https://leonieetmoi.fr/"
+            "url": "shopify://collections/voir-tout"
           }
         },
         "message_FypwN4": {
