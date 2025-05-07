@@ -102,7 +102,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
             "hide_sold_out_variants": false,
@@ -783,8 +782,8 @@
     "media_with_text_kEbpaL",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
-    "related-products",
     "174544108501fc506a",
+    "related-products",
     "faq_WCrMPc"
   ]
 }
