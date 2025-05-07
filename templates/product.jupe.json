@@ -57,7 +57,13 @@
         "text_qRCgeJ": {
           "type": "text",
           "settings": {
-            "text": "<p>✨ <strong>Short intégré</strong> : Liberté de mouvement totale<br/>💖 <strong>Denim ultra stretch</strong> : Confort maximal<br/>🌟 <strong>Coupe haute </strong>: Affine la taille</p>"
+            "text": "<p><strong>Bougez librement sans stress</strong>, personne ne verra jamais ce qui doit rester privé.<br/><strong>Restez au frais tout l’été</strong> avec sa coupe légère qui affine votre taille.</p>"
+          }
+        },
+        "liquid_9JKRYy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"margin-bottom:10px; display: flex; align-items: center;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/2.png?v=1746658102\" alt=\"\" style=\"height:30px; margin-right:8px;\">\n  <span><strong>Bougez librement sans stress</strong>, personne ne verra jamais ce qui doit rester privé.</span>\n</p>\n\n<p style=\"display: flex; align-items: center;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/3_b04f941d-cc28-48fa-b621-e583adb1b753.png?v=1746658102\" alt=\"\" style=\"height:30px; margin-right:8px;\">\n  <span><strong>Restez au frais tout l’été</strong> avec sa coupe légère qui affine votre taille.</span>\n</p>"
           }
         },
         "payment_terms": {
@@ -161,6 +167,7 @@
         "loox_reviews_loox_rating_tApzjW",
         "rating",
         "text_qRCgeJ",
+        "liquid_9JKRYy",
         "payment_terms",
         "description",
         "variant_picker",
