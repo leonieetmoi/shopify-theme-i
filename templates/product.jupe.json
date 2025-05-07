@@ -67,6 +67,28 @@
             "liquid": "<p style=\"margin-bottom:4px; display: flex; align-items: center;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/2.png?v=1746658102\" alt=\"\" style=\"height:30px; margin-right:8px;\">\n  <span><strong>Bougez librement sans stress</strong>, personne ne verra jamais ce qui doit rester privé.</span>\n</p>\n\n<p style=\"margin-top:0; display: flex; align-items: center;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/3_b04f941d-cc28-48fa-b621-e583adb1b753.png?v=1746658102\" alt=\"\" style=\"height:30px; margin-right:8px;\">\n  <span><strong>Restez au frais tout l’été</strong> avec sa coupe légère qui affine votre taille.</span>\n</p>"
           }
         },
+        "loox_reviews_loox_snippets_widget_KWypkf": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -80,6 +102,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
             "hide_sold_out_variants": false,
@@ -169,6 +192,7 @@
         "rating",
         "text_qRCgeJ",
         "liquid_9JKRYy",
+        "loox_reviews_loox_snippets_widget_KWypkf",
         "payment_terms",
         "description",
         "variant_picker",
@@ -457,6 +481,44 @@
         "lazy": true
       }
     },
+    "1746659291868422ac": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_snippets_widget_ErgpQU": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_snippets_widget_ErgpQU"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_LraNBt": {
       "type": "rich-text",
       "blocks": {
@@ -716,6 +778,7 @@
     "image_carousel_jyNn6K",
     "custom_html_XDHVxq",
     "video_slider_rwGEL8",
+    "1746659291868422ac",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
     "media_with_text_4mzmKA",
