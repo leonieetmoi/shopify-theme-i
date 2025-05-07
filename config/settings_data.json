@@ -78,6 +78,11 @@
         "type": "shopify://apps/gsc-countdown-timer/blocks/countdown-bar/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
         "disabled": false,
         "settings": {}
+      },
+      "12657775114333427046": {
+        "type": "shopify://apps/essential-countdown-timer/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
