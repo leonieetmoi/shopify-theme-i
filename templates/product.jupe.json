@@ -102,12 +102,6 @@
             "text_color": "#1a1a1a"
           }
         },
-        "essential_countdown_timer_app_block_iCya6r": {
-          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "cmaehzglz00hv9p1p98ceo6lx"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -117,6 +111,12 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "essential_countdown_timer_app_block_iCya6r": {
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {
+            "id": "cmaehzglz00hv9p1p98ceo6lx"
           }
         },
         "collapsible_text_D8wqjn": {
@@ -166,8 +166,8 @@
         "variant_picker",
         "quantity_selector",
         "offer_LWakkq",
-        "essential_countdown_timer_app_block_iCya6r",
         "buy_buttons",
+        "essential_countdown_timer_app_block_iCya6r",
         "collapsible_text_D8wqjn",
         "collapsible_text_tp6AQk",
         "collapsible_text_34rjF6",
