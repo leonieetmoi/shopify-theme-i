@@ -56,6 +56,7 @@
         },
         "text_qRCgeJ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Bougez librement sans stress</strong>, personne ne verra jamais ce qui doit rester privé.<br/><strong>Restez au frais tout l’été</strong> avec sa coupe légère qui affine votre taille.</p>"
           }
