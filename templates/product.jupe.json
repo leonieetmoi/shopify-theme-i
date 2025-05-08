@@ -125,6 +125,12 @@
             "size_chart_page": "jupe-mila"
           }
         },
+        "liquid_AHfbkd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<a href=\"javascript:void(0);\" onclick=\"window.open('https://leonieetmoi.fr/pages/jupe-mila', 'popup', 'width=600,height=700');\" style=\"text-decoration: underline; color: #000; font-size: 14px;\">\n📏 Guide des tailles\n</a>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -209,6 +215,7 @@
         "payment_terms",
         "description",
         "variant_picker",
+        "liquid_AHfbkd",
         "quantity_selector",
         "offer_LWakkq",
         "buy_buttons",
