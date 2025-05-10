@@ -567,6 +567,83 @@
         "spacing": "small"
       }
     },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos tissus auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "images_with_text_scrolling_HHRxJa": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AwVDrh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric_1.png",
+            "icon": "none",
+            "icon_width": 60,
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
+          }
+        },
+        "item_RmH8He": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AwVDrh",
+        "item_RmH8He"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "comparison_table_6_Hqfrzg": {
       "type": "comparison-table-6",
       "blocks": {
@@ -751,10 +828,10 @@
         "table_column_active": "1",
         "table_radius": 16,
         "table_border_thickness": 1,
-        "table_heading_image_size": 100,
-        "table_heading_image_size_mobile": 80,
-        "first_heading": "SECTION STORE",
-        "first_heading_image": "shopify://shop_images/logo_1000_250.png",
+        "table_heading_image_size": 110,
+        "table_heading_image_size_mobile": 88,
+        "first_heading": "",
+        "first_heading_image": "shopify://shop_images/logo1000_300_blanc.png",
         "second_heading": "Autres jupes",
         "third_heading": "Third",
         "four_heading": "Fourth",
@@ -819,82 +896,6 @@
         "content_width": 130,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "media_with_text_4mzmKA": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_nmVYHm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
-            "media_width": 60,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Nous sélectionnons avec soin nos tissus auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f0f0f0",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_nmVYHm"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "images_with_text_scrolling_HHRxJa": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_AwVDrh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/fabric_1.png",
-            "icon": "none",
-            "icon_width": 60,
-            "title": "",
-            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
-          }
-        },
-        "item_RmH8He": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/fabric2.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_AwVDrh",
-        "item_RmH8He"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "174544108501fc506a": {
@@ -1016,9 +1017,9 @@
     "video_slider_rwGEL8",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
-    "comparison_table_6_Hqfrzg",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
+    "comparison_table_6_Hqfrzg",
     "174544108501fc506a",
     "related-products",
     "faq_WCrMPc"
