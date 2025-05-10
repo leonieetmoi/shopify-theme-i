@@ -567,6 +567,260 @@
         "spacing": "small"
       }
     },
+    "comparison_table_6_Hqfrzg": {
+      "type": "comparison-table-6",
+      "blocks": {
+        "list_item_PUwdf7": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Short intégré invisible"
+          }
+        },
+        "list_item_qTEzWa": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Relax & Restorative sleep"
+          }
+        },
+        "list_item_ehtkHW": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Wake up refreshed"
+          }
+        },
+        "list_item_gxVUR7": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Plant based"
+          }
+        },
+        "table_row_qCyUW7": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Short intégré invisible",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_6CwVha": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Maintien parfait, même en mouvement",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_V9E7Gy": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Protège des regards indiscrets",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_nJ7Kek": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Tissu stretch & respirant",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_M3W6ND": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Affine la taille",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_Gaqfyp": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "100% garanti",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_PUwdf7",
+        "list_item_qTEzWa",
+        "list_item_ehtkHW",
+        "list_item_gxVUR7",
+        "table_row_qCyUW7",
+        "table_row_6CwVha",
+        "table_row_V9E7Gy",
+        "table_row_nJ7Kek",
+        "table_row_M3W6ND",
+        "table_row_Gaqfyp"
+      ],
+      "name": "SS - Comparison Table #6",
+      "settings": {
+        "body_gap": 32,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p><em>Nos jupes VS les autres jupes</em></p>",
+        "heading_custom": true,
+        "heading_font": "itc_berkeley_old_style_n4",
+        "heading_size": 52,
+        "heading_size_mobile": 26,
+        "heading_height": 150,
+        "text": "",
+        "text_custom": false,
+        "text_font": "itc_berkeley_old_style_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 4,
+        "list_mt": 50,
+        "list_mt_mobile": 32,
+        "list_gap": 30,
+        "list_gap_mobile": 30,
+        "list_hide_mobile": true,
+        "icon": "shopify://shop_images/logo_1200_240_1.png",
+        "icon_size": 28,
+        "icon_size_mobile": 28,
+        "icon_margin_right": 16,
+        "list_text_custom": false,
+        "list_text_font": "josefin_sans_n4",
+        "list_text_size": 20,
+        "list_text_size_mobile": 18,
+        "list_text_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_width": 305,
+        "button_mt": 50,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 48,
+        "button_padding_horizontal_mobile": 48,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "button_position_mobile": "bottom",
+        "table_columns": 2,
+        "table_mt_mobile": 32,
+        "table_column_active": "1",
+        "table_radius": 16,
+        "table_border_thickness": 1,
+        "table_heading_image_size": 100,
+        "table_heading_image_size_mobile": 80,
+        "first_heading": "SECTION STORE",
+        "first_heading_image": "shopify://shop_images/logo_1000_250.png",
+        "second_heading": "Autres jupes",
+        "third_heading": "Third",
+        "four_heading": "Fourth",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 20,
+        "table_heading_size_mobile": 16,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 18,
+        "table_heading_padding_horizontal_mobile": 18,
+        "table_heading_padding_vertical": 18,
+        "table_heading_padding_vertical_mobile": 18,
+        "table_row_padding_horizontal": 14,
+        "table_row_padding_horizontal_mobile": 14,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 16,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": false,
+        "table_row_heading_font": "assistant_n4",
+        "table_row_heading_size": 16,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "assistant_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 24,
+        "table_row_image_size_mobile": 24,
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "icon_color": "#000000",
+        "list_text_color": "#000000",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#dad0ff",
+        "button_bg_color": "#e9c4c3",
+        "button_bg_hover_color": "#e9c4c3",
+        "button_border_color": "#16142B",
+        "button_border_hover_color": "#16142B",
+        "table_border_color": "#d5d2d2",
+        "table_active_border_color": "#ffffff",
+        "table_heading_color": "#1A192E",
+        "table_heading_active_color": "#FFFFFF",
+        "table_heading_bg_active_color": "#e9c4c3",
+        "table_column_active_bg_color": "#e9c4c3",
+        "table_row_heading_color": "#1A192E",
+        "table_row_text_color": "#1A192E",
+        "table_row_active_text_color": "#FFFFFF",
+        "background_color": "#f0f0f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 8,
+        "margin_bottom": 8,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "media_with_text_4mzmKA": {
       "type": "media-with-text",
       "blocks": {
@@ -762,6 +1016,7 @@
     "video_slider_rwGEL8",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
+    "comparison_table_6_Hqfrzg",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
     "174544108501fc506a",
