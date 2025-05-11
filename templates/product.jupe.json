@@ -912,7 +912,7 @@
         "table_row_qCyUW7": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Short intégré invisible",
+            "row_heading": "Short intégré",
             "first_column": "",
             "first_column_icon": "check",
             "second_column": "",
@@ -940,11 +940,11 @@
         "table_row_V9E7Gy": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Protège des regards indiscrets",
+            "row_heading": "Regards indiscrets",
             "first_column": "",
-            "first_column_icon": "check",
+            "first_column_icon": "cross",
             "second_column": "",
-            "second_column_icon": "cross",
+            "second_column_icon": "none",
             "third_column": "",
             "third_column_icon": "none",
             "four_column": "",
@@ -968,7 +968,7 @@
         "table_row_M3W6ND": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Affine la taille",
+            "row_heading": "Taille affinée",
             "first_column": "",
             "first_column_icon": "check",
             "second_column": "",
