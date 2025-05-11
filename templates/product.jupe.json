@@ -550,6 +550,7 @@
         "custom_mLTw4T",
         "custom_fLifmc"
       ],
+      "disabled": true,
       "name": "SS - Slider",
       "settings": {
         "body_padding_vertical": 70,
@@ -663,28 +664,35 @@
         "image_block_6J6Kxg": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/new_bleu_1.png",
+            "carousel_image": "shopify://shop_images/taille_1_blanc.png",
             "alt_text": "Image du produit"
           }
         },
         "image_block_UVEzdX": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/new_blanc_1.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_DVbJTd": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/new_noir_1.png",
+            "carousel_image": "shopify://shop_images/taille_2_noir_v2.png",
             "alt_text": "Image du produit"
           }
         },
         "image_block_8AzmVy": {
           "type": "image_block",
           "settings": {
-            "carousel_image": "shopify://shop_images/new_gris_1.png",
+            "carousel_image": "shopify://shop_images/taille_4_bleu.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_dyVaW4": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_2_3_blanc.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_DVbJTd": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_3_gris_v2.png",
             "alt_text": "Image du produit"
           }
         }
@@ -692,8 +700,9 @@
       "block_order": [
         "image_block_6J6Kxg",
         "image_block_UVEzdX",
-        "image_block_DVbJTd",
-        "image_block_8AzmVy"
+        "image_block_8AzmVy",
+        "image_block_dyVaW4",
+        "image_block_DVbJTd"
       ],
       "custom_css": [
         ".carousel-item {display: flex; justify-content: center;}",
@@ -701,8 +710,8 @@
       ],
       "name": "Carrousel d'images",
       "settings": {
-        "carousel_title": "Des couleurs intemporelles",
-        "text_size": 26
+        "carousel_title": "Pensée pour toutes les silhouettes",
+        "text_size": 32
       }
     },
     "ss_gallery_1_4qMeVQ": {
@@ -738,6 +747,7 @@
         "image_fzWctr",
         "image_Pww7AA"
       ],
+      "disabled": true,
       "name": "SS - Gallery #1",
       "settings": {
         "heading": "<h2>Des couleurs intemporelles </h2>",
