@@ -567,6 +567,92 @@
         "spacing": "small"
       }
     },
+    "ss_gallery_1_4qMeVQ": {
+      "type": "ss-gallery-1",
+      "blocks": {
+        "image_4FmjED": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/new_blanc_1.png",
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_fzWctr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/new_noir_1.png",
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_Pww7AA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/new_gris_1.png",
+            "url": "",
+            "hide_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "image_4FmjED",
+        "image_fzWctr",
+        "image_Pww7AA"
+      ],
+      "name": "SS - Gallery #1",
+      "settings": {
+        "heading": "<h2>Des couleurs intemporelles </h2>",
+        "heading_custom": true,
+        "heading_font": "itc_berkeley_old_style_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 26,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 16,
+        "sub_heading_size_mobile": 16,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 16,
+        "sub_heading_mt_mobile": 16,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "images_gap": 10,
+        "images_gap_mobile": 10,
+        "images_radius": 4,
+        "images_position": "row",
+        "images_position_mobile": "column",
+        "images_mt": 32,
+        "images_mt_mobile": 24,
+        "main_image": "shopify://shop_images/new_bleu_1.png",
+        "main_image_url": "",
+        "main_image_width": 30,
+        "small_images_row": 3,
+        "small_images_row_mobile": 3,
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "image_overlay": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "media_with_text_4mzmKA": {
       "type": "media-with-text",
       "blocks": {
@@ -868,21 +954,21 @@
         "text_color": "#000000",
         "icon_color": "#000000",
         "list_text_color": "#000000",
-        "button_color": "#FFFFFF",
+        "button_color": "#ffffff",
         "button_hover_color": "#dad0ff",
         "button_bg_color": "#e9c4c3",
         "button_bg_hover_color": "#e9c4c3",
-        "button_border_color": "#16142B",
-        "button_border_hover_color": "#16142B",
+        "button_border_color": "#16142b",
+        "button_border_hover_color": "#16142b",
         "table_border_color": "#d5d2d2",
         "table_active_border_color": "#ffffff",
-        "table_heading_color": "#1A192E",
-        "table_heading_active_color": "#FFFFFF",
+        "table_heading_color": "#1a192e",
+        "table_heading_active_color": "#ffffff",
         "table_heading_bg_active_color": "#e9c4c3",
         "table_column_active_bg_color": "#e9c4c3",
-        "table_row_heading_color": "#1A192E",
-        "table_row_text_color": "#1A192E",
-        "table_row_active_text_color": "#FFFFFF",
+        "table_row_heading_color": "#1a192e",
+        "table_row_text_color": "#1a192e",
+        "table_row_active_text_color": "#ffffff",
         "background_color": "#f0f0f0",
         "background_gradient": "",
         "border_color": "#000000",
@@ -1017,6 +1103,7 @@
     "video_slider_rwGEL8",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
+    "ss_gallery_1_4qMeVQ",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
     "comparison_table_6_Hqfrzg",
