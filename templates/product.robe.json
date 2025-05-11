@@ -63,6 +63,7 @@
         },
         "text_qRCgeJ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.<br/>💖 <strong>Confort absolu</strong> : Tissu extensible, gaine invisible.<br/>🌸 <strong>Maintien parfait</strong> : Soutien poitrine intégré </p>"
           }
@@ -76,28 +77,6 @@
           "disabled": true,
           "settings": {
             "collapse_content": false
-          }
-        },
-        "loox_reviews_loox_snippets_widget_8GG8HR": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "alignment": "left",
-            "max-width": "",
-            "color-scheme": "default",
-            "shadow": "",
-            "show-rating": true,
-            "show-image": true,
-            "hide-arrows-mobile": false,
-            "font-size": 14,
-            "show-border": false,
-            "border-radius": 16,
-            "background-color": "",
-            "text-color": "",
-            "name-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "shadow-color": "",
-            "reviews-limit": 10
           }
         },
         "variant_picker": {
@@ -139,6 +118,28 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "loox_reviews_loox_snippets_widget_8GG8HR": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
           }
         },
         "collapsible_text_D8wqjn": {
@@ -186,11 +187,11 @@
         "text_qRCgeJ",
         "payment_terms",
         "description",
-        "loox_reviews_loox_snippets_widget_8GG8HR",
         "variant_picker",
         "quantity_selector",
         "offer_LWakkq",
         "buy_buttons",
+        "loox_reviews_loox_snippets_widget_8GG8HR",
         "collapsible_text_D8wqjn",
         "collapsible_text_tp6AQk",
         "collapsible_text_34rjF6",
