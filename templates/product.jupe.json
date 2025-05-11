@@ -463,6 +463,62 @@
         "text_color": ""
       }
     },
+    "image_carousel_X7UdkK": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_6J6Kxg": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_1_blanc.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_UVEzdX": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_2_noir_v2.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_8AzmVy": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_4_bleu.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_dyVaW4": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_2_3_blanc.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_DVbJTd": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/taille_3_gris_v2.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_6J6Kxg",
+        "image_block_UVEzdX",
+        "image_block_8AzmVy",
+        "image_block_dyVaW4",
+        "image_block_DVbJTd"
+      ],
+      "custom_css": [
+        ".carousel-item {display: flex; justify-content: center;}",
+        ".carousel-item img {margin: 0 auto;}"
+      ],
+      "name": "Carrousel d'images",
+      "settings": {
+        "carousel_title": "Pensée pour toutes les silhouettes",
+        "text_size": 26
+      }
+    },
     "media_with_text_kEbpaL": {
       "type": "media-with-text",
       "blocks": {
@@ -656,62 +712,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "image_carousel_X7UdkK": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_block_6J6Kxg": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/taille_1_blanc.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_UVEzdX": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/taille_2_noir_v2.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_8AzmVy": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/taille_4_bleu.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_dyVaW4": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/taille_2_3_blanc.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_DVbJTd": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/taille_3_gris_v2.png",
-            "alt_text": "Image du produit"
-          }
-        }
-      },
-      "block_order": [
-        "image_block_6J6Kxg",
-        "image_block_UVEzdX",
-        "image_block_8AzmVy",
-        "image_block_dyVaW4",
-        "image_block_DVbJTd"
-      ],
-      "custom_css": [
-        ".carousel-item {display: flex; justify-content: center;}",
-        ".carousel-item img {margin: 0 auto;}"
-      ],
-      "name": "Carrousel d'images",
-      "settings": {
-        "carousel_title": "Pensée pour toutes les silhouettes",
-        "text_size": 32
       }
     },
     "ss_gallery_1_4qMeVQ": {
@@ -1249,9 +1249,9 @@
     "custom_html_XDHVxq",
     "video_slider_rwGEL8",
     "rich_text_LraNBt",
+    "image_carousel_X7UdkK",
     "media_with_text_kEbpaL",
     "slider_UYRxwW",
-    "image_carousel_X7UdkK",
     "ss_gallery_1_4qMeVQ",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
