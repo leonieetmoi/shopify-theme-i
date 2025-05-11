@@ -944,7 +944,7 @@
             "first_column": "",
             "first_column_icon": "cross",
             "second_column": "",
-            "second_column_icon": "none",
+            "second_column_icon": "check",
             "third_column": "",
             "third_column_icon": "none",
             "four_column": "",
@@ -954,7 +954,7 @@
         "table_row_nJ7Kek": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Tissu stretch & respirant",
+            "row_heading": "Stretch & respirant",
             "first_column": "",
             "first_column_icon": "check",
             "second_column": "",
