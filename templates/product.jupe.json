@@ -860,8 +860,8 @@
       ],
       "name": "SS - Comparison Table #6",
       "settings": {
-        "body_gap": 32,
-        "body_gap_mobile": 32,
+        "body_gap": 0,
+        "body_gap_mobile": 0,
         "content_horizontal_align": "start",
         "content_horizontal_align_mobile": "center",
         "heading": "<p><em>Nos jupes VS les autres jupes</em></p>",
