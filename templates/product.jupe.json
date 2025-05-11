@@ -263,77 +263,6 @@
         "text_color": ""
       }
     },
-    "image_carousel_jyNn6K": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_block_gQYF7C": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_qGQn43": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_npg6Az": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_aJ4cfT": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_niptK6": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_GhGmGE": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_6jDwWU": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
-            "alt_text": "Image du produit"
-          }
-        }
-      },
-      "block_order": [
-        "image_block_gQYF7C",
-        "image_block_qGQn43",
-        "image_block_npg6Az",
-        "image_block_aJ4cfT",
-        "image_block_niptK6",
-        "image_block_GhGmGE",
-        "image_block_6jDwWU"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
-      ],
-      "settings": {
-        "carousel_title": "Vous êtes magnifique !",
-        "text_size": 16
-      }
-    },
     "custom_html_XDHVxq": {
       "type": "custom-html",
       "settings": {
@@ -565,6 +494,53 @@
       "settings": {
         "full_width": false,
         "spacing": "small"
+      }
+    },
+    "image_carousel_X7UdkK": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_6J6Kxg": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/new_bleu_1.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_UVEzdX": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/new_blanc_1.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_DVbJTd": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/new_noir_1.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_8AzmVy": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/new_gris_1.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_6J6Kxg",
+        "image_block_UVEzdX",
+        "image_block_DVbJTd",
+        "image_block_8AzmVy"
+      ],
+      "custom_css": [
+        ".image-carousel__item {display: flex; justify-content: center;}"
+      ],
+      "name": "Carrousel d'images",
+      "settings": {
+        "carousel_title": "Des couleurs intemporelles",
+        "text_size": 26
       }
     },
     "ss_gallery_1_4qMeVQ": {
@@ -1098,11 +1074,11 @@
   "order": [
     "main",
     "custom_html_PjQmwb",
-    "image_carousel_jyNn6K",
     "custom_html_XDHVxq",
     "video_slider_rwGEL8",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
+    "image_carousel_X7UdkK",
     "ss_gallery_1_4qMeVQ",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
