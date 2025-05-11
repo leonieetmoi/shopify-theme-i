@@ -1010,10 +1010,10 @@
       "settings": {
         "body_gap": 0,
         "body_gap_mobile": 0,
-        "content_horizontal_align": "start",
+        "content_horizontal_align": "center",
         "content_horizontal_align_mobile": "center",
-        "heading": "<p><em>Nos jupes VS les autres jupes</em></p>",
-        "heading_custom": true,
+        "heading": "",
+        "heading_custom": false,
         "heading_font": "itc_berkeley_old_style_n4",
         "heading_size": 52,
         "heading_size_mobile": 26,
