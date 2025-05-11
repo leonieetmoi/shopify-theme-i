@@ -55,6 +55,12 @@
             "show_empty": false
           }
         },
+        "liquid_bgDEwe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"line-height: 1.4;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n    La robe qui fait disparaître ce que vous redoutez \n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/2.png?v=1746658102\" alt=\"\" style=\"height:26px; margin-right:8px;\">\n    <span><strong>Ventre lissé, taille affinée, poitrine galbée</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/3_b04f941d-cc28-48fa-b621-e583adb1b753.png?v=1746658102\" alt=\"\" style=\"height:26px; margin-right:8px;\">\n    <span><strong>S'adapte à vous</strong> avec gaine intégrée. </span>\n  </p>\n\n  <p style=\"margin: 0; color: #c63728; font-weight: bold;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">disponible en petite quantité</span>\n  </p>\n</div>"
+          }
+        },
         "text_qRCgeJ": {
           "type": "text",
           "settings": {
@@ -70,6 +76,28 @@
           "disabled": true,
           "settings": {
             "collapse_content": false
+          }
+        },
+        "loox_reviews_loox_snippets_widget_8GG8HR": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
           }
         },
         "variant_picker": {
@@ -154,9 +182,11 @@
         "price",
         "loox_reviews_loox_rating_z7WzLc",
         "rating",
+        "liquid_bgDEwe",
         "text_qRCgeJ",
         "payment_terms",
         "description",
+        "loox_reviews_loox_snippets_widget_8GG8HR",
         "variant_picker",
         "quantity_selector",
         "offer_LWakkq",
