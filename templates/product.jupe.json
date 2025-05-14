@@ -268,9 +268,9 @@
       "type": "custom-html",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\" style=\"margin-top: -20px; margin-bottom: -10px; text-align: center;\">\n  +1200 femmes l’ont adoptée\n</h2>",
+        "html": "<h2 class=\"h2\" style=\"margin-top: 2px; margin-bottom: 0px; text-align: center;\">\n  +1200 femmes l’ont adoptée\n</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
