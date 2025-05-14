@@ -263,9 +263,10 @@
         "slide_UXNEqE": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "video": "shopify://files/videos/ROBE_5.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
           }
         }
       },
