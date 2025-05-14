@@ -221,6 +221,19 @@
         "input_text_color": ""
       }
     },
+    "custom_html_aTJDPd": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\" style=\"margin-top: 0px; margin-bottom: Opx; text-align: center;\">\n  +1200 femmes l’ont adoptée\n</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_slider_cE4xg3": {
       "type": "video-slider",
       "blocks": {
@@ -352,7 +365,7 @@
         "arrow_bg_hover_color": "#FFFFFF",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "rgba(0,0,0,0)",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -728,6 +741,7 @@
   },
   "order": [
     "main",
+    "custom_html_aTJDPd",
     "video_slider_cE4xg3",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
