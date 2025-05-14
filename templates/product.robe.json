@@ -390,76 +390,6 @@
         "image_2": "shopify://shop_images/compo_robe_V2.png"
       }
     },
-    "image_carousel_jyNn6K": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_block_gQYF7C": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_qGQn43": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_npg6Az": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_aJ4cfT": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_niptK6": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_GhGmGE": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
-            "alt_text": "Image du produit"
-          }
-        },
-        "image_block_6jDwWU": {
-          "type": "image_block",
-          "settings": {
-            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
-            "alt_text": "Image du produit"
-          }
-        }
-      },
-      "block_order": [
-        "image_block_gQYF7C",
-        "image_block_qGQn43",
-        "image_block_npg6Az",
-        "image_block_aJ4cfT",
-        "image_block_niptK6",
-        "image_block_GhGmGE",
-        "image_block_6jDwWU"
-      ],
-      "custom_css": [
-        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
-      ],
-      "settings": {
-        "carousel_title": "Vous êtes magnifique !",
-        "text_size": 16
-      }
-    },
     "rich_text_LraNBt": {
       "type": "rich-text",
       "blocks": {
@@ -602,6 +532,76 @@
         "heading_gradient": ""
       }
     },
+    "image_carousel_jyNn6K": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_gQYF7C": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_npg6Az": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_niptK6": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_GhGmGE": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_gQYF7C",
+        "image_block_qGQn43",
+        "image_block_npg6Az",
+        "image_block_aJ4cfT",
+        "image_block_niptK6",
+        "image_block_GhGmGE",
+        "image_block_6jDwWU"
+      ],
+      "custom_css": [
+        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "carousel_title": "Vous êtes magnifique !",
+        "text_size": 16
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -731,11 +731,11 @@
     "video_slider_cE4xg3",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
-    "image_carousel_jyNn6K",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
     "media_with_text_4mzmKA",
     "images_with_text_scrolling_HHRxJa",
+    "image_carousel_jyNn6K",
     "related-products",
     "custom_liquid_gAgezc",
     "17451549156acfce67",
