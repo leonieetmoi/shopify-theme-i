@@ -49,6 +49,7 @@
     "heading_apparition": "split_fade",
     "color_swatch_style": "round",
     "product_color_display": "swatch",
+    "product_image_aspect_ratio": "natural",
     "product_info_alignment": "center",
     "cart_type": "popover",
     "cart_icon": "tote_bag",
