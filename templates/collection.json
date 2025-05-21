@@ -68,7 +68,9 @@
     },
     "banner": {
       "type": "collection-banner",
-      "custom_css": [],
+      "custom_css": [
+        ".collection-header {margin-bottom: 0 !important; margin-top: 10px}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
