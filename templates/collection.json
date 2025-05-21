@@ -94,7 +94,8 @@
       "custom_css": [
         ".product-card__title a {display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}",
         ".product-card__title {width: 100%; display: block; overflow: hidden;}",
-        ".v-stack.gap-4.md\\:hidden .text-center {display: none;}"
+        ".v-stack.gap-4.md\\:hidden .text-center {display: none;}",
+        ".collection {margin-top: 0 !important; padding-top: 0 !important;}"
       ],
       "settings": {
         "products_per_page": 24,
