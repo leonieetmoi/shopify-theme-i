@@ -69,7 +69,7 @@
     "banner": {
       "type": "collection-banner",
       "custom_css": [
-        ".collection-header {margin-bottom: 0 !important; margin-top: 10px}"
+        ".collection-header {margin-bottom: 0px !important; margin-top: 10px;}"
       ],
       "settings": {
         "full_width": false,
