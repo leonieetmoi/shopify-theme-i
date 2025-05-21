@@ -200,10 +200,11 @@
       "settings": {
         "collection": "",
         "products": [
-          "ensemble-lola-legging-evase-et-top-manches-longues",
           "jupe-mila-short-integre-et-confort-absolu",
           "robe-leonie-longue-sculptante-a-bretelles-fines",
           "body-jade-gainant-a-col-montant",
+          "robe-louise-courte-sculptante-a-col-carre",
+          "ensemble-lola-legging-evase-et-top-manches-longues",
           "ensemble-capri-jupe-et-brassiere-a-bordure-large",
           "robe-elise-mi-longue-amincissante-a-manches-longues"
         ],
@@ -217,7 +218,7 @@
         "title": "La selection de la semaine 🩷",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "Voir tout",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -395,7 +396,7 @@
             "icon_background": "#e9c4c3",
             "icon_color": "#e9c4c3",
             "title": "Livraison offerte",
-            "content": "<p>Livraison offerte dès 50 € d'achat</p>"
+            "content": "<p>Livraison offerte dès 40 € d'achat</p>"
           }
         },
         "item_zp3YAy": {
