@@ -30,6 +30,49 @@
         "overlay_opacity": 30
       }
     },
+    "slideshow_dT38fW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YijExp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FETE_MERE_PC.png",
+            "mobile_image": "shopify://shop_images/FETE_MERE_V3.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YijExp"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "custom_html_waPwH9": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -37,7 +80,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<style>\n  .fete-mere-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n\n  .fete-mere-mobile {\n    display: none;\n  }\n\n  @media (max-width: 749px) {\n    .fete-mere-desktop {\n      display: none;\n    }\n    .fete-mere-mobile {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"fete-mere-banner\">\n  <!-- Image ordinateur -->\n  <img class=\"fete-mere-desktop\" src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/FETE_MERE_PC.png?v=1747790331\" alt=\"Offre fête des mères - Desktop\">\n\n  <!-- Image mobile -->\n  <img class=\"fete-mere-mobile\" src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/FETE_MERE_V3.png?v=1747789767\" alt=\"Offre fête des mères - Mobile\">\n</div>",
+        "html": "<style>\n  .fete-mere-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>\n\n<!-- Bannière Fête des Mères - toujours la version PC -->\n<div class=\"fete-mere-banner\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/FETE_MERE_PC.png?v=1747790331\" alt=\"Bannière Fête des Mères\">\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -65,6 +108,7 @@
   },
   "order": [
     "banner",
+    "slideshow_dT38fW",
     "custom_html_waPwH9",
     "main"
   ]
