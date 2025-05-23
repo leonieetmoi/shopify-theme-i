@@ -39,7 +39,7 @@
     "product_on_sale_accent": "#e9c4c3",
     "product_sold_out_badge_background": "#000000",
     "product_primary_badge_background": "#803cee",
-    "heading_font": "itc_berkeley_old_style_n5",
+    "heading_font": "cabin_n4",
     "heading_font_size": "medium",
     "heading_text_transform": "normal",
     "heading_letter_spacing": -1,
