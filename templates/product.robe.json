@@ -396,7 +396,7 @@
     "duo_image_rRXrz3": {
       "type": "duo-image",
       "custom_css": [
-        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -25px; }"
+        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -15px; }"
       ],
       "settings": {
         "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
