@@ -380,6 +380,46 @@
         "lazy": true
       }
     },
+    "rich_text_XrwWwG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Mqifhw": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_gyatiG": {
+          "type": "heading",
+          "settings": {
+            "text": "Une silhouette sculptée sans effort",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VGPKwW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sa gaine intégrée, aussi discrète qu’efficace, <strong>lisse</strong> le ventre, <strong>galbe</strong> les hanches et <strong>rehausse</strong>  la poitrine. <br/><strong>Résultat</strong> : un effet waouh instantané, <strong>sans aucun effort</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mqifhw",
+        "heading_gyatiG",
+        "richtext_VGPKwW"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_html_PjQmwb": {
       "type": "custom-html",
       "disabled": true,
@@ -409,8 +449,8 @@
         "heading_wfKLh8": {
           "type": "heading",
           "settings": {
-            "text": "L'exigence du confort",
-            "heading_tag": "h1",
+            "text": "Se sentir belle sans être compressée",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -418,7 +458,7 @@
         "richtext_CbQGCR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Chez Léonie & Moi, chaque robe est pensée comme une pièce unique, à la fois belle, confortable et durable. </p><p>N’ayez plus peur de vos complexes : nos robes sculptantes les font disparaître tout en mettant en valeur vos plus beaux atouts. </p>"
+            "content": "<p>Nos robes sculptantes offrent un maintien confortable qui sublime votre silhouette sans vous comprimer. Vous pouvez enfin respirer, bouger et rayonner.</p>"
           }
         }
       },
@@ -743,6 +783,7 @@
     "main",
     "custom_html_aTJDPd",
     "video_slider_cE4xg3",
+    "rich_text_XrwWwG",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
     "rich_text_LraNBt",
