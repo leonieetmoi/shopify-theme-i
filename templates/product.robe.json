@@ -458,7 +458,7 @@
         "richtext_CbQGCR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Nos robes sculptantes offrent un maintien confortable qui sublime votre silhouette sans vous comprimer. Vous pouvez enfin respirer, bouger et rayonner.</p>"
+            "content": "<p>Nos robes sculptantes offrent un <strong>maintien confortable</strong> qui sublime votre silhouette sans vous comprimer. Vous pouvez enfin <strong>respirer</strong>, <strong>bouger</strong> et <strong>rayonner</strong>.</p>"
           }
         }
       },
