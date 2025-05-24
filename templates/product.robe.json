@@ -58,7 +58,7 @@
         "liquid_bgDEwe": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"line-height: 1.4;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n    La robe qui fait disparaître vos complexes\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/2.png?v=1746658102\" alt=\"\" style=\"height:26px; margin-right:8px;\">\n    <span><strong>Ventre lissé, taille affinée, poitrine galbée</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/3_b04f941d-cc28-48fa-b621-e583adb1b753.png?v=1746658102\" alt=\"\" style=\"height:26px; margin-right:8px;\">\n    <span><strong>S'adapte </strong> à votre morphologie. </span>\n  </p>\n\n  <p style=\"margin: 0; color: #c63728; font-weight: bold;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">disponible en petite quantité</span>\n  </p>\n</div>"
+            "liquid": "<div style=\"line-height: 1.4;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n    La robe qui fait disparaître vos complexes\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Ventre lissé, taille affinée, poitrine galbée</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>S'adapte</strong> à votre morphologie.</span>\n  </p>\n\n  <p style=\"margin: 0; color: #c63728; font-weight: bold;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">disponible en petite quantité</span>\n  </p>\n</div>"
           }
         },
         "text_qRCgeJ": {
@@ -489,7 +489,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Pensée par des femmes, pour toutes les femmes",
-            "content": "<p>On sait ce que c’est de devoir <strong>rentrer le ventre</strong> ou <strong>ajuster sa tenue</strong>. Cette robe anticipe tout : <strong>confort</strong>, <strong>maintien</strong>, <strong>liberté</strong>, et même une <strong>ouverture pratique à l'entrejambe</strong>. Elle pense à tout, pour que vous puissiez penser à vous.</p>",
+            "content": "<p>On sait ce que c’est de devoir rentrer le ventre ou ajuster sa tenue. Cette robe anticipe tout : <strong>confort</strong>, <strong>maintien</strong>, <strong>liberté</strong>, et même une ouverture pratique à l'entrejambe. Elle pense à tout, pour que vous puissiez penser à vous.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -525,8 +525,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "",
-            "content": "<p>Nous sélectionnons avec soin nos tissus auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p>",
+            "title": "Des matières douces, durables, responsables",
+            "content": "<p>Tissus premium, légers et respirants, sourcés auprès d’artisans engagés. Pour un confort incomparable, respectueux de votre peau et de la planète.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -540,6 +540,9 @@
       },
       "block_order": [
         "image_nmVYHm"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}"
       ],
       "settings": {
         "full_width": false,
