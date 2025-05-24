@@ -94,7 +94,7 @@
         "liquid_tcCN9K": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p class=\"custom-liquid-stock-alert\" style=\"margin: 0; padding: 0; line-height: 1.2; color: #c63728; font-weight: bold;\">\n  Bientôt en rupture : <span style=\"font-weight: normal;\">disponible en petite quantité</span>\n</p>"
+            "liquid": "<div style=\"margin-top: -15px; margin-bottom: 0;\">\n  <p style=\"margin: 0; padding: 0; font-weight: bold; color: #c63728;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">disponible en petite quantité</span>\n  </p>\n</div>"
           }
         },
         "quantity_selector": {
@@ -208,8 +208,7 @@
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 13px 13px; border-radius: 8px;}",
         ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 3px;}",
         ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
-        ".loox-rating {margin-top: -1.5rem !important;}",
-        ".product-form .custom-liquid-stock-alert {margin-top: -6px !important;}"
+        ".loox-rating {margin-top: -1.5rem !important;}"
       ],
       "settings": {
         "full_width": true,
