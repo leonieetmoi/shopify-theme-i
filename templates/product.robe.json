@@ -488,8 +488,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "",
-            "content": "<p>Notre modal premium, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée. Chaque détail de la robe a été pensé pour vous garantir un confort optimal tout au long de la journée, quelles que soient vos activités.</p>",
+            "title": "Pensée par des femmes, pour toutes les femmes",
+            "content": "<p>On sait ce que c’est de devoir <strong>rentrer le ventre</strong> ou <strong>ajuster sa tenue</strong>. Cette robe anticipe tout : <strong>confort</strong>, <strong>maintien</strong>, <strong>liberté</strong>, et même une <strong>ouverture pratique à l'entrejambe</strong>. Elle pense à tout, pour que vous puissiez penser à vous.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -504,9 +504,10 @@
       "block_order": [
         "image_bg4E9b"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
-        "spacing": "small"
+        "spacing": "none"
       }
     },
     "media_with_text_4mzmKA": {
