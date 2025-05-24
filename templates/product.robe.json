@@ -504,7 +504,9 @@
       "block_order": [
         "image_bg4E9b"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}"
+      ],
       "settings": {
         "full_width": false,
         "spacing": "none"
