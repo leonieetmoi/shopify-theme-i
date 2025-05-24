@@ -91,6 +91,12 @@
             "size_chart_page": "guide-des-tailles-1"
           }
         },
+        "liquid_tcCN9K": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"margin: 0; color: #c63728; font-weight: bold; font-size: 8px;\">\n  Bientôt en rupture : <span style=\"font-weight: normal;\">disponible en petite quantité</span>\n</p>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -188,6 +194,7 @@
         "payment_terms",
         "description",
         "variant_picker",
+        "liquid_tcCN9K",
         "quantity_selector",
         "offer_LWakkq",
         "buy_buttons",
