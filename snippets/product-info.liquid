@@ -179,7 +179,22 @@ Supported variables
               block: block 
             -%}
           </div>
-
+                {% for variant in product.variants %}
+                <div
+                  class="stock-message"
+                  data-variant-id="{{ variant.id }}"
+                  style="display: none; color: #c63728; font-weight: bold; font-size: 14px; margin-top: 6px;">
+                  
+                  {% if variant.inventory_quantity == 0 %}
+                    Rupture de stock
+                  {% elsif variant.inventory_quantity <= 10 %}
+                    Dernière pièce disponible
+                  {% elsif variant.inventory_quantity <= 50 %}
+                    Stock faible
+                  {% endif %}
+                  
+                </div>
+              {% endfor %}
         {%- when 'product_variations' -%}
           {%- assign contains_product = false -%}
 
@@ -237,22 +252,6 @@ Supported variables
                     {%- endfor -%}
                   </div>
                 </fieldset>
-                {% for variant in product.variants %}
-                <div
-                  class="stock-message"
-                  data-variant-id="{{ variant.id }}"
-                  style="display: none; color: #c63728; font-weight: bold; font-size: 14px; margin-top: 6px;">
-                  
-                  {% if variant.inventory_quantity == 0 %}
-                    Rupture de stock
-                  {% elsif variant.inventory_quantity <= 10 %}
-                    Dernière pièce disponible
-                  {% elsif variant.inventory_quantity <= 50 %}
-                    Stock faible
-                  {% endif %}
-                  
-                </div>
-              {% endfor %}
 
               </div>
             </div>
