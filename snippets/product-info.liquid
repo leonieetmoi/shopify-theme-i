@@ -481,24 +481,36 @@ Supported variables
       <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
     {%- endform -%}
   {%- endunless -%}
+  
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const variantInput = document.querySelector('input[name="id"]');
-    const stockMessages = document.querySelectorAll(".stock-message");
+    function waitForElements(selector, callback) {
+      const interval = setInterval(() => {
+        const elements = document.querySelectorAll(selector);
+        if (elements.length > 0) {
+          clearInterval(interval);
+          callback(elements);
+        }
+      }, 100);
+    }
 
-    function updateStockMessage() {
-      const selectedId = variantInput?.value;
-      stockMessages.forEach(msg => {
-        msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+    waitForElements('input[name="id"]', function ([variantInput]) {
+      waitForElements('.stock-message', function (stockMessages) {
+        function updateStockMessage() {
+          const selectedId = variantInput.value;
+          stockMessages.forEach(msg => {
+            msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+          });
+        }
+
+        const observer = new MutationObserver(updateStockMessage);
+        observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
+
+        updateStockMessage();
       });
-    }
-
-    const observer = new MutationObserver(updateStockMessage);
-    if (variantInput) {
-      observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
-      updateStockMessage();
-    }
+    });
   });
 </script>
+
 
 </safe-sticky>
