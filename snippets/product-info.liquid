@@ -478,24 +478,10 @@ Supported variables
     });
   }
 
-  function setupStockMessageBehavior() {
-    const variantInput = document.querySelector('input[name="id"]');
-    if (!variantInput) return;
-
-    variantInput.addEventListener('change', updateStockMessage);
-    updateStockMessage();
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    setupStockMessageBehavior();
-  });
-
-  // ✅ Quand Shopify met à jour les options (taille, couleur, etc.)
-  document.addEventListener("product:rerendered", () => {
-    setupStockMessageBehavior();
-  });
+  document.addEventListener('DOMContentLoaded', updateStockMessage);
+  document.addEventListener('variant:change', updateStockMessage);
+  document.addEventListener('product:rerendered', updateStockMessage);
 </script>
-
 
 
 </safe-sticky>
