@@ -93,6 +93,7 @@
         },
         "liquid_tcCN9K": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div style=\"margin-top: -15px; margin-bottom: -10px;\">\n  <p style=\"margin: 0; padding: 0; font-weight: bold; color: #c63728;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">bientôt épuisée</span>\n  </p>\n</div>"
           }
