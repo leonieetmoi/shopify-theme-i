@@ -483,20 +483,25 @@ Supported variables
   {%- endunless -%}
   <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const variantSelector = document.querySelector("[name='id']");
     const stockMessages = document.querySelectorAll(".stock-message");
 
     function updateStockMessage() {
-      const selectedId = variantSelector?.value;
+      const selectedButton = document.querySelector('.variant-picker__option input[type="radio"]:checked');
+      if (!selectedButton) return;
+
+      const selectedId = selectedButton.value;
       stockMessages.forEach(msg => {
         msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
       });
     }
 
-    if (variantSelector) {
-      variantSelector.addEventListener("change", updateStockMessage);
-      updateStockMessage();
-    }
+    // Écoute le clic sur tous les boutons de taille
+    document.querySelectorAll('.variant-picker__option input[type="radio"]').forEach(input => {
+      input.addEventListener('change', updateStockMessage);
+    });
+
+    updateStockMessage(); // Affiche dès le chargement
   });
 </script>
+
 </safe-sticky>
