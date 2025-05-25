@@ -465,61 +465,23 @@ Supported variables
     {%- endform -%}
   {%- endunless -%}
   
-<style>
-  .stock-message {
-    transition: opacity 0.2s ease;
-    opacity: 1;
-  }
-
-  .stock-message.fade-out {
-    opacity: 0;
-  }
-
-  .stock-message.fade-in {
-    opacity: 1;
-  }
-</style>
-
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function waitForElements(selector, callback) {
-      const interval = setInterval(() => {
-        const elements = document.querySelectorAll(selector);
-        if (elements.length > 0) {
-          clearInterval(interval);
-          callback(elements);
-        }
-      }, 100);
-    }
+  function updateStockMessage() {
+    const variantInput = document.querySelector('input[name="id"]');
+    const stockMessages = document.querySelectorAll(".stock-message");
 
-    waitForElements('input[name="id"]', function ([variantInput]) {
-      waitForElements('.stock-message', function (stockMessages) {
-        function updateStockMessage() {
-          const selectedId = variantInput.value;
-          stockMessages.forEach(msg => {
-            if (msg.dataset.variantId === selectedId) {
-              msg.classList.remove('fade-in');
-              msg.classList.add('fade-out');
-              msg.style.display = 'block';
-              setTimeout(() => {
-                msg.classList.remove('fade-out');
-                msg.classList.add('fade-in');
-              }, 50);
-            } else {
-              msg.style.display = 'none';
-            }
-          });
-        }
+    if (!variantInput || stockMessages.length === 0) return;
 
-        const observer = new MutationObserver(updateStockMessage);
-        observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
-
-        updateStockMessage();
-      });
+    const selectedId = variantInput.value;
+    stockMessages.forEach(msg => {
+      msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
     });
-  });
-</script>
+  }
 
+  document.addEventListener('DOMContentLoaded', updateStockMessage);
+  document.addEventListener('variant:change', updateStockMessage);
+  document.addEventListener('product:rerendered', updateStockMessage);
+</script>
 
 
 </safe-sticky>
