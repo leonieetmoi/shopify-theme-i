@@ -482,32 +482,33 @@ Supported variables
   {%- endunless -%}
   
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function waitForElements(selector, callback) {
-      const interval = setInterval(() => {
-        const elements = document.querySelectorAll(selector);
-        if (elements.length > 0) {
-          clearInterval(interval);
-          callback(elements);
-        }
-      }, 100);
+  function attachStockMessageLogic() {
+    const variantInput = document.querySelector('input[name="id"]');
+    const stockMessages = document.querySelectorAll(".stock-message");
+
+    if (!variantInput || stockMessages.length === 0) return;
+
+    function updateStockMessage() {
+      const selectedId = variantInput.value;
+      stockMessages.forEach(msg => {
+        msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+      });
     }
 
-    waitForElements('input[name="id"]', function ([variantInput]) {
-      waitForElements('.stock-message', function (stockMessages) {
-        function updateStockMessage() {
-          const selectedId = variantInput.value;
-          stockMessages.forEach(msg => {
-            msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
-          });
-        }
+    // Observer pour suivre les changements de l'input
+    const observer = new MutationObserver(updateStockMessage);
+    observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
 
-        const observer = new MutationObserver(updateStockMessage);
-        observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
+    updateStockMessage();
+  }
 
-        updateStockMessage();
-      });
-    });
+  document.addEventListener("DOMContentLoaded", function () {
+    attachStockMessageLogic();
+  });
+
+  // Shopify déclenche cet event après chaque changement de variante
+  document.addEventListener("product:variant:change", function () {
+    setTimeout(attachStockMessageLogic, 50); // léger délai pour attendre le nouveau DOM
   });
 </script>
 
