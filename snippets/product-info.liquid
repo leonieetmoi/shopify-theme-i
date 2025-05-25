@@ -464,7 +464,19 @@ Supported variables
       <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
     {%- endform -%}
   {%- endunless -%}
-  
+
+
+  <style>
+  .stock-message {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+  }
+
+  .stock-message.refreshing {
+    opacity: 0.3;
+  }
+</style>
+
 <script>
     
   function updateStockMessage() {
