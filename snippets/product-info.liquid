@@ -466,18 +466,7 @@ Supported variables
   {%- endunless -%}
   
 <script>
-  
-  <style>
-  .stock-message {
-    opacity: 1;
-    transition: opacity 0.2s ease;
-  }
-
-  .stock-message.refreshing {
-    opacity: 0.3;
-  }
-</style>
-  
+    
   function updateStockMessage() {
     const variantInput = document.querySelector('input[name="id"]');
     const stockMessages = document.querySelectorAll(".stock-message");
