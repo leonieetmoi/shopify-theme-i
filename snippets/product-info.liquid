@@ -495,20 +495,22 @@ Supported variables
       });
     }
 
-    // Observer pour suivre les changements de l'input
+    // 1. Si la value change dynamiquement
     const observer = new MutationObserver(updateStockMessage);
     observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
 
+    // 2. Si un événement change est déclenché (plus fiable)
+    variantInput.addEventListener('change', updateStockMessage);
+
+    // 3. Forcer l'affichage au chargement
     updateStockMessage();
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    attachStockMessageLogic();
-  });
+  document.addEventListener("DOMContentLoaded", attachStockMessageLogic);
 
-  // Shopify déclenche cet event après chaque changement de variante
+  // Shopify déclenche cet event après un changement de variant (via AJAX)
   document.addEventListener("product:variant:change", function () {
-    setTimeout(attachStockMessageLogic, 50); // léger délai pour attendre le nouveau DOM
+    setTimeout(attachStockMessageLogic, 50); // attend que le DOM se stabilise
   });
 </script>
 
