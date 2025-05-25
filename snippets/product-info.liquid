@@ -482,37 +482,36 @@ Supported variables
   {%- endunless -%}
   
 <script>
-  function attachStockMessageLogic() {
+  function updateStockMessage() {
     const variantInput = document.querySelector('input[name="id"]');
     const stockMessages = document.querySelectorAll(".stock-message");
 
     if (!variantInput || stockMessages.length === 0) return;
 
-    function updateStockMessage() {
-      const selectedId = variantInput.value;
-      stockMessages.forEach(msg => {
-        msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
-      });
-    }
+    const selectedId = variantInput.value;
+    stockMessages.forEach(msg => {
+      msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+    });
+  }
 
-    // 1. Si la value change dynamiquement
-    const observer = new MutationObserver(updateStockMessage);
-    observer.observe(variantInput, { attributes: true, attributeFilter: ['value'] });
+  function setupStockMessageBehavior() {
+    const variantInput = document.querySelector('input[name="id"]');
+    if (!variantInput) return;
 
-    // 2. Si un événement change est déclenché (plus fiable)
     variantInput.addEventListener('change', updateStockMessage);
-
-    // 3. Forcer l'affichage au chargement
     updateStockMessage();
   }
 
-  document.addEventListener("DOMContentLoaded", attachStockMessageLogic);
+  document.addEventListener("DOMContentLoaded", () => {
+    setupStockMessageBehavior();
+  });
 
-  // Shopify déclenche cet event après un changement de variant (via AJAX)
-  document.addEventListener("product:variant:change", function () {
-    setTimeout(attachStockMessageLogic, 50); // attend que le DOM se stabilise
+  // ✅ Quand Shopify met à jour les options (taille, couleur, etc.)
+  document.addEventListener("product:rerendered", () => {
+    setupStockMessageBehavior();
   });
 </script>
+
 
 
 </safe-sticky>
