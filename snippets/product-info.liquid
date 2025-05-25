@@ -470,14 +470,24 @@ Supported variables
   function updateStockMessage() {
     const variantInput = document.querySelector('input[name="id"]');
     const stockMessages = document.querySelectorAll(".stock-message");
-
+  
     if (!variantInput || stockMessages.length === 0) return;
-
+  
     const selectedId = variantInput.value;
     stockMessages.forEach(msg => {
-      msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+      if (msg.dataset.variantId === selectedId) {
+        msg.style.display = 'block';
+        msg.classList.add('refreshing');
+        // Retire l’effet après 150ms
+        setTimeout(() => {
+          msg.classList.remove('refreshing');
+        }, 150);
+      } else {
+        msg.style.display = 'none';
+      }
     });
   }
+
 
   document.addEventListener('DOMContentLoaded', updateStockMessage);
   document.addEventListener('variant:change', updateStockMessage);
