@@ -92,6 +92,26 @@
   </div>
 {% endfor %}
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const variantSelector = document.querySelector("[name='id']");
+    const stockMessages = document.querySelectorAll(".stock-message");
+
+    function updateStockMessage() {
+      const selectedId = variantSelector?.value;
+      stockMessages.forEach(msg => {
+        msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+      });
+    }
+
+    if (variantSelector) {
+      variantSelector.addEventListener("change", updateStockMessage);
+      updateStockMessage(); // Affiche dès le chargement
+    }
+  });
+</script>
+
+
 {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
 
 {%- if section.settings.show_fixed_add_to_cart and product.available and buy_buttons_block != blank -%}
@@ -1297,3 +1317,23 @@ quick buy information in a template, that will be extracted in JS, but ensure it
   ]
 }
 {% endschema %}
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const variantSelector = document.querySelector("[name='id']");
+    const stockMessages = document.querySelectorAll(".stock-message");
+
+    function updateStockMessage() {
+      const selectedId = variantSelector?.value;
+      stockMessages.forEach(msg => {
+        msg.style.display = msg.dataset.variantId === selectedId ? 'block' : 'none';
+      });
+    }
+
+    if (variantSelector) {
+      variantSelector.addEventListener("change", updateStockMessage);
+      updateStockMessage(); // Affiche dès le chargement
+    }
+  });
+</script>
