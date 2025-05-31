@@ -588,7 +588,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/AVANT_APRES.png",
-            "media_width": 50,
+            "media_width": 45,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -662,6 +662,7 @@
         "heading_gyatiG",
         "richtext_VGPKwW"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
