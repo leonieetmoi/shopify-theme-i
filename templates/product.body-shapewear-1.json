@@ -181,6 +181,12 @@
             "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
             "page": ""
           }
+        },
+        "liquid_fAyEGf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.benefits-icons {\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: nowrap;\n  gap: 10px;\n  margin-top: 20px;\n  text-align: center;\n}\n.benefits-icons__item {\n  flex: 1;\n}\n.benefits-icons__item img {\n  max-width: 40px;\n  height: auto;\n  margin: 0 auto 5px;\n}\n.benefits-icons__item p {\n  font-size: 0.75rem;\n  margin: 0;\n}\n@media (max-width: 480px) {\n  .benefits-icons {\n    justify-content: space-around;\n    gap: 6px;\n  }\n  .benefits-icons__item img {\n    max-width: 35px;\n  }\n  .benefits-icons__item p {\n    font-size: 0.7rem;\n  }\n}\n</style>\n\n<div class=\"benefits-icons\">\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/bodysuits_Sculpt_1.webp?v=1748683311\" alt=\"Affine la silhouette\">\n    <p>Affine la silhouette</p>\n  </div>\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Jumpsuits_Sculpt_1.webp?v=1748683413\" alt=\"Gagnez 1 à 2 tailles\">\n    <p>Gagnez 1 à 2 tailles</p>\n  </div>\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/da07ea15-a794-44f7-9e73-69a00ee8cc0c.svg?v=1748683412\" alt=\"Ouverture pratique\">\n    <p>Ouverture pratique</p>\n  </div>\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/bodysuits_bra_1.webp?v=1748683412\" alt=\"Soutien mammaire\">\n    <p>Soutien mammaire</p>\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -203,7 +209,8 @@
         "collapsible_text_D8wqjn",
         "collapsible_text_tp6AQk",
         "collapsible_text_34rjF6",
-        "collapsible_text_GEUUCJ"
+        "collapsible_text_GEUUCJ",
+        "liquid_fAyEGf"
       ],
       "custom_css": [
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 13px 13px; border-radius: 8px;}",
