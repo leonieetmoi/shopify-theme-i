@@ -611,11 +611,25 @@
         "image_bg4E9b"
       ],
       "custom_css": [
-        "p.h2 {font-size: 22px !important;}"
+        "p.h2 {font-size: 22px !important;}",
+        ".media-with-text {margin-bottom: -30px !important;}"
       ],
       "settings": {
         "full_width": false,
         "spacing": "none"
+      }
+    },
+    "custom_liquid_xdfrLF": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div style=\"width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/detail_noir_transparant.png?v=1748710454\" \n    alt=\"Détail body noir\" \n    style=\"width: 100%; height: auto; display: block; margin: 0 auto;\" \n  />\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_XrwWwG": {
@@ -917,6 +931,7 @@
     "ss_feature_17_DBHBXF",
     "media_with_text_4mzmKA",
     "media_with_text_kEbpaL",
+    "custom_liquid_xdfrLF",
     "rich_text_XrwWwG",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
