@@ -1,0 +1,813 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "loox_reviews_loox_rating_z7WzLc": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "+2000 femmes satisfaites",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "liquid_bgDEwe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"line-height: 1.4;margin-bottom: -10px;margin-top: -10px;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n    La robe qui fait disparaître vos complexes\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Corps sculpté sans effort</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>S'adapte</strong> à votre morphologie</span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span>Ventre lissé, taille affinée, poitrine galbée</span>\n  </p>\n</div>"
+          }
+        },
+        "text_qRCgeJ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.<br/>💖 <strong>Confort absolu</strong> : Tissu extensible, gaine invisible.<br/>🌸 <strong>Maintien parfait</strong> : Soutien poitrine intégré </p>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "{{ block.repeater.label.value }}",
+            "size_chart_page": "guide-des-tailles-1"
+          }
+        },
+        "liquid_tcCN9K": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"margin-top: -15px; margin-bottom: -10px;\">\n  <p style=\"margin: 0; padding: 0; font-weight: bold; color: #c63728;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">bientôt épuisée</span>\n  </p>\n</div>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "offer_LWakkq": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-gift",
+            "icon_width": 24,
+            "title": "OFFRE SPÉCIALE !",
+            "content": "<p><strong>1 article acheté : -30% sur le 2ème<br/>2 articles achetés : le 3ème est offert !<br/></strong><em>*Remise automatique appliquée au panier</em></p>",
+            "background": "#efdfde",
+            "text_color": "#1a1a1a"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "loox_reviews_loox_snippets_widget_8GG8HR": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
+          }
+        },
+        "collapsible_text_D8wqjn": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Découvrez la robe sculptante de chez Léonie & Moi, conçue pour sublimer vos courbes tout en garantissant un confort absolu. Grâce à sa gaine intégrée, légère et respirante, cette robe affine le ventre, marque la taille et rehausse les fesses pour une silhouette harmonieuse. Véritable seconde peau, elle épouse vos formes tout en restant parfaitement confortable, au point de se faire oublier. Son soutien-gorge intégré amovible permet un maintien optimal de la poitrine, tout en s’adaptant à vos envies.</p><p>Son design ajusté épouse votre corps sans le compresser, offrant une allure élégante en toute occasion : soirée, bureau ou sortie décontractée. La robe est dotée d’une ouverture discrète pour faciliter les passages aux toilettes, sans avoir besoin de tout retirer.</p><ul><li><strong>Silhouette redessinée :</strong> Effet ventre plat garanti.</li><li><strong>Maintien optimal :</strong> Soutien intégré pour la poitrine et les fesses.</li><li><strong>Confort quotidien :</strong> Coupe gainante, respirante et agréable à porter.</li><li><strong>Matière extensible :</strong> Adaptée à toutes les morphologies.</li><li><strong>Finition lisse :</strong> Invisible sous les vêtements.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_tp6AQk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Composition et entretien",
+            "content": "<p><strong>Extérieur :</strong> 92% Modal / 8% Spandex<br/><strong>Doublure :</strong> 62% Nylon / 38% Spandex<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_34rjF6": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison & retours",
+            "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 40€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul><p><strong>Retour :</strong></p><ul><li><strong>Satisfait ou remboursé :</strong> Vous avez 30 jours pour nous retourner votre article s’il ne vous convient pas.</li><li>Pour que votre retour soit accepté, l'article doit être intact, non porté et non lavé, dans son état d'origine.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_GEUUCJ": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Guide des tailes",
+            "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "loox_reviews_loox_rating_z7WzLc",
+        "rating",
+        "liquid_bgDEwe",
+        "text_qRCgeJ",
+        "payment_terms",
+        "description",
+        "variant_picker",
+        "liquid_tcCN9K",
+        "quantity_selector",
+        "offer_LWakkq",
+        "buy_buttons",
+        "loox_reviews_loox_snippets_widget_8GG8HR",
+        "collapsible_text_D8wqjn",
+        "collapsible_text_tp6AQk",
+        "collapsible_text_34rjF6",
+        "collapsible_text_GEUUCJ"
+      ],
+      "custom_css": [
+        ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 13px 13px; border-radius: 8px;}",
+        ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 3px;}",
+        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
+        ".loox-rating {margin-top: -1.5rem !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_aTJDPd": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h3\" style=\"margin-top: 10px; margin-bottom: Opx; text-align: center;\">\n+2 000 femmes convaincues\n</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_slider_cE4xg3": {
+      "type": "video-slider",
+      "blocks": {
+        "slide_WLqW4d": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/ROBE_1_a9f06ca7-0f36-4a2e-95dd-464caefca3ce.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_bAFE79": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/ROBE_2_c4fb4b80-cecb-4f96-9d82-b09a48d4b478.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_eEmP7Q": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/ROBE_3_6ee947f1-99e7-4df9-a5dd-ca03e77d3d42.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_xbH6eD": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/ROBE_4_026aae11-c0ff-409e-a8b1-3a60ffff7f47.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_UXNEqE": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/ROBE_5_b54a4132-fd86-4801-9ed3-281412dd2368.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_WLqW4d",
+        "slide_bAFE79",
+        "slide_eEmP7Q",
+        "slide_xbH6eD",
+        "slide_UXNEqE"
+      ],
+      "name": "SS - Video Slider",
+      "settings": {
+        "slider_view": 4,
+        "slider_view_mobile": 2.1,
+        "slider_gap": 10,
+        "slider_gap_mobile": 6,
+        "slider_rotate": 0,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "card_overlay": 0.2,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "end",
+        "content_vertical_position_mobile": "end",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 100,
+        "stars_size": 16,
+        "stars_size_mobile": 16,
+        "stars_mt": 16,
+        "stars_mt_mobile": 16,
+        "hide_stars": false,
+        "use_action": true,
+        "action_size": 40,
+        "action_size_mobile": 30,
+        "action_icon_size": 26,
+        "action_icon_size_mobile": 22,
+        "action_border_thickness": 0,
+        "use_sound": false,
+        "sound_size": 40,
+        "sound_size_mobile": 40,
+        "sound_icon_size": 24,
+        "sound_icon_size_mobile": 24,
+        "sound_border_thickness": 0,
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "card_overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "stars_color": "#ffffff",
+        "action_color": "#ffffff",
+        "action_hover_color": "#ffffff",
+        "action_bg_color": "#ffffff",
+        "action_bg_hover_color": "#ffffff",
+        "action_border_color": "#ffffff",
+        "action_border_hover_color": "#ffffff",
+        "sound_icon_color": "#ffffff",
+        "sound_icon_hover_color": "#ffffff",
+        "sound_bg_color": "#ffffff",
+        "sound_bg_hover_color": "#ffffff",
+        "sound_border_color": "#ffffff",
+        "sound_border_hover_color": "#ffffff",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#434343",
+        "arrow_bg_color": "#434343",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_XrwWwG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Mqifhw": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_gyatiG": {
+          "type": "heading",
+          "settings": {
+            "text": "Une silhouette sculptée sans effort",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VGPKwW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sa gaine intégrée, aussi discrète qu’efficace, <strong>lisse</strong> le ventre, <strong>galbe</strong> les hanches et <strong>rehausse</strong>  la poitrine. <br/><strong>Résultat</strong> : un effet waouh instantané, <strong>sans aucun effort</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mqifhw",
+        "heading_gyatiG",
+        "richtext_VGPKwW"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_PjQmwb": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div style=\"width: 100%; display: flex; justify-content: center; margin: 40px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Soutien-gorge.gif?v=1744160960\" alt=\"Brassière galbante, body gainant, robe sculptante\" style=\"width: 100%; max-width: 100%; height: auto; display: block;\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "duo_image_rRXrz3": {
+      "type": "duo-image",
+      "custom_css": [
+        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -15px; }"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
+        "image_2": "shopify://shop_images/compo_robe_V2.png"
+      }
+    },
+    "rich_text_LraNBt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfKLh8": {
+          "type": "heading",
+          "settings": {
+            "text": "Se sentir belle sans être compressée",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CbQGCR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nos robes sculptantes offrent un <strong>maintien confortable</strong> qui sublime votre silhouette sans vous comprimer. Vous pouvez enfin <strong>respirer</strong>, <strong>bouger</strong> et <strong>rayonner</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfKLh8",
+        "richtext_CbQGCR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_kEbpaL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bg4E9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/robe_5_en_1.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pensée par des femmes, pour toutes les femmes",
+            "content": "<p>On sait ce que c’est de devoir rentrer le ventre ou ajuster sa tenue. Cette robe anticipe tout : <strong>confort</strong>, <strong>maintien</strong>, <strong>liberté</strong>, et même une ouverture pratique à l'entrejambe. Elle pense à tout, pour que vous puissiez penser à vous.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bg4E9b"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Des matières douces, durables, responsables",
+            "content": "<p>Tissus premium, légers et respirants, sourcés auprès d’artisans engagés. Pour un confort incomparable, respectueux de votre peau et de la planète.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "images_with_text_scrolling_HHRxJa": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AwVDrh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric_1.png",
+            "icon": "none",
+            "icon_width": 60,
+            "title": "",
+            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
+          }
+        },
+        "item_RmH8He": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/fabric2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AwVDrh",
+        "item_RmH8He"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_carousel_jyNn6K": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_gQYF7C": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_npg6Az": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_niptK6": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_GhGmGE": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_gQYF7C",
+        "image_block_qGQn43",
+        "image_block_npg6Az",
+        "image_block_aJ4cfT",
+        "image_block_niptK6",
+        "image_block_GhGmGE",
+        "image_block_6jDwWU"
+      ],
+      "custom_css": [
+        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "carousel_title": "Vous êtes magnifique !",
+        "text_size": 16
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_liquid_gAgezc": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "https://loox.io/widget/SHOPIFY_SHOP_DOMAIN?product=9861225578835",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17451549156acfce67": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_7NadAL": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 6,
+            "hide_thumbnails": false,
+            "maxwidth": 1920,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_7NadAL"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_WCrMPc": {
+      "type": "faq",
+      "blocks": {
+        "item_jmewF6": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les avantages des robes Léonie & Moi ?",
+            "content": "<p>Nos robes sont dotées d’une gaine sculptante intégrée totalement invisible, conçue pour affiner le ventre, galber la poitrine et rehausser les fesses en toute discrétion. Confortables et douces comme une seconde peau, elles épousent parfaitement vos courbes sans vous comprimer. Et pour un maximum de praticité, elles possèdent une ouverture discrète à l’entrejambe, vous permettant d’aller aux toilettes facilement, sans avoir à vous déshabiller.</p>"
+          }
+        },
+        "item_XEEB3C": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir correctement ma taille ?",
+            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
+          }
+        },
+        "item_kMbG8P": {
+          "type": "item",
+          "settings": {
+            "title": "Quel est le délai de livraison pour ma commande ?",
+            "content": "<p>Une fois votre commande validée, il faut compter environ 8 jours ouvrés pour la livraison en France Métropolitaine et en Europe.<br/><br/>Nous offrons la livraison dès 40 € d’achat. </p>"
+          }
+        },
+        "item_jxDfpF": {
+          "type": "item",
+          "settings": {
+            "title": "La livraison est-elle offerte ?",
+            "content": "<p>Oui, la livraison est offerte dès 40 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jmewF6",
+        "item_XEEB3C",
+        "item_kMbG8P",
+        "item_jxDfpF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_aTJDPd",
+    "video_slider_cE4xg3",
+    "rich_text_XrwWwG",
+    "custom_html_PjQmwb",
+    "duo_image_rRXrz3",
+    "rich_text_LraNBt",
+    "media_with_text_kEbpaL",
+    "media_with_text_4mzmKA",
+    "images_with_text_scrolling_HHRxJa",
+    "image_carousel_jyNn6K",
+    "related-products",
+    "custom_liquid_gAgezc",
+    "17451549156acfce67",
+    "faq_WCrMPc"
+  ]
+}
