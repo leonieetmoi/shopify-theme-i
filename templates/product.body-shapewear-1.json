@@ -414,6 +414,24 @@
             "heading_color": "#000000"
           }
         },
+        "media_bYzwWM": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/youtube-video-gif-ezgif.com-effects.gif",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "use_controls": false,
+            "media_width": 100,
+            "media_width_mobile": 100,
+            "media_mt": 24,
+            "media_mt_mobile": 24,
+            "media_radius": 0,
+            "media_border_thickness": 0,
+            "media_border_color": "#000000",
+            "media_ratio": "landscape",
+            "media_ratio_mobile": "landscape"
+          }
+        },
         "text_fKzRmd": {
           "type": "text",
           "settings": {
@@ -452,11 +470,13 @@
       },
       "block_order": [
         "heading_rCQrUC",
+        "media_bYzwWM",
         "text_fKzRmd",
         "item_aNKRUY",
         "item_T9PUTw",
         "item_r963RR"
       ],
+      "disabled": true,
       "name": "SS - Feature #17",
       "settings": {
         "body_gap": 64,
@@ -498,14 +518,14 @@
         "bottom_text_mt_mobile": 16,
         "bottom_text_align": "left",
         "bottom_text_align_mobile": "left",
-        "item_border_color": "#F3F3F3",
-        "circle_bg_color": "#FFFFFF",
-        "circle_progress": "#0F8571",
-        "percent_color": "#0F8571",
+        "item_border_color": "#f3f3f3",
+        "circle_bg_color": "#ffffff",
+        "circle_progress": "#0f8571",
+        "percent_color": "#0f8571",
         "item_text_color": "#000000",
         "heading_color": "#000000",
         "bottom_text_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -521,6 +541,43 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pourquoi_nos_bodys.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pourquoi nos bodys sont unique ?",
+            "content": "<p><strong>Nos bodys shapewear sculptent à 360°, sans jamais comprimer.</strong><br/>Le tissu doux et respirant épouse vos formes comme une seconde peau, en gardant la peau fraîche et confortable toute la journée.<br/>Invisible sous vos tenues, il affine la silhouette, soutient naturellement et redonne confiance.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "rich_text_XrwWwG": {
@@ -653,85 +710,6 @@
       "settings": {
         "full_width": false,
         "spacing": "none"
-      }
-    },
-    "media_with_text_4mzmKA": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_nmVYHm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Noir_et_Blanc_Photo_Shooting_Mode_Montage_photo_1.png",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Des matières douces, durables, responsables",
-            "content": "<p>Tissus premium, légers et respirants, sourcés auprès d’artisans engagés. Pour un confort incomparable, respectueux de votre peau et de la planète.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f0f0f0",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_nmVYHm"
-      ],
-      "custom_css": [
-        "p.h2 {font-size: 22px !important;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "images_with_text_scrolling_HHRxJa": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_AwVDrh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/fabric_1.png",
-            "icon": "none",
-            "icon_width": 60,
-            "title": "",
-            "content": "<p>Nous sélectionnons avec soin nos matières auprès d’artisans engagés, privilégiant des fibres douces, respirantes et respectueuses de l’environnement.</p><p></p>"
-          }
-        },
-        "item_RmH8He": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/fabric2.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Notre <strong>modal premium</strong>, reconnu pour sa légèreté et sa douceur, enveloppe la peau avec une sensation de confort inégalée, pour que vous vous sentiez bien, du matin jusqu’au soir, et en toutes occasions.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_AwVDrh",
-        "item_RmH8He"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "image_carousel_jyNn6K": {
@@ -933,13 +911,12 @@
     "custom_html_aTJDPd",
     "video_slider_cE4xg3",
     "ss_feature_17_DBHBXF",
+    "media_with_text_4mzmKA",
     "rich_text_XrwWwG",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
     "rich_text_LraNBt",
     "media_with_text_kEbpaL",
-    "media_with_text_4mzmKA",
-    "images_with_text_scrolling_HHRxJa",
     "image_carousel_jyNn6K",
     "related-products",
     "custom_liquid_gAgezc",
