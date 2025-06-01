@@ -923,15 +923,15 @@
         "item_kMbG8P": {
           "type": "item",
           "settings": {
-            "title": "Quel est le délai de livraison pour ma commande ?",
-            "content": "<p>Une fois votre commande validée, il faut compter environ 8 jours ouvrés pour la livraison en France Métropolitaine et en Europe.<br/><br/>Nous offrons la livraison dès 40 € d’achat. </p>"
+            "title": "Puis-je échanger si la taille ne me va pas ?",
+            "content": "<p>Bien sûr ! Vous avez 30 jours pour effectuer un retour ou un échange de taille. Il suffit de nous contacter à l’adresse indiquée avec votre numéro de commande.</p>"
           }
         },
         "item_jxDfpF": {
           "type": "item",
           "settings": {
             "title": "La livraison est-elle offerte ?",
-            "content": "<p>Oui, la livraison est offerte dès 40 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
+            "content": "<p>Oui, la livraison est offerte dès 40 € d’achat en France Métropolitaine et en Europe.</p>"
           }
         }
       },
