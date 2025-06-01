@@ -936,6 +936,7 @@
         },
         "item_jxDfpF": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "La livraison est-elle offerte ?",
             "content": "<p>Oui, la livraison est offerte dès 40 € d’achat en France Métropolitaine et en Europe.</p>"
