@@ -244,7 +244,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h3\" style=\"margin-top: 10px; margin-bottom: Opx; text-align: center;\">\n+2 000 femmes convaincues\n</h2>",
+        "html": "<h2 class=\"h3\" style=\"margin-top: 10px; margin-bottom: -0px; text-align: center;\">\n+2000 femmes déjà conquises\n</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
