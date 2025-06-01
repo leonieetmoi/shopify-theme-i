@@ -895,8 +895,8 @@
         "item_jmewF6": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les avantages des robes Léonie & Moi ?",
-            "content": "<p>Nos robes sont dotées d’une gaine sculptante intégrée totalement invisible, conçue pour affiner le ventre, galber la poitrine et rehausser les fesses en toute discrétion. Confortables et douces comme une seconde peau, elles épousent parfaitement vos courbes sans vous comprimer. Et pour un maximum de praticité, elles possèdent une ouverture discrète à l’entrejambe, vous permettant d’aller aux toilettes facilement, sans avoir à vous déshabiller.</p>"
+            "title": "Est-ce que ça aide vraiment à aplatir le ventre ?",
+            "content": "<p>Oui, grâce à sa zone gainante ciblée au niveau du ventre, le body sculpte et affine la taille, offrant un effet ventre plat immédiat et naturel.</p>"
           }
         },
         "item_XEEB3C": {
@@ -904,6 +904,13 @@
           "settings": {
             "title": "Comment choisir correctement ma taille ?",
             "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
+          }
+        },
+        "item_W3GQzy": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on porter un soutien-gorge avec ce body ?",
+            "content": "<p>C’est vous qui choisissez ! Le body est conçu pour offrir un maintien naturel de la poitrine, mais reste parfaitement compatible avec un soutien-gorge si vous préférez en porter un.</p>"
           }
         },
         "item_kMbG8P": {
@@ -924,6 +931,7 @@
       "block_order": [
         "item_jmewF6",
         "item_XEEB3C",
+        "item_W3GQzy",
         "item_kMbG8P",
         "item_jxDfpF"
       ],
