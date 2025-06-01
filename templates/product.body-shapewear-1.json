@@ -605,10 +605,35 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "video_7EfMza": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/SQUARE.mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Affinez votre silhouette en un clin d'oeil",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_bg4E9b"
+        "image_bg4E9b",
+        "video_7EfMza"
       ],
       "custom_css": [
         "p.h2 {font-size: 22px !important;}",
