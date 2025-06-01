@@ -895,8 +895,15 @@
         "item_jmewF6": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que ça aide vraiment à aplatir le ventre ?",
+            "title": "Est-ce que ça aide vraiment à affiner le ventre ?",
             "content": "<p>Oui, grâce à sa zone gainante ciblée au niveau du ventre, le body sculpte et affine la taille, offrant un effet ventre plat immédiat et naturel.</p>"
+          }
+        },
+        "item_UHcRch": {
+          "type": "item",
+          "settings": {
+            "title": "Je n’aime pas être comprimée, est-ce le bon body pour moi ?",
+            "content": "<p>Oui ! Nos bodys sculptent sans jamais comprimer. La matière extensible épouse vos courbes avec légèreté, pour un maintien efficace et ultra confortable, toute la journée.</p>"
           }
         },
         "item_W3GQzy": {
@@ -906,18 +913,18 @@
             "content": "<p>C’est vous qui choisissez ! Le body est conçu pour offrir un maintien naturel de la poitrine, mais reste parfaitement compatible avec un soutien-gorge si vous préférez en porter un.</p>"
           }
         },
-        "item_XEEB3C": {
-          "type": "item",
-          "settings": {
-            "title": "Comment choisir correctement ma taille ?",
-            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
-          }
-        },
         "item_4kj8gd": {
           "type": "item",
           "settings": {
             "title": "Est-ce adapté aux peaux sensibles ?",
             "content": "<p>Oui, nos bodys sont fabriqués dans un tissu doux, respirant et hypoallergénique, idéal pour les peaux sensibles. Zéro irritation, même après une longue journée.</p>"
+          }
+        },
+        "item_XEEB3C": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir correctement ma taille ?",
+            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
           }
         },
         "item_kMbG8P": {
@@ -937,9 +944,10 @@
       },
       "block_order": [
         "item_jmewF6",
+        "item_UHcRch",
         "item_W3GQzy",
-        "item_XEEB3C",
         "item_4kj8gd",
+        "item_XEEB3C",
         "item_kMbG8P",
         "item_jxDfpF"
       ],
