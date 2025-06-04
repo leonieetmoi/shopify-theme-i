@@ -128,6 +128,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_8PKzpR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"font-size: 13px; color: #333333; text-align: center; margin-top: -20px;\nmargin-bottom: -10px; display: flex; justify-content: center; align-items: center;\">\n  <span style=\"color:#E9C4C3; font-weight:bold; font-size: 16px; margin-right: 6px;\">✔</span>\n  Garantie satisfait ou remboursé sous 30 jours\n</p>"
+          }
+        },
         "liquid_fAyEGf": {
           "type": "liquid",
           "settings": {
@@ -206,6 +212,7 @@
         "quantity_selector",
         "offer_LWakkq",
         "buy_buttons",
+        "liquid_8PKzpR",
         "liquid_fAyEGf",
         "collapsible_text_tp6AQk",
         "collapsible_text_34rjF6",
