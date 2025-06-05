@@ -128,6 +128,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_4wLewG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center; margin-top: 4px; margin-bottom: 4px;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Upcart_Trust_Badge_1749083288378.png?v=1749083292\" \n    alt=\"Trust Badge\" \n    style=\"max-height: 22px; height: auto; width: auto;\">\n</div>"
+          }
+        },
         "liquid_8PKzpR": {
           "type": "liquid",
           "settings": {
@@ -212,6 +218,7 @@
         "quantity_selector",
         "offer_LWakkq",
         "buy_buttons",
+        "liquid_4wLewG",
         "liquid_8PKzpR",
         "liquid_fAyEGf",
         "collapsible_text_tp6AQk",
