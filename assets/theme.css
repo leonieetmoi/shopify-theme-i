@@ -8363,11 +8363,3 @@
   margin-top: -1.5rem !important;
 }
 
-
-.kaching-bundles__option select,
-.kaching-bundles__swatch-dropdown {
-  background-color: #fdeeee !important; /* rose pâle */
-  border: 1px solid #e6bcbc !important;
-  border-radius: 6px;
-  padding: 6px 10px;
-}
