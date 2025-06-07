@@ -8363,14 +8363,16 @@
   margin-top: -1.5rem !important;
 }
 
-.kaching-bundles__bar-variant-select.kaching-bundles-option {
+.kaching-bundles__bar-variant-select {
   background-color: #fdeeee !important; /* Fond rose pâle */
-  border: none !important;              /* Supprime la bordure */
-  box-shadow: none !important;          /* Supprime l’effet de profondeur */
-  outline: none !important;             /* Supprime le contour bleu au clic */
+  border: none !important;
   border-radius: 6px;
   padding: 6px 10px;
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  box-shadow: none !important;
 }
 
 
