@@ -201,10 +201,11 @@
         "collection": "",
         "products": [
           "jupe-mila-short-integre-et-confort-absolu",
+          "body-gainant-maya-version-tanga",
           "robe-leonie-longue-sculptante-a-bretelles-fines",
           "body-jade-gainant-a-col-montant",
-          "robe-louise-courte-sculptante-a-col-carre",
           "ensemble-lola-legging-evase-et-top-manches-longues",
+          "robe-leonie-mi-longue-sculptante-a-bretelles-fines",
           "ensemble-capri-jupe-et-brassiere-a-bordure-large",
           "robe-elise-mi-longue-amincissante-a-manches-longues"
         ],
@@ -217,7 +218,7 @@
         "subheading": "",
         "title": "La selection de la semaine 🩷",
         "content": "",
-        "link_url": "",
+        "link_url": "shopify://collections/voir-tout",
         "link_text": "Voir tout",
         "background": "",
         "background_gradient": "",
@@ -461,7 +462,9 @@
         "item_DPbY7y"
       ],
       "custom_css": [
-        ".text-with-icons {margin-bottom: -2rem !important;}"
+        ".text-with-icons {margin-bottom: -2rem !important;}",
+        ".text-with-icons__item * {margin: 0 !important; padding: 0 !important;}",
+        ".text-custom {margin-bottom: -1rem !important;}"
       ],
       "settings": {
         "full_width": true,
