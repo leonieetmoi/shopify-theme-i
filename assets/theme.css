@@ -8363,3 +8363,17 @@
   margin-top: -1.5rem !important;
 }
 
+.kaching-bundles__option select,
+.kaching-bundles__swatch-dropdown {
+  background-color: #fdeeee !important; /* rose pâle */
+  border: none !important;              /* retire la bordure */
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 14px;
+  box-shadow: none !important;          /* retire les ombres éventuelles */
+}
+.kaching-bundles__option select:focus,
+.kaching-bundles__swatch-dropdown:focus {
+  outline: none !important;
+}
+
