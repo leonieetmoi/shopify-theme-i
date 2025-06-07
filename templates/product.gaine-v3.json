@@ -248,6 +248,7 @@
         "image_block_GhGmGE",
         "image_block_6jDwWU"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
       ],
@@ -279,6 +280,7 @@
         "heading_wfKLh8",
         "richtext_CbQGCR"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -317,6 +319,7 @@
       "block_order": [
         "image_bg4E9b"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -351,6 +354,7 @@
       "block_order": [
         "image_nmVYHm"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -448,7 +452,7 @@
           "type": "item",
           "settings": {
             "title": "La livraison est-elle offerte ?",
-            "content": "<p>Oui, la livraison est offerte dès 50 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
+            "content": "<p>Oui, la livraison est offerte dès 40 € d’achat en France Métropolitaine et en Europe.<br/><br/>Pour les commandes inférieures à ce montant ou pour l’international, les frais de livraison sont calculés automatiquement lors du passage au paiement.</p>"
           }
         }
       },
