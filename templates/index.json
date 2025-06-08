@@ -24,7 +24,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -33,10 +33,31 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_bwtdQc": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Solde d'été",
+            "title": "1 body acheté = 1 body offert !",
+            "heading_tag": "h3",
+            "button_text": "Profitez-en !",
+            "button_link": "shopify://collections/body-sculptwear",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "image_bwtdQc"
       ],
       "settings": {
         "full_width": true,
