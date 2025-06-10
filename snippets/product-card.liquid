@@ -66,6 +66,9 @@ Supported variables
 
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
+    {% if product.tags contains 'offre-1plus1' %}
+      <div class="custom-badge-offer">1 ACHETÉ = 1 OFFERT</div>
+    {% endif %}
       <a href="{{ product.url }}" data-instant>
         {%- capture sizes -%}
           {%- if stacked -%}
