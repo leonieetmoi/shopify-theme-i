@@ -8411,9 +8411,9 @@
 }
 
 /* ✅ RESPONSIVE : mobile */
-@media (max-width: 640px) {
+@media (max-width: 70%) {
   .badge-offre-1plus1 {
-    font-size: 11px;
+    font-size: 18px;
     padding: 3px 8px;
     line-height: 1.2;
   }
