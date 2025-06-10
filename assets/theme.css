@@ -8411,3 +8411,17 @@
 .product-gallery__media {
   position: relative;
 }
+
+.badge-inline-offer {
+  background-color: #E9C4C3;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
