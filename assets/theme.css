@@ -8396,16 +8396,18 @@
   position: absolute;
   top: 12px;
   left: 12px;
-  background-color: #E9C4C3;
+  background-color: #E9C4C3; /* Rose doux Léonie & Moi */
   color: #000;
-  font-size: 20px;
+  font-size: 14px; /* légèrement plus grand que les autres */
   font-weight: bold;
-  padding: 4px 10px;
-  border-radius: 3px;
+  padding: 5px 12px;
+  border-radius: 8px;
   text-transform: uppercase;
-  z-index: 9;
+  z-index: 10;
   pointer-events: none;
+  line-height: 1;
 }
+
 .product-gallery__media {
   position: relative;
 }
