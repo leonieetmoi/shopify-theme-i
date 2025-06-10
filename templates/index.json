@@ -180,7 +180,7 @@
     "custom_liquid_aGtJkG": {
       "type": "custom-liquid",
       "custom_css": [
-        ".benefits-icons {display: flex; justify-content: space-between; flex-wrap: nowrap; gap: 14px; margin-top: -10px; margin-bottom: 0px; text-align: center;}"
+        ".benefits-icons {display: flex; justify-content: space-between; flex-wrap: nowrap; gap: 14px; margin-top: -15px; margin-bottom: 0px; text-align: center;}"
       ],
       "name": "Custom Liquid",
       "settings": {
