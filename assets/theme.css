@@ -8392,24 +8392,20 @@
   z-index: 10;
 }
 
-
-<style>
 .badge-offre-1plus1 {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 12px;
+  left: 12px;
   background-color: #E9C4C3;
-  color: black;
+  color: #000;
   font-size: 11px;
   font-weight: bold;
-  padding: 5px 9px;
+  padding: 4px 10px;
   border-radius: 3px;
   text-transform: uppercase;
-  z-index: 20;
+  z-index: 9;
   pointer-events: none;
 }
-</style>
-
-.product-gallery {
+.product-gallery__media {
   position: relative;
 }
