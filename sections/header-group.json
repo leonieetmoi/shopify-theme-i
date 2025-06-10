@@ -23,8 +23,16 @@
         },
         "message_LraPHk": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "2 articles achetés : le 3ème offert !",
+            "url": ""
+          }
+        },
+        "message_BPGifb": {
+          "type": "message",
+          "settings": {
+            "text": "100% satisfait ou remboursé",
             "url": ""
           }
         },
@@ -39,6 +47,7 @@
       "block_order": [
         "message_xFCW7K",
         "message_LraPHk",
+        "message_BPGifb",
         "message_FypwN4"
       ],
       "custom_css": [
