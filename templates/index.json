@@ -144,10 +144,10 @@
     "collection_list_E6jLAJ": {
       "type": "collection-list",
       "blocks": {
-        "collection_LenPQR": {
+        "collection_YwqaPB": {
           "type": "collection",
           "settings": {
-            "collection": "robes",
+            "collection": "body-sculptwear",
             "subheading": "",
             "title": "",
             "url": "",
@@ -158,10 +158,10 @@
             "overlay_opacity": 30
           }
         },
-        "collection_YwqaPB": {
+        "collection_LenPQR": {
           "type": "collection",
           "settings": {
-            "collection": "body-sculptwear",
+            "collection": "robes",
             "subheading": "",
             "title": "",
             "url": "",
@@ -202,8 +202,8 @@
         }
       },
       "block_order": [
-        "collection_LenPQR",
         "collection_YwqaPB",
+        "collection_LenPQR",
         "collection_pHwHmf",
         "collection_XUXDth"
       ],
@@ -244,13 +244,15 @@
         ".product-card__title {width: 100%; display: block; overflow: hidden;}"
       ],
       "settings": {
-        "collection": "",
+        "collection": "voir-tout",
         "products": [
-          "jupe-mila-short-integre-et-confort-absolu",
           "body-gainant-maya-version-tanga",
+          "jupe-mila-short-integre-et-confort-absolu",
+          "body-gainant-maya-version-short",
           "robe-leonie-longue-sculptante-a-bretelles-fines",
-          "body-jade-gainant-a-col-montant",
           "ensemble-lola-legging-evase-et-top-manches-longues",
+          "body-gainant-maya-version-culotte",
+          "body-jade-gainant-a-col-montant",
           "robe-leonie-mi-longue-sculptante-a-bretelles-fines",
           "ensemble-capri-jupe-et-brassiere-a-bordure-large",
           "robe-elise-mi-longue-amincissante-a-manches-longues"
