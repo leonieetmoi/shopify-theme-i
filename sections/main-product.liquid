@@ -89,6 +89,10 @@
 
             <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>
             {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+              {% if product.tags contains 'offre-1plus1' %}
+                <span class="badge-inline-offer">1 ACHETÉ = 1 OFFERT</span>
+              {% endif %}
+
           </div>
 
           <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
