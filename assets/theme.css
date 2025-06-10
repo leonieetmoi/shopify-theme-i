@@ -8415,17 +8415,19 @@
 .badge-inline-offer {
   background-color: #E9C4C3;
   color: black;
-  font-size: 12px; /* plus gros */
+  font-size: 13px; /* légèrement plus gros */
   font-weight: bold;
   padding: 6px 14px;
-  border-radius: 100px; /* pour effet pilule bien arrondi */
+  border-radius: 100px;
   margin-left: 12px;
   display: inline-flex;
-  align-items: center; /* centrage vertical parfait */
+  align-items: center;
   text-transform: uppercase;
   line-height: 1;
   vertical-align: middle;
+  transform: translateY(-2px); /* <-- remonte légèrement */
 }
+
 
 
 
