@@ -180,7 +180,7 @@
     "custom_liquid_aGtJkG": {
       "type": "custom-liquid",
       "custom_css": [
-        ".benefits-icons {display: flex; justify-content: space-between; flex-wrap: nowrap; gap: 14px; margin-top: -15px; margin-bottom: 0px; text-align: center;}"
+        ".benefits-icons {display: flex; justify-content: space-between; flex-wrap: nowrap; gap: 14px; margin-top: -15px; margin-bottom: 0px; text-align: center; margin-left: auto; margin-right: auto; max-width: 700px;}"
       ],
       "name": "Custom Liquid",
       "settings": {
@@ -275,6 +275,7 @@
         "collection_pHwHmf",
         "collection_XUXDth"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "stack_collections": false,
