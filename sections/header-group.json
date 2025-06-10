@@ -17,7 +17,7 @@
         "message_xFCW7K": {
           "type": "message",
           "settings": {
-            "text": "1 Body acheté = 1 Body offert",
+            "text": "1 BODY ACHETÉ = 1 BODY OFFERT",
             "url": "shopify://collections/voir-tout"
           }
         },
@@ -32,14 +32,14 @@
         "message_BPGifb": {
           "type": "message",
           "settings": {
-            "text": "100% satisfait ou remboursé",
+            "text": "100% SATISFAIT OU REMBOURSÉ",
             "url": ""
           }
         },
         "message_FypwN4": {
           "type": "message",
           "settings": {
-            "text": "Livraison offerte dès 40€",
+            "text": "LIVRAISON OFFERTE DÈS 40€ D'ACHAT",
             "url": ""
           }
         }
