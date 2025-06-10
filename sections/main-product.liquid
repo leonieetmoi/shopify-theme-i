@@ -46,9 +46,6 @@
     <div class="product">
       {%- if product.media.size > 0 -%}
         {%- render 'product-gallery', product: product, product_form_id: product_form_id -%}
-        {% if product.tags contains 'offre-1plus1' %}
-          <div class="badge-offre-1plus1">1 ACHETÉ = 1 OFFERT</div>
-        {% endif %}
 
       {%- endif -%}
 
