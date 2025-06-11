@@ -8401,7 +8401,7 @@
   font-size: 13px;
   font-weight: bold;
   padding: 8px 16px;           /* ✅ plus généreux */
-  border-radius: 999px;
+  border-radius: 999px !important;
   text-transform: uppercase;
   z-index: 9;
   pointer-events: none;
