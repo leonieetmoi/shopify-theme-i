@@ -8413,16 +8413,6 @@
 }
 
 
-@media (max-width: 768px) {
-  .badge-offre-1plus1 {
-    font-size: 13px;         /* un peu plus grand que 11px */
-    padding: 6px 14px;       /* plus d’espace autour */
-    line-height: 1.1;
-    max-width: 90%;          /* plus long */
-    border-radius: 999px;    /* optionnel : look plus arrondi */
-  }
-}
-
 .product-gallery__media {
   position: relative;
 }
