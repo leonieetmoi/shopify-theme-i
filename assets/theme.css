@@ -8400,16 +8400,23 @@
   color: #000;
   font-size: 13px;
   font-weight: bold;
-  padding: 6px 14px;
-  border-radius: 999px; /* ✅ plus fiable que 100px */
+  padding: 8px 16px;           /* ✅ plus généreux */
+  border-radius: 999px;
   text-transform: uppercase;
   z-index: 9;
   pointer-events: none;
-  max-width: 90%;
-  line-height: 1.1; /* ✅ plus resserré = texte plus centré */
+  display: inline-block;
+  text-align: center;
+  line-height: 1.1;
   white-space: normal;
-  display: inline-block; /* ✅ évite étirement vertical sur 2 lignes */
-  text-align: center;    /* ✅ bien centré horizontalement */
+  max-width: 100%;             /* ✅ élargit au max */
+}
+
+@media (max-width: 768px) {
+  .badge-offre-1plus1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
 
 
