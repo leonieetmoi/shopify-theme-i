@@ -94,7 +94,7 @@
         "liquid_fUHPV8": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .mannequin-note {\n    font-style: italic;\n    font-size: 0.85rem;\n    margin-top: 6px;\n    color: #555;\n  }\n</style>\n\n<div class=\"mannequin-note\" id=\"mannequin-info\">\n  Le mannequin mesure 167 cm pour 70KG et porte une taille L.\n</div>\n\n<script>\n  document.addEventListener('variant:change', function(e) {\n    const variant = e.detail.variant;\n    const color = variant?.option1; // option1 = Couleur\n    const noteElement = document.getElementById(\"mannequin-info\");\n\n    const notes = {\n      \"Noir\": \"Le mannequin mesure 167 cm pour 70KG et porte une taille L.\",\n      \"Mocha\": \"Le mannequin mesure 165 cm pour 52KG et porte une taille S.\",\n      \"Crème\": \"Le mannequin mesure 167 cm pour 70KG et porte une taille L.\"\n    };\n\n    if (color && notes[color]) {\n      noteElement.textContent = notes[color];\n    }\n  });\n</script>"
+            "liquid": "<style>\n  .mannequin-note {\n    font-style: italic;\n    font-size: 0.85rem;\n    margin-top: -40px;\n    color: #555;\n  }\n</style>\n\n<div class=\"mannequin-note\" id=\"mannequin-info\">\n  Le mannequin mesure 167 cm pour 70KG et porte une taille L.\n</div>\n\n<script>\n  document.addEventListener('variant:change', function(e) {\n    const variant = e.detail.variant;\n    const color = variant?.option1; // option1 = Couleur\n    const noteElement = document.getElementById(\"mannequin-info\");\n\n    const notes = {\n      \"Noir\": \"Le mannequin mesure 167 cm pour 70KG et porte une taille L.\",\n      \"Mocha\": \"Le mannequin mesure 165 cm pour 52KG et porte une taille S.\",\n      \"Crème\": \"Le mannequin mesure 167 cm pour 70KG et porte une taille L.\"\n    };\n\n    if (color && notes[color]) {\n      noteElement.textContent = notes[color];\n    }\n  });\n</script>"
           }
         },
         "liquid_tcCN9K": {
@@ -579,7 +579,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Pourquoi nos bodys sont uniques ?",
-            "content": "<p><strong>Nos bodys shapewear sculptent à 360°, sans jamais comprimer.<br/></strong><br/>Le tissu doux et respirant épouse vos formes comme une seconde peau, en gardant la peau fraîche et confortable toute la journée.<br/><br/>Invisible sous vos tenues, il affine la silhouette, soutient naturellement et redonne confiance.</p>",
+            "content": "<p><strong>Nos bodys shapewear sculptent à 360°, sans jamais comprimer.<br/></strong><br/>Le tissu doux et respirant épouse vos formes comme une seconde peau, en gardant la peau fraîche et confortable toute la journée.<br/><br/>Invisible sous vos tenues, il affine la silhouette, soutient naturellement et vous redonne confiance.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -641,7 +641,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Affinez votre silhouette en un clin d'oeil",
-            "content": "",
+            "content": "<p>Remettez enfin vos pantalons et robes que vous n’osiez plus porter.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
