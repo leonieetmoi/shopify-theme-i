@@ -91,6 +91,12 @@
             "size_chart_page": "body-maya"
           }
         },
+        "liquid_fUHPV8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .mannequin-note {\n    font-style: italic;\n    font-size: 0.85rem;\n    margin-top: 6px;\n    color: #555;\n  }\n</style>\n\n<div class=\"mannequin-note\" id=\"mannequin-info\">\n  Le mannequin mesure 167 cm pour 70KG et porte une taille L.\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const colorSwatches = document.querySelectorAll(\"[data-option-position='1'] input[type='radio'], [data-option-position='1'] button\");\n    const noteElement = document.getElementById(\"mannequin-info\");\n\n    function updateNote(color) {\n      const notes = {\n        \"Noir\": \"Le mannequin mesure 167 cm pour 70KG et porte une taille L.\",\n        \"Mocha\": \"Le mannequin mesure 165 cm pour 52KG et porte une taille S.\",\n        \"Crème\": \"Le mannequin mesure 167 cm pour 70KG et porte une taille L.\"\n      };\n\n      noteElement.textContent = notes[color] || \"\";\n    }\n\n    colorSwatches.forEach((el) => {\n      el.addEventListener(\"click\", () => {\n        const color = el.value || el.getAttribute(\"aria-label\") || el.textContent;\n        updateNote(color.trim());\n      });\n    });\n\n    // Met à jour au chargement si une couleur est déjà sélectionnée\n    const checked = document.querySelector(\"[data-option-position='1'] input[type='radio']:checked\");\n    if (checked) updateNote(checked.value.trim());\n  });\n</script>"
+          }
+        },
         "liquid_tcCN9K": {
           "type": "liquid",
           "disabled": true,
@@ -214,6 +220,7 @@
         "payment_terms",
         "description",
         "variant_picker",
+        "liquid_fUHPV8",
         "liquid_tcCN9K",
         "quantity_selector",
         "offer_LWakkq",
