@@ -655,7 +655,7 @@
         "item_DPbY7y"
       ],
       "custom_css": [
-        ".text-with-icons {margin-bottom: -2rem !important;}",
+        ".text-with-icons {margin-bottom: rem !important;}",
         ".text-with-icons__item * {margin: 0 !important; padding: 0 !important;}",
         ".text-custom {margin-bottom: -1rem !important;}"
       ],
