@@ -154,9 +154,9 @@ Supported variables
       
       {% if variant.inventory_quantity == 0 %}
         Rupture de stock
-      {% elsif variant.inventory_quantity <= 10 %}
+      {% elsif variant.inventory_quantity <= 30 %}
         Dernière pièce disponible
-      {% elsif variant.inventory_quantity <= 50 %}
+      {% elsif variant.inventory_quantity <= 80 %}
         Stock faible
       {% endif %}
       
