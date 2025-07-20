@@ -277,7 +277,7 @@
         "slide_WLqW4d": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_1.mp4",
+            "video": "shopify://files/videos/body_product_page_video.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -679,6 +679,44 @@
         "text_color": ""
       }
     },
+    "media_with_text_Ne88tQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_c6cFyB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Heart-Shaped_Polaroid_Black_Photo_Collage_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h3>Déjà plus de 10 000 clientes dans la communauté Léonie & Moi</h3><p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_c6cFyB"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.media-with-text {display: grid !important; grid-template-rows: auto auto !important; } .media-with-text__media {order: 2 !important; } .media-with-text__content {order: 1 !important; }}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
     "rich_text_XrwWwG": {
       "type": "rich-text",
       "blocks": {
@@ -992,6 +1030,7 @@
     "media_with_text_4mzmKA",
     "media_with_text_kEbpaL",
     "custom_liquid_xdfrLF",
+    "media_with_text_Ne88tQ",
     "rich_text_XrwWwG",
     "custom_html_PjQmwb",
     "duo_image_rRXrz3",
