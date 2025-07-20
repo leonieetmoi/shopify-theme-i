@@ -277,7 +277,7 @@
         "slide_WLqW4d": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_1.mp4",
+            "video": "shopify://files/videos/body_product_page_video.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -666,6 +666,45 @@
         "spacing": "none"
       }
     },
+    "media_with_text_E4ddgU": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_BzmTdB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Heart-Shaped_Polaroid_Black_Photo_Collage_1.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "10 000 raisons d’aimer Léonie & Moi",
+            "content": "<p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BzmTdB"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 24px !important;}",
+        ".media-with-text {margin-bottom: -30px !important;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
     "custom_liquid_xdfrLF": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -991,6 +1030,7 @@
     "ss_feature_17_DBHBXF",
     "media_with_text_4mzmKA",
     "media_with_text_kEbpaL",
+    "media_with_text_E4ddgU",
     "custom_liquid_xdfrLF",
     "rich_text_XrwWwG",
     "custom_html_PjQmwb",
