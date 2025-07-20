@@ -668,6 +668,7 @@
     },
     "custom_liquid_xdfrLF": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -693,7 +694,7 @@
             "icon_width": 24,
             "subheading": "",
             "title": "",
-            "content": "<h3>Déjà plus de 10 000 clientes dans la communauté Léonie & Moi</h3><p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
+            "content": "<h3>10 000 raisons d’aimer<br/>Léonie & Moi</h3><p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -711,7 +712,7 @@
       "custom_css": [],
       "name": "Media with text",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "spacing": "none"
       }
     },
