@@ -599,8 +599,8 @@
         ".media-with-text {margin-top: -0px !important; margin-bottom: -30px !important;}"
       ],
       "settings": {
-        "full_width": false,
-        "spacing": "small"
+        "full_width": true,
+        "spacing": "none"
       }
     },
     "media_with_text_kEbpaL": {
@@ -662,7 +662,7 @@
         ".media-with-text {margin-bottom: -30px !important;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "spacing": "none"
       }
     },
@@ -679,8 +679,8 @@
             "icon": "none",
             "icon_width": 24,
             "subheading": "",
-            "title": "",
-            "content": "<h3>10 000 raisons d’aimer<br/>Léonie & Moi</h3><p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
+            "title": "10 000 raisons d’aimer Léonie & Moi",
+            "content": "<p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -694,6 +694,10 @@
       },
       "block_order": [
         "image_RiyJJy"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 24px !important;}",
+        ".media-with-text {margin-bottom: -30px !important;}"
       ],
       "name": "Media with text",
       "settings": {
