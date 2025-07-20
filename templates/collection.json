@@ -95,7 +95,8 @@
         ".product-card__title a {display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}",
         ".product-card__title {width: 100%; display: block; overflow: hidden;}",
         ".v-stack.gap-4.md\\:hidden .text-center {display: none;}",
-        ".collection {margin-top: 0px !important;}"
+        ".collection {margin-top: 0px !important;}",
+        ".product-card__title a {display: block; white-space: normal !important; overflow: visible !important; text-overflow: unset !important; font-size: 12px !important; line-height: 1.4 !important; max-height: none;}"
       ],
       "settings": {
         "products_per_page": 24,
