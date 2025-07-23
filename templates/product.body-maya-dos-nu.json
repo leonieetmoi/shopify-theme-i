@@ -187,6 +187,7 @@
         },
         "loox_reviews_loox_snippets_widget_8GG8HR": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "alignment": "left",
             "max-width": "",
