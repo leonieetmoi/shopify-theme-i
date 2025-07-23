@@ -187,7 +187,6 @@
         },
         "loox_reviews_loox_snippets_widget_Rt7Yff": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
           "settings": {
             "alignment": "left",
             "max-width": "",
@@ -302,20 +301,20 @@
             "stars_count": 0
           }
         },
-        "slide_WLqW4d": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/body_product_page_video.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
-        },
         "slide_97Dhi6": {
           "type": "slide",
           "settings": {
             "video": "shopify://files/videos/snaptik_7529941187747220758_cut.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_WLqW4d": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/body_product_page_video.mp4",
+            "video_url": "",
             "title": "",
             "stars_count": 0
           }
@@ -353,8 +352,8 @@
         "slide_PXxpfL",
         "slide_phUC4G",
         "slide_bAFE79",
-        "slide_WLqW4d",
         "slide_97Dhi6",
+        "slide_WLqW4d",
         "slide_eEmP7Q",
         "slide_xbH6eD",
         "slide_UXNEqE"
