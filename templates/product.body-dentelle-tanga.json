@@ -303,6 +303,7 @@
         },
         "slide_eEmP7Q": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/video_3.mp4",
             "video_url": "",
