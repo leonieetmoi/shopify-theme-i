@@ -160,6 +160,14 @@
             "page": ""
           }
         },
+        "collapsible_text_D8wqjn": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Ce body sculptant a été pensé pour vous faire sentir belle, maintenue, et parfaitement à l’aise, dès que vous l’enfilez. Grâce à sa <strong>technologie gainante ciblée</strong>, il affine visiblement la taille et le ventre sans jamais comprimer, pour une silhouette naturellement redessinée,  <strong>jusqu’à deux tailles de pantalon en moins</strong>.</p><p>Sa <strong>matière douce et respirante</strong>, effet seconde peau, épouse les courbes tout en laissant le corps libre de bouger, sans gêne ni irritation. Invisible même sous les vêtements les plus moulants, il lisse la silhouette avec discrétion et élégance.</p><p>Le maintien de la poitrine est assuré sans armature ni rembourrage, pour un confort absolu du matin au soir. Résultat : un galbe subtil, une allure confiante, et un vêtement que vous oublierez... tout en voyant la différence.</p>",
+            "page": ""
+          }
+        },
         "collapsible_text_34rjF6": {
           "type": "collapsible_text",
           "settings": {
@@ -174,14 +182,6 @@
           "settings": {
             "title": "Guide des tailes",
             "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_D8wqjn": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Description",
-            "content": "<p>Ce body sculptant a été pensé pour vous faire sentir belle, maintenue, et parfaitement à l’aise, dès que vous l’enfilez. Grâce à sa <strong>technologie gainante ciblée</strong>, il affine visiblement la taille et le ventre sans jamais comprimer, pour une silhouette naturellement redessinée,  <strong>jusqu’à deux tailles de pantalon en moins</strong>.</p><p>Sa <strong>matière douce et respirante</strong>, effet seconde peau, épouse les courbes tout en laissant le corps libre de bouger, sans gêne ni irritation. Invisible même sous les vêtements les plus moulants, il lisse la silhouette avec discrétion et élégance.</p><p>Le maintien de la poitrine est assuré sans armature ni rembourrage, pour un confort absolu du matin au soir. Résultat : un galbe subtil, une allure confiante, et un vêtement que vous oublierez... tout en voyant la différence.</p>",
             "page": ""
           }
         },
@@ -229,9 +229,9 @@
         "liquid_8PKzpR",
         "liquid_fAyEGf",
         "collapsible_text_tp6AQk",
+        "collapsible_text_D8wqjn",
         "collapsible_text_34rjF6",
         "collapsible_text_GEUUCJ",
-        "collapsible_text_D8wqjn",
         "loox_reviews_loox_snippets_widget_8GG8HR"
       ],
       "custom_css": [
