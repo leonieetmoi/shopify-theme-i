@@ -185,10 +185,10 @@
             "page": ""
           }
         },
-        "loox_reviews_loox_snippets_widget_VqCWw4": {
+        "loox_reviews_loox_snippets_widget_HpQJip": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "alignment": "center",
+            "alignment": "left",
             "max-width": "",
             "color-scheme": "default",
             "shadow": "",
@@ -232,7 +232,7 @@
         "collapsible_text_34rjF6",
         "collapsible_text_GEUUCJ",
         "collapsible_text_D8wqjn",
-        "loox_reviews_loox_snippets_widget_VqCWw4"
+        "loox_reviews_loox_snippets_widget_HpQJip"
       ],
       "custom_css": [
         ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 13px 13px; border-radius: 8px;}",
