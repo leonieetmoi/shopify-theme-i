@@ -94,7 +94,7 @@
         "liquid_fUHPV8": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .mannequin-note {\n    font-style: italic;\n    font-size: 0.7rem;\n    margin-top: -10px;\n    margin-bottom: -20px;\n    color: #555;\n  }\n</style>\n\n<div class=\"mannequin-note\" id=\"mannequin-info\">\n  Emma mesure 169 cm pour 58KG et porte une taille M\n</div>\n\n<script>\n  document.addEventListener('variant:change', function(e) {\n    const variant = e.detail.variant;\n    const color = variant?.option1; // option1 = Couleur\n    const noteElement = document.getElementById(\"mannequin-info\");\n\n    const notes = {\n      \"Noir\": \"Emma mesure 169 cm pour 58KG et porte une taille M\",\n      \"Mocha\": \"Emma mesure 169 cm pour 58KG et porte une taille M\",\n      \"Crème\": \"Emma mesure 169 cm pour 58KG et porte une taille M\"\n    };\n\n    if (color && notes[color]) {\n      noteElement.textContent = notes[color];\n    }\n  });\n</script>"
+            "liquid": "<style>\n  .mannequin-note {\n    font-style: italic;\n    font-size: 0.7rem;\n    margin-top: -10px;\n    margin-bottom: -20px;\n    color: #555;\n  }\n</style>\n\n<div class=\"mannequin-note\" id=\"mannequin-info\">\n  Amara mesure 168 cm pour 67KG et porte une taille L\n</div>\n\n<script>\n  document.addEventListener('variant:change', function(e) {\n    const variant = e.detail.variant;\n    const color = variant?.option1; // option1 = Couleur\n    const noteElement = document.getElementById(\"mannequin-info\");\n\n    const notes = {\n      \"Noir\": \"Amara mesure 168 cm pour 67KG et porte une taille L\",\n      \"Blanc\": \"Laura mesure 170 cm pour 61KG et porte une taille M\",\n      \"Mocha\": \"Amara mesure 168 cm pour 67KG et porte une taille L\"\n    };\n\n    if (color && notes[color]) {\n      noteElement.textContent = notes[color];\n    }\n  });\n</script>"
           }
         },
         "liquid_tcCN9K": {
@@ -274,6 +274,15 @@
     "video_slider_cE4xg3": {
       "type": "video-slider",
       "blocks": {
+        "slide_PXxpfL": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/520984653_1156153466274141_3597272842514068228_cut.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "New Slide",
+            "stars_count": 0
+          }
+        },
         "slide_WLqW4d": {
           "type": "slide",
           "settings": {
@@ -321,6 +330,7 @@
         }
       },
       "block_order": [
+        "slide_PXxpfL",
         "slide_WLqW4d",
         "slide_bAFE79",
         "slide_eEmP7Q",
