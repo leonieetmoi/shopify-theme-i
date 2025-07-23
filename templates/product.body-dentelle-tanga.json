@@ -903,7 +903,13 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 6,
-        "products": [],
+        "products": [
+          "body-gainant-maya-version-culotte",
+          "body-gainant-maya-version-short",
+          "body-gainant-maya-version-tanga",
+          "body-gainant-maya-version-tanga-dos-nu",
+          "robe-louise-courte-sculptante-a-col-carre"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
