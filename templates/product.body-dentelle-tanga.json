@@ -283,6 +283,24 @@
             "stars_count": 0
           }
         },
+        "slide_bAFE79": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/video_2.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_phUC4G": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/snaptik_7529941190054071574_cut.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
         "slide_WLqW4d": {
           "type": "slide",
           "settings": {
@@ -292,11 +310,11 @@
             "stars_count": 0
           }
         },
-        "slide_bAFE79": {
+        "slide_97Dhi6": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_2.mp4",
-            "video_url": "",
+            "video": "shopify://files/videos/snaptik_7529941187747220758_cut.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 0
           }
@@ -332,8 +350,10 @@
       },
       "block_order": [
         "slide_PXxpfL",
-        "slide_WLqW4d",
         "slide_bAFE79",
+        "slide_phUC4G",
+        "slide_WLqW4d",
+        "slide_97Dhi6",
         "slide_eEmP7Q",
         "slide_xbH6eD",
         "slide_UXNEqE"
