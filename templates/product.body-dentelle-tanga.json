@@ -292,15 +292,6 @@
             "stars_count": 0
           }
         },
-        "slide_bAFE79": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/video_2.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
-        },
         "slide_97Dhi6": {
           "type": "slide",
           "settings": {
@@ -310,30 +301,11 @@
             "stars_count": 0
           }
         },
-        "slide_WLqW4d": {
+        "slide_d7mye8": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/body_product_page_video.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
-        },
-        "slide_eEmP7Q": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/video_3.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
-        },
-        "slide_xbH6eD": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/video_4.mp4",
-            "video_url": "",
+            "video": "shopify://files/videos/VIDEO_PRODUIT_1.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 0
           }
@@ -341,7 +313,16 @@
         "slide_UXNEqE": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_5.mp4",
+            "video": "shopify://files/videos/VIDEO_PRODUIT_2.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_eEmP7Q": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/VIDEO_PRODUIT_3.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -351,12 +332,10 @@
       "block_order": [
         "slide_PXxpfL",
         "slide_phUC4G",
-        "slide_bAFE79",
         "slide_97Dhi6",
-        "slide_WLqW4d",
-        "slide_eEmP7Q",
-        "slide_xbH6eD",
-        "slide_UXNEqE"
+        "slide_d7mye8",
+        "slide_UXNEqE",
+        "slide_eEmP7Q"
       ],
       "name": "SS - Video Slider",
       "settings": {
