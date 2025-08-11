@@ -274,10 +274,10 @@
     "video_slider_cE4xg3": {
       "type": "video-slider",
       "blocks": {
-        "slide_PXxpfL": {
+        "slide_d7mye8": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/520984653_1156153466274141_3597272842514068228_cut.mp4",
+            "video": "shopify://files/videos/9.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 0
@@ -286,25 +286,7 @@
         "slide_phUC4G": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/snaptik_7529941190054071574_cut.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "",
-            "stars_count": 0
-          }
-        },
-        "slide_97Dhi6": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/snaptik_7529941187747220758_cut.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "",
-            "stars_count": 0
-          }
-        },
-        "slide_d7mye8": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/VIDEO_PRODUIT_1.mp4",
+            "video": "shopify://files/videos/6.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 0
@@ -313,7 +295,7 @@
         "slide_UXNEqE": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/VIDEO_PRODUIT_2.mp4",
+            "video": "shopify://files/videos/ucFblnHR2HfbbJR0CME_1100126071587_mp4_264_ld_cut.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -322,20 +304,38 @@
         "slide_eEmP7Q": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/VIDEO_PRODUIT_3.mp4",
+            "video": "shopify://files/videos/10.mp4",
             "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_97Dhi6": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/5.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_PXxpfL": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/8.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 0
           }
         }
       },
       "block_order": [
-        "slide_PXxpfL",
-        "slide_phUC4G",
-        "slide_97Dhi6",
         "slide_d7mye8",
+        "slide_phUC4G",
         "slide_UXNEqE",
-        "slide_eEmP7Q"
+        "slide_eEmP7Q",
+        "slide_97Dhi6",
+        "slide_PXxpfL"
       ],
       "name": "SS - Video Slider",
       "settings": {
