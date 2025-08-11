@@ -301,6 +301,15 @@
             "stars_count": 0
           }
         },
+        "slide_PXxpfL": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/8.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
         "slide_eEmP7Q": {
           "type": "slide",
           "settings": {
@@ -318,24 +327,15 @@
             "title": "",
             "stars_count": 0
           }
-        },
-        "slide_PXxpfL": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/8.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "",
-            "stars_count": 0
-          }
         }
       },
       "block_order": [
         "slide_d7mye8",
         "slide_phUC4G",
         "slide_UXNEqE",
+        "slide_PXxpfL",
         "slide_eEmP7Q",
-        "slide_97Dhi6",
-        "slide_PXxpfL"
+        "slide_97Dhi6"
       ],
       "name": "SS - Video Slider",
       "settings": {
