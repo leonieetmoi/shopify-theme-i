@@ -274,19 +274,10 @@
     "video_slider_cE4xg3": {
       "type": "video-slider",
       "blocks": {
-        "slide_WLqW4d": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/body_product_page_video.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
-        },
         "slide_bAFE79": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_2.mp4",
+            "video": "shopify://files/videos/VIDEO UGC TEST 3.mov",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -295,7 +286,7 @@
         "slide_eEmP7Q": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_3.mp4",
+            "video": "shopify://files/videos/VIDEO UGC TEST 2.mov",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -304,7 +295,16 @@
         "slide_xbH6eD": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_4.mp4",
+            "video": "shopify://files/videos/VIDEO UGC TEST 4.mov",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_WLqW4d": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/9.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -313,7 +313,7 @@
         "slide_UXNEqE": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/video_5.mp4",
+            "video": "shopify://files/videos/6.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -321,10 +321,10 @@
         }
       },
       "block_order": [
-        "slide_WLqW4d",
         "slide_bAFE79",
         "slide_eEmP7Q",
         "slide_xbH6eD",
+        "slide_WLqW4d",
         "slide_UXNEqE"
       ],
       "name": "SS - Video Slider",
