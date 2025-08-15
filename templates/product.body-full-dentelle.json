@@ -172,7 +172,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Livraison & retours",
-            "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 40€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul><p><strong>Retour :</strong></p><ul><li><strong>Satisfait ou remboursé :</strong> Vous avez 30 jours pour nous retourner votre article s’il ne vous convient pas.</li><li>Pour que votre retour soit accepté, l'article doit être intact, non porté et non lavé, dans son état d'origine.</li></ul>",
+            "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 40€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul><p><strong>Retour :</strong></p><ul><li><strong>Satisfait ou remboursé :</strong> Vous avez 30 jours pour nous retourner votre article s’il ne vous convient pas.</li><li>Pour que votre retour soit accepté, l'article doit être intact et non lavé, dans son état d'origine.</li></ul>",
             "page": ""
           }
         },
