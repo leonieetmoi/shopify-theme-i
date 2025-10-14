@@ -1,0 +1,1056 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "loox_reviews_loox_rating_z7WzLc": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "+2000 femmes satisfaites",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "liquid_bgDEwe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"line-height: 1.4;margin-bottom: -10px;margin-top: -10px;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n   La culotte qui gaine sans jamais comprimer\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Effet ventre plat immédiat</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Invisible</strong> sous les vêtements</span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span>Rentrez dans vos jeans que vous n’osiez plus porter</span>\n  </p>\n</div>"
+          }
+        },
+        "text_qRCgeJ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>✨ <strong>Silhouette sculptée</strong> : Ventre plat, fesses galbées.<br/>💖 <strong>Confort absolu</strong> : Tissu extensible, gaine invisible.<br/>🌸 <strong>Maintien parfait</strong> : Soutien poitrine intégré </p>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "{{ block.repeater.label.value }}",
+            "size_chart_page": "body-maya"
+          }
+        },
+        "liquid_fUHPV8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .mannequin-note {\n    font-style: italic;\n    font-size: 0.7rem;\n    margin-top: -10px;\n    margin-bottom: -20px;\n    color: #555;\n  }\n</style>\n\n<div class=\"mannequin-note\" id=\"mannequin-info\">\n  Emma mesure 169 cm pour 58KG et porte une taille M\n</div>\n\n<script>\n  document.addEventListener('variant:change', function(e) {\n    const variant = e.detail.variant;\n    const color = variant?.option1; // option1 = Couleur\n    const noteElement = document.getElementById(\"mannequin-info\");\n\n    const notes = {\n      \"Noir\": \"Emma mesure 169 cm pour 58KG et porte une taille M\",\n      \"Mocha\": \"Emma mesure 169 cm pour 58KG et porte une taille M\",\n      \"Crème\": \"Emma mesure 169 cm pour 58KG et porte une taille M\"\n    };\n\n    if (color && notes[color]) {\n      noteElement.textContent = notes[color];\n    }\n  });\n</script>"
+          }
+        },
+        "liquid_tcCN9K": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"margin-top: -15px; margin-bottom: -10px;\">\n  <p style=\"margin: 0; padding: 0; font-weight: bold; color: #c63728;\">\n    Bientôt en rupture : <span style=\"font-weight: normal;\">bientôt épuisée</span>\n  </p>\n</div>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "offer_LWakkq": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-gift",
+            "icon_width": 24,
+            "title": "OFFRE SPÉCIALE !",
+            "content": "<p><strong>1 BODY ACHETÉ = 1 BODY OFFERT !<br/>LE 3ÈME BODY À -50%<br/></strong><em>*Remise automatique appliquée au panier</em></p>",
+            "background": "#efdfde",
+            "text_color": "#1a1a1a"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_4wLewG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .payment-logos {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-top: -15px;\n    margin-bottom: 0px;\n    padding: 0 12px;\n  }\n\n  .payment-logos img {\n    height: 24px;\n    max-width: 60px;\n    object-fit: contain;\n  }\n\n  @media screen and (max-width: 768px) {\n    .payment-logos {\n      justify-content: center;\n      gap: 12px;\n      flex-wrap: wrap;\n    }\n  }\n</style>\n\n<div class=\"payment-logos\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/visa.png?v=1749085135\" alt=\"Visa\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/mastercard.png?v=1749085135\" alt=\"Mastercard\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/amex.png?v=1749085134\" alt=\"American Express\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/applepay.png?v=1749085134\" alt=\"Apple Pay\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/paypal.png?v=1749085134\" alt=\"PayPal\">\n</div>"
+          }
+        },
+        "liquid_8PKzpR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"garantie-texte\">\n  <span class=\"garantie-icon\">✔</span>\n  Garantie satisfait ou remboursé sous 30 jours\n</p>\n\n<style>\n.garantie-texte {\n  font-size: 13px;\n  color: #333333;\n  text-align: center;\n  margin-top: -20px;\n  margin-bottom: -10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.garantie-icon {\n  color: #E9C4C3;\n  font-weight: bold;\n  font-size: 16px;\n  margin-right: 6px;\n}\n\n/* Taille uniquement augmentée sur desktop */\n@media screen and (min-width: 768px) {\n  .garantie-texte {\n    font-size: 15px;\n  }\n  .garantie-icon {\n    font-size: 18px;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_fAyEGf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.benefits-icons {\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: nowrap;\n  gap: 14px;\n  margin-top: 24px;\n  text-align: center;\n}\n.benefits-icons__item {\n  flex: 1;\n}\n.benefits-icons__item img {\n  max-width: 50px;\n  height: auto;\n  margin: 0 auto 8px;\n}\n.benefits-icons__item p {\n  font-size: 0.85rem;\n  margin: 0;\n  line-height: 1.2;\n}\n@media (max-width: 480px) {\n  .benefits-icons {\n    justify-content: space-around;\n    gap: 10px;\n  }\n  .benefits-icons__item img {\n    max-width: 44px;\n    margin-bottom: 6px;\n  }\n  .benefits-icons__item p {\n    font-size: 0.8rem;\n  }\n}\n</style>\n\n<div class=\"benefits-icons\">\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/bodysuits_Sculpt_1.webp?v=1748683311\" alt=\"Affine la silhouette\">\n    <p>Affine la silhouette</p>\n  </div>\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Jumpsuits_Sculpt_1.webp?v=1748683413\" alt=\"Gagnez 1 à 2 tailles\">\n    <p>Gagnez<br>1 à 2 tailles</p>\n  </div>\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/woman.png?v=1760483535\" alt=\"Anti-enroulement\">\n    <p>Reste en place</p>\n  </div>\n  <div class=\"benefits-icons__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/breathable-fabric.png?v=1760483589\" alt=\"Matière respirante\">\n    <p>Ultra respirant</p>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_text_D8wqjn": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Cette lingerie gainante a été pensée pour vous faire sentir belle, maintenue, et parfaitement à l'aise, dès que vous l'enfilez. Grâce à sa <strong>technologie gainante ciblée</strong>, elle affine visiblement la taille et le ventre sans jamais comprimer, pour une silhouette naturellement redessinée,  <strong>jusqu’à deux tailles de pantalon en moins</strong>.</p><p>Sa <strong>matière douce et respirante</strong>, effet seconde peau, épouse les courbes tout en laissant le corps libre de bouger, sans gêne ni irritation. Invisible même sous les vêtements les plus moulants, il lisse la silhouette avec discrétion et élégance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_tp6AQk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Composition et entretien",
+            "content": "<p>85% Nylon / 15% Élasthane<br/><br/><strong>Entretien :</strong></p><ul><li>Lavage en machine - 30°C</li><li>Ne pas repasser </li><li>Ne pas utiliser de javel </li><li>Séchage naturel pour préserver l'élasticité</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_34rjF6": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison & retours",
+            "content": "<p><strong>Livraison :</strong></p><ul><li><strong>Livraison offerte</strong> dès 40€ d'achat en France Métropolitaine et en Europe.</li><li>Délai de livraison : 8 jours après votre commande commande.</li></ul><p><strong>Retour :</strong></p><ul><li><strong>Satisfait ou remboursé :</strong> Vous avez 30 jours pour nous retourner votre article s’il ne vous convient pas.</li><li>Pour que votre retour soit accepté, l'article doit être intact, non porté et non lavé, dans son état d'origine.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_GEUUCJ": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Guide des tailes",
+            "content": "<p>Pour trouver la taille qui vous convient parfaitement, référez-vous à notre guide des tailles détaillé.</p><ul><li>Si vous hésitez entre deux tailles, choisissez la plus petite pour un effet gainant plus marqué, ou la taille au-dessus pour un rendu plus décontracté.</li><li>La matière extensible permet un ajustement à votre morphologie tout en conservant son maintien. </li><li>Consultez notre tableau des tailles pour choisir la robe Léonie & Moi qui sublimera votre silhouette.<br/></li></ul><p><br/><br/></p><p><br/></p>",
+            "page": ""
+          }
+        },
+        "loox_reviews_loox_snippets_widget_8GG8HR": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "loox_reviews_loox_rating_z7WzLc",
+        "rating",
+        "liquid_bgDEwe",
+        "text_qRCgeJ",
+        "payment_terms",
+        "description",
+        "variant_picker",
+        "liquid_fUHPV8",
+        "liquid_tcCN9K",
+        "quantity_selector",
+        "offer_LWakkq",
+        "buy_buttons",
+        "liquid_4wLewG",
+        "liquid_8PKzpR",
+        "liquid_fAyEGf",
+        "collapsible_text_D8wqjn",
+        "collapsible_text_tp6AQk",
+        "collapsible_text_34rjF6",
+        "collapsible_text_GEUUCJ",
+        "loox_reviews_loox_snippets_widget_8GG8HR"
+      ],
+      "custom_css": [
+        ".variant-picker__option-values button,.variant-picker__option-values label {font-size: 12px; padding: 13px 13px; border-radius: 8px;}",
+        ".variant-picker__option-values {display: flex; flex-wrap: nowrap; gap: 3px;}",
+        ".variant-picker__option-values label,.variant-picker__option-values button {min-width: auto; height: auto; line-height: 0.5;}",
+        ".loox-rating {margin-top: -1.5rem !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_aTJDPd": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h3\" style=\"margin-top: 10px; margin-bottom: -0px; text-align: center;\">\n+10000 femmes déjà conquises\n</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_slider_cE4xg3": {
+      "type": "video-slider",
+      "blocks": {
+        "slide_eEmP7Q": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/copy_8B28560F-8AF0-4F39-ACC5-FFEB43BCAF52-ezgif.com-resize-video.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_fFpcEP": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/761047360262544_video_0_CUT.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_UXNEqE": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/mnggiflab-compressed-mnggiflab-from-video-to-gif-2024_07_31_14_34_09.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_dGaaGY": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/copy_87021216-6642-421C-A2A9-94037F65B923-ezgif.com-resize-video.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_bAFE79": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/copy_CAA9D867-A0E5-4398-8CFF-28D97E5E511F-ezgif.com-mute-video.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_WLqW4d": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/copy_EEDBC5F2-5770-45AC-94E6-09EE67DFEDD0-ezgif.com-resize-video.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_eEmP7Q",
+        "slide_fFpcEP",
+        "slide_UXNEqE",
+        "slide_dGaaGY",
+        "slide_bAFE79",
+        "slide_WLqW4d"
+      ],
+      "name": "SS - Video Slider",
+      "settings": {
+        "slider_view": 4,
+        "slider_view_mobile": 2.1,
+        "slider_gap": 10,
+        "slider_gap_mobile": 6,
+        "slider_rotate": 0,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "card_overlay": 0.2,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "end",
+        "content_vertical_position_mobile": "end",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 100,
+        "stars_size": 16,
+        "stars_size_mobile": 16,
+        "stars_mt": 16,
+        "stars_mt_mobile": 16,
+        "hide_stars": false,
+        "use_action": true,
+        "action_size": 40,
+        "action_size_mobile": 30,
+        "action_icon_size": 26,
+        "action_icon_size_mobile": 22,
+        "action_border_thickness": 0,
+        "use_sound": false,
+        "sound_size": 40,
+        "sound_size_mobile": 40,
+        "sound_icon_size": 24,
+        "sound_icon_size_mobile": 24,
+        "sound_border_thickness": 0,
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "card_overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "stars_color": "#ffffff",
+        "action_color": "#ffffff",
+        "action_hover_color": "#ffffff",
+        "action_bg_color": "#ffffff",
+        "action_bg_hover_color": "#ffffff",
+        "action_border_color": "#ffffff",
+        "action_border_hover_color": "#ffffff",
+        "sound_icon_color": "#ffffff",
+        "sound_icon_hover_color": "#ffffff",
+        "sound_bg_color": "#ffffff",
+        "sound_bg_hover_color": "#ffffff",
+        "sound_border_color": "#ffffff",
+        "sound_border_hover_color": "#ffffff",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#434343",
+        "arrow_bg_color": "#434343",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_feature_17_DBHBXF": {
+      "type": "SS-feature-17",
+      "blocks": {
+        "heading_rCQrUC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Results</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 28,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
+          }
+        },
+        "media_bYzwWM": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/youtube-video-gif-ezgif.com-effects.gif",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "use_controls": false,
+            "media_width": 100,
+            "media_width_mobile": 100,
+            "media_mt": 24,
+            "media_mt_mobile": 24,
+            "media_radius": 0,
+            "media_border_thickness": 0,
+            "media_border_color": "#000000",
+            "media_ratio": "landscape",
+            "media_ratio_mobile": "landscape"
+          }
+        },
+        "text_fKzRmd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#000000"
+          }
+        },
+        "item_aNKRUY": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        },
+        "item_T9PUTw": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        },
+        "item_r963RR": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        }
+      },
+      "block_order": [
+        "heading_rCQrUC",
+        "media_bYzwWM",
+        "text_fKzRmd",
+        "item_aNKRUY",
+        "item_T9PUTw",
+        "item_r963RR"
+      ],
+      "disabled": true,
+      "name": "SS - Feature #17",
+      "settings": {
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<h2>Results</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 16,
+        "item_text_height": 150,
+        "bottom_text": "<p>Caption about the results and/or link for their proof.</p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#f3f3f3",
+        "circle_bg_color": "#ffffff",
+        "circle_progress": "#0f8571",
+        "percent_color": "#0f8571",
+        "item_text_color": "#000000",
+        "heading_color": "#000000",
+        "bottom_text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "media_with_text_4mzmKA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nmVYHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pourquoi_nos_bodys.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>Notre lingerie sculptante dessine votre silhouette à 360°, sans compression.</strong><br/><br/>Le tissu doux et respirant épouse vos formes comme une seconde peau, en gardant la peau fraîche et confortable toute la journée.<br/><br/>Bien plus qu'un body, c'est un allié du quotidien qui vous redonne confiance en vous.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nmVYHm"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important; margin-top: -30px !important;}",
+        ".media-with-text {margin-top: -0px !important; margin-bottom: -30px !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_kEbpaL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bg4E9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AVANT_APRES.png",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Retrouvez confiance en vous",
+            "content": "<p>Gagnez jusqu'à 2 tailles sans effort</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_7EfMza": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/culotte_gainante_video_avant_après_1.mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Affinez votre silhouette en un clin d'oeil",
+            "content": "<p>Remettez enfin vos pantalons et robes que vous n’osiez plus porter.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bg4E9b",
+        "video_7EfMza"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}",
+        ".media-with-text {margin-bottom: -30px !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "custom_liquid_xdfrLF": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div style=\"width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/detail_noir_transparant.png?v=1748710454\" \n    alt=\"Détail body noir\" \n    style=\"width: 100%; height: auto; display: block; margin: 0 auto;\" \n  />\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_Ne88tQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_c6cFyB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Heart-Shaped_Polaroid_Black_Photo_Collage_1.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 24,
+            "subheading": "",
+            "title": "10 000 raisons d’aimer Léonie & Moi",
+            "content": "<p>Une marque pensée par des femmes, pour les femmes. Et vous, vous en faites partie ? 💖</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_c6cFyB"
+      ],
+      "custom_css": [
+        "p.h2 {font-size: 22px !important;}",
+        ".media-with-text {margin-bottom: -30px !important;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "rich_text_XrwWwG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Mqifhw": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_gyatiG": {
+          "type": "heading",
+          "settings": {
+            "text": "Une silhouette sculptée sans effort",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VGPKwW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sa gaine intégrée, aussi discrète qu’efficace, <strong>lisse</strong> le ventre, <strong>galbe</strong> les hanches et <strong>rehausse</strong>  la poitrine. <br/><strong>Résultat</strong> : un effet waouh instantané, <strong>sans aucun effort</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mqifhw",
+        "heading_gyatiG",
+        "richtext_VGPKwW"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_PjQmwb": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div style=\"width: 100%; display: flex; justify-content: center; margin: 40px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/Soutien-gorge.gif?v=1744160960\" alt=\"Brassière galbante, body gainant, robe sculptante\" style=\"width: 100%; max-width: 100%; height: auto; display: block;\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "duo_image_rRXrz3": {
+      "type": "duo-image",
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 767px) {.duo-image-block:nth-child(3) {margin-top: -15px; }"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/gaine_integree_gif_V2.gif",
+        "image_2": "shopify://shop_images/compo_robe_V2.png"
+      }
+    },
+    "rich_text_LraNBt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfKLh8": {
+          "type": "heading",
+          "settings": {
+            "text": "Se sentir belle sans être compressée",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CbQGCR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nos robes sculptantes offrent un <strong>maintien confortable</strong> qui sublime votre silhouette sans vous comprimer. Vous pouvez enfin <strong>respirer</strong>, <strong>bouger</strong> et <strong>rayonner</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfKLh8",
+        "richtext_CbQGCR"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_carousel_jyNn6K": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_gQYF7C": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_qGQn43": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe3_courte_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_npg6Az": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_marron.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_aJ4cfT": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_noir.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_niptK6": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rose.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_GhGmGE": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_gris.png",
+            "alt_text": "Image du produit"
+          }
+        },
+        "image_block_6jDwWU": {
+          "type": "image_block",
+          "settings": {
+            "carousel_image": "shopify://shop_images/robe1_longue_rouge.png",
+            "alt_text": "Image du produit"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_gQYF7C",
+        "image_block_qGQn43",
+        "image_block_npg6Az",
+        "image_block_aJ4cfT",
+        "image_block_niptK6",
+        "image_block_GhGmGE",
+        "image_block_6jDwWU"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 24px; font-weight: bold; /*margin-top: -25px*/ margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "carousel_title": "Vous êtes magnifique !",
+        "text_size": 16
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "1749144370c0c70c22": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_97iX76": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 6,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_97iX76"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_WCrMPc": {
+      "type": "faq",
+      "blocks": {
+        "item_jmewF6": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que ça aide vraiment à affiner le ventre ?",
+            "content": "<p>Oui, grâce à sa zone gainante ciblée au niveau du ventre, le body sculpte et affine la taille, offrant un effet ventre plat immédiat et naturel.</p>"
+          }
+        },
+        "item_UHcRch": {
+          "type": "item",
+          "settings": {
+            "title": "Je n’aime pas être comprimée, est-ce le bon body pour moi ?",
+            "content": "<p>Oui ! Nos bodys sculptent sans jamais comprimer. La matière extensible épouse vos courbes avec légèreté, pour un maintien efficace et ultra confortable, toute la journée.</p>"
+          }
+        },
+        "item_W3GQzy": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on porter un soutien-gorge avec ce body ?",
+            "content": "<p>C’est vous qui choisissez ! Le body est conçu pour offrir un maintien naturel de la poitrine, mais reste parfaitement compatible avec un soutien-gorge si vous préférez en porter un.</p>"
+          }
+        },
+        "item_4kj8gd": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce adapté aux peaux sensibles ?",
+            "content": "<p>Oui, nos bodys sont fabriqués dans un tissu doux, respirant et hypoallergénique, idéal pour les peaux sensibles. Zéro irritation, même après une longue journée.</p>"
+          }
+        },
+        "item_XEEB3C": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir correctement ma taille ?",
+            "content": "<p>Pour vous aider à trouver votre taille, chaque article dispose de son propre guide des tailles, directement disponible sur la page produit.<br/><br/>Nous vous recommandons de le consulter attentivement avant de valider votre commande.<br/><br/>Et si vous hésitez entre deux tailles, n'hésitez pas à nous contacter : contact@leonieetmoi.fr, nous serons heureuses de vous conseiller en fonction de vos mesures et de vos envies.</p>"
+          }
+        },
+        "item_kMbG8P": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je échanger si la taille ne me va pas ?",
+            "content": "<p>Bien sûr ! Vous avez 30 jours pour effectuer un retour ou un échange de taille. Il suffit de nous contacter à l’adresse indiquée avec votre numéro de commande.</p>"
+          }
+        },
+        "item_jxDfpF": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "La livraison est-elle offerte ?",
+            "content": "<p>Oui, la livraison est offerte dès 40 € d’achat en France Métropolitaine et en Europe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jmewF6",
+        "item_UHcRch",
+        "item_W3GQzy",
+        "item_4kj8gd",
+        "item_XEEB3C",
+        "item_kMbG8P",
+        "item_jxDfpF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_aTJDPd",
+    "video_slider_cE4xg3",
+    "ss_feature_17_DBHBXF",
+    "media_with_text_4mzmKA",
+    "media_with_text_kEbpaL",
+    "custom_liquid_xdfrLF",
+    "media_with_text_Ne88tQ",
+    "rich_text_XrwWwG",
+    "custom_html_PjQmwb",
+    "duo_image_rRXrz3",
+    "rich_text_LraNBt",
+    "image_carousel_jyNn6K",
+    "related-products",
+    "1749144370c0c70c22",
+    "faq_WCrMPc"
+  ]
+}
