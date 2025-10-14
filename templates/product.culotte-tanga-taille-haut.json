@@ -58,7 +58,7 @@
         "liquid_bgDEwe": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"line-height: 1.4;margin-bottom: -10px;margin-top: -10px;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n    Le body qui gaine sans jamais comprimer\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Effet ventre plat immédiat</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Invisible</strong> sous les vêtements</span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span>Rentrez dans vos jeans que vous n’osiez plus porter</span>\n  </p>\n</div>"
+            "liquid": "<div style=\"line-height: 1.4;margin-bottom: -10px;margin-top: -10px;\">\n  <p style=\"margin: 0 0 6px 0; font-weight: bold;\">\n   La culotte qui gaine sans jamais comprimer\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Effet ventre plat immédiat</strong></span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span style=\"color:#E9C4C3; font-weight:bold; font-size: 18px; margin-right: 8px;\">✔</span>\n    <span><strong>Invisible</strong> sous les vêtements</span>\n  </p>\n\n  <p style=\"margin: 0 0 4px 0; display: flex; align-items: center;\">\n    <span>Rentrez dans vos jeans que vous n’osiez plus porter</span>\n  </p>\n</div>"
           }
         },
         "text_qRCgeJ": {
@@ -274,11 +274,21 @@
     "video_slider_cE4xg3": {
       "type": "video-slider",
       "blocks": {
-        "slide_xbH6eD": {
+        "slide_eEmP7Q": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/gaine_amincissante_ventre_plat_large_e7328de3-a698-4175-9eff-367fd8b180a1.mp4",
+            "video": "shopify://files/videos/copy_8B28560F-8AF0-4F39-ACC5-FFEB43BCAF52-ezgif.com-resize-video.mp4",
             "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_fFpcEP": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/761047360262544_video_0_CUT.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 0
           }
@@ -287,15 +297,6 @@
           "type": "slide",
           "settings": {
             "video": "shopify://files/videos/mnggiflab-compressed-mnggiflab-from-video-to-gif-2024_07_31_14_34_09.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
-        },
-        "slide_bAFE79": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/copy_CAA9D867-A0E5-4398-8CFF-28D97E5E511F-ezgif.com-mute-video.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 0
@@ -310,6 +311,15 @@
             "stars_count": 0
           }
         },
+        "slide_bAFE79": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/copy_CAA9D867-A0E5-4398-8CFF-28D97E5E511F-ezgif.com-mute-video.mp4",
+            "video_url": "",
+            "title": "",
+            "stars_count": 0
+          }
+        },
         "slide_WLqW4d": {
           "type": "slide",
           "settings": {
@@ -318,24 +328,15 @@
             "title": "",
             "stars_count": 0
           }
-        },
-        "slide_eEmP7Q": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/copy_8B28560F-8AF0-4F39-ACC5-FFEB43BCAF52-ezgif.com-resize-video.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 0
-          }
         }
       },
       "block_order": [
-        "slide_xbH6eD",
+        "slide_eEmP7Q",
+        "slide_fFpcEP",
         "slide_UXNEqE",
-        "slide_bAFE79",
         "slide_dGaaGY",
-        "slide_WLqW4d",
-        "slide_eEmP7Q"
+        "slide_bAFE79",
+        "slide_WLqW4d"
       ],
       "name": "SS - Video Slider",
       "settings": {
@@ -641,7 +642,7 @@
         "video_7EfMza": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/SQUARE.mp4",
+            "video": "shopify://files/videos/culotte_gainante_video_avant_après_1.mp4",
             "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
