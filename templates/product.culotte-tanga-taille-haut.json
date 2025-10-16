@@ -617,28 +617,6 @@
     "media_with_text_kEbpaL": {
       "type": "media-with-text",
       "blocks": {
-        "image_bg4E9b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/AVANT_APRES.png",
-            "media_width": 45,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Retrouvez confiance en vous",
-            "content": "<p>Gagnez jusqu'à 2 tailles sans effort</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f0f0f0",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "video_7EfMza": {
           "type": "video",
           "settings": {
@@ -646,7 +624,7 @@
             "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -662,11 +640,33 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_bg4E9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AVANT_APRES.png",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Retrouvez confiance en vous",
+            "content": "<p>Gagnez jusqu'à 2 tailles sans effort</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_bg4E9b",
-        "video_7EfMza"
+        "video_7EfMza",
+        "image_bg4E9b"
       ],
       "custom_css": [
         "p.h2 {font-size: 22px !important;}",
