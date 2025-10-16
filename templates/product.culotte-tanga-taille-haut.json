@@ -583,7 +583,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/pourquoi_nos_bodys.png",
-            "media_width": 60,
+            "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -645,7 +645,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/AVANT_APRES.png",
-            "media_width": 45,
+            "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
