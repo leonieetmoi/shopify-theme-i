@@ -118,7 +118,7 @@
             "icon": "none",
             "icon_width": 24,
             "title": "OFFRE SPÉCIALE !",
-            "content": "<h6><strong>1 BODY ACHETÉ = 1  OFFERT !<br/>2 BODY ACHETÉS = 3 OFFERTS ! </strong></h6><p><em>*Ajouter les bodys de votre choix dans votre panier pour bénéficier de l'offre</em></p>",
+            "content": "<h6><strong>1 BODY ACHETÉ = 1  OFFERT !<br/>2 BODY ACHETÉS = 3 OFFERTS ! </strong></h6><p><em>*Ajoutez les bodys de votre choix dans votre panier pour bénéficier de l'offre</em></p>",
             "background": "#efdfde",
             "text_color": "#1a1a1a"
           }
