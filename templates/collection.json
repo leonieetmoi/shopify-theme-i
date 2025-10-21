@@ -66,6 +66,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_T9ieH9": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"collection-offer-text\">\n  <h2 class=\"offer-title\">\n    1 BODY ACHETÉ = 1 OFFERT \n<br> 2 ACHETÉS = 3 OFFERTS\n  </h2>\n  <p class=\"offer-description\">\nValable sur toute la collection. Ajoutez vos bodys au panier, l'offre s'applique automatiquement.\n  </p>\n</div>\n\n<style>\n.collection-offer-text {\n  text-align: center;\n  margin: 30px 0;\n}\n\n.offer-title {\n  font-size: 22px;\n  font-weight: 600;\n  color: #000;\n  margin-bottom: 8px;\n}\n\n.offer-description {\n  font-size: 15px;\n  color: #000;\n  margin: 0;\n}\n\n@media (max-width: 768px) {\n  .offer-title {\n    font-size: 18px;\n  }\n  .offer-description {\n    font-size: 14px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "banner": {
       "type": "collection-banner",
       "custom_css": [
@@ -114,6 +127,7 @@
   "order": [
     "slideshow_dT38fW",
     "custom_html_waPwH9",
+    "custom_liquid_T9ieH9",
     "banner",
     "main"
   ]
