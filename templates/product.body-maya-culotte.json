@@ -111,14 +111,13 @@
         },
         "offer_LWakkq": {
           "type": "offer",
-          "disabled": true,
           "settings": {
-            "text_alignment": "start",
+            "text_alignment": "center",
             "icon_position": "aligned",
-            "icon": "picto-gift",
+            "icon": "none",
             "icon_width": 24,
             "title": "OFFRE SPÉCIALE !",
-            "content": "<p><strong>1 BODY ACHETÉ = 1 BODY OFFERT !<br/>LE 3ÈME BODY À -50%<br/></strong><em>*Remise automatique appliquée au panier</em></p>",
+            "content": "<h5><strong>1 BODY ACHETÉ = 1  OFFERT !<br/>2 BODY ACHETÉS = 3 OFFERTS ! </strong></h5><p><em>*Ajouter les bodys de votre choix dans votre panier pour bénéficier de l'offre</em></p>",
             "background": "#efdfde",
             "text_color": "#1a1a1a"
           }
