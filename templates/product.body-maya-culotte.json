@@ -111,6 +111,7 @@
         },
         "offer_LWakkq": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "center",
             "icon_position": "aligned",
