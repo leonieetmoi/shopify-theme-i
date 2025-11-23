@@ -78,7 +78,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/logo_1200_240_1.png",
+        "logo": "shopify://shop_images/bf_logo_black.png",
         "logo_max_width": 155,
         "logo_mobile_max_width": 120,
         "menu": "main-menu",
