@@ -40,14 +40,14 @@
           "type": "message",
           "settings": {
             "text": "100% SATISFAIT OU REMBOURSÉ",
-            "url": ""
+            "url": "shopify://collections/body-sculptwear"
           }
         },
         "message_FypwN4": {
           "type": "message",
           "settings": {
             "text": "LIVRAISON OFFERTE DÈS 40€ D'ACHAT",
-            "url": ""
+            "url": "shopify://collections/body-sculptwear"
           }
         }
       },
