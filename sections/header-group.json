@@ -14,11 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_yaikM9": {
+          "type": "message",
+          "settings": {
+            "text": "OFFRE BLACK FRIDAY",
+            "url": "shopify://collections/body-sculptwear"
+          }
+        },
         "message_xFCW7K": {
           "type": "message",
           "settings": {
             "text": "1 BODY ACHETÉ = 1 BODY OFFERT",
-            "url": "shopify://collections/voir-tout"
+            "url": "shopify://collections/body-sculptwear"
           }
         },
         "message_LraPHk": {
@@ -45,6 +52,7 @@
         }
       },
       "block_order": [
+        "message_yaikM9",
         "message_xFCW7K",
         "message_LraPHk",
         "message_BPGifb",

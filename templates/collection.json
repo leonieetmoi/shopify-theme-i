@@ -60,7 +60,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<style>\n  .fete-mere-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>\n\n<!-- Bannière Fête des Mères - toujours la version PC -->\n<div class=\"fete-mere-banner\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/OFFRE_BIENVENUE.png?v=1748297541\" alt=\"Bannière Fête des Mères\">\n</div>",
+        "html": "<style>\n  .fete-mere-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>\n\n<!-- Bannière Fête des Mères - toujours la version PC -->\n<div class=\"fete-mere-banner\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0949/0343/5603/files/BLACK_FRIDAY_35.png?v=1763908535\" alt=\"Bannière Fête des Mères\">\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
