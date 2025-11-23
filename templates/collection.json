@@ -55,7 +55,6 @@
     },
     "custom_html_waPwH9": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
