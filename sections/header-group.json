@@ -18,14 +18,14 @@
           "type": "message",
           "settings": {
             "text": "OFFRE VIP",
-            "url": "shopify://collections/body-sculptwear"
+            "url": "shopify://collections/body"
           }
         },
         "message_xFCW7K": {
           "type": "message",
           "settings": {
             "text": "1 BODY ACHETÉ = 1 BODY OFFERT",
-            "url": "shopify://collections/body-sculptwear"
+            "url": "shopify://collections/body"
           }
         },
         "message_LraPHk": {
@@ -40,14 +40,14 @@
           "type": "message",
           "settings": {
             "text": "100% SATISFAIT OU REMBOURSÉ",
-            "url": "shopify://collections/body-sculptwear"
+            "url": "shopify://collections/body"
           }
         },
         "message_FypwN4": {
           "type": "message",
           "settings": {
             "text": "LIVRAISON OFFERTE DÈS 40€ D'ACHAT",
-            "url": "shopify://collections/body-sculptwear"
+            "url": "shopify://collections/body"
           }
         }
       },

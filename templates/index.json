@@ -24,7 +24,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify://collections/body-sculptwear",
+            "button_link": "shopify://collections/body",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -68,7 +68,7 @@
             "title": "1 body acheté = 1 body offert !",
             "heading_tag": "h3",
             "button_text": "Profitez-en !",
-            "button_link": "shopify://collections/body-sculptwear",
+            "button_link": "shopify://collections/body",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -215,7 +215,7 @@
         "collection_YwqaPB": {
           "type": "collection",
           "settings": {
-            "collection": "body-sculptwear",
+            "collection": "body",
             "subheading": "",
             "title": "",
             "url": "",
